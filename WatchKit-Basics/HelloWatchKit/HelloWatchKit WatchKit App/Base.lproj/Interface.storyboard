@@ -10,7 +10,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloWatchKit_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" verticalAlignment="center" text="Hello, World!" textAlignment="center" id="yis-ct-xkL"/>
+                        <label alignment="center" verticalAlignment="center" textAlignment="center" id="yis-ct-xkL">
+                            <fontDescription key="font" type="system" pointSize="24"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="label" destination="yis-ct-xkL" id="ZFP-op-LgV"/>
