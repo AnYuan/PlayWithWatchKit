@@ -29,8 +29,16 @@
     {
       "size" : "40x40",
       "idiom" : "watch",
+      "scale" : "2x",
       "role" : "appLauncher",
-      "scale" : "2x"
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "44x44",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "42mm"
     },
     {
       "size" : "86x86",
@@ -45,27 +53,6 @@
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "42mm"
-    },
-    {
-      "size" : "40x40",
-      "idiom" : "watch",
-      "scale" : "2x",
-      "unassigned" : true,
-      "role" : "appLauncher",
-      "subtype" : "38mm"
-    },
-    {
-      "size" : "40x40",
-      "idiom" : "watch",
-      "unassigned" : true,
-      "role" : "appLauncher",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "watch",
-      "unassigned" : true,
-      "subtype" : "42mm",
-      "scale" : "2x"
     }
   ],
   "info" : {
