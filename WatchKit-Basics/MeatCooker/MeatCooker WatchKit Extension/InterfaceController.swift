@@ -24,9 +24,19 @@ import WatchKit
 import Foundation
 
 class InterfaceController: WKInterfaceController {
+    
+    @IBOutlet weak var timer: WKInterfaceTimer!
 
   override func awakeWithContext(context: AnyObject?) {
       super.awakeWithContext(context)
   }
 
+    @IBAction func onTimerButton() {
+//        println("onTimerButton")
+        
+        let countdown: NSTimeInterval = 20
+        let date = NSDate(timeIntervalSinceNow: countdown)
+        timer.setDate(date)
+        timer.start()
+    }
 }
