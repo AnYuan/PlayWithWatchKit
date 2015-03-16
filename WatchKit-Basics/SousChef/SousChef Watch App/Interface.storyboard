@@ -28,7 +28,7 @@
                                         </items>
                                     </group>
                                     <connections>
-                                        <segue destination="OwX-M1-wqy" kind="modal" identifier="DemoModalSegue" id="Kwq-ru-qR6"/>
+                                        <segue destination="Agd-dk-Xjb" kind="push" id="UaN-Pf-zU0"/>
                                     </connections>
                                 </button>
                                 <button alignment="center" id="M6F-js-ajF">
@@ -40,49 +40,112 @@
                                             </label>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <segue destination="FbF-Bm-8gu" kind="push" id="MxN-y7-lV6"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="15" bottom="0.0"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="251" y="551"/>
+        </scene>
+        <!--Groceries-->
+        <scene sceneID="yj5-Uk-sDM">
+            <objects>
+                <controller title="Groceries" id="FbF-Bm-8gu"/>
+            </objects>
+            <point key="canvasLocation" x="558" y="719"/>
+        </scene>
+        <!--Recipes-->
+        <scene sceneID="hAM-sR-TJI">
+            <objects>
+                <controller title="Recipes" id="Agd-dk-Xjb" customClass="RecipesInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="8Tr-At-OCT">
+                            <items>
+                                <tableRow identifier="RecipeRowType" id="uW7-Tb-zsW" customClass="RecipeRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="eCw-iw-IK1">
+                                        <items>
+                                            <label alignment="left" text="Label" id="8t9-7K-Doi"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="VvF-jc-Hv7" kind="push" id="ltR-cs-7e3"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="textLabel" destination="8t9-7K-Doi" id="Qfv-TD-HWV"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
                     <connections>
-                        <segue destination="E5v-XA-ecC" kind="relationship" relationship="nextPage" id="ks5-lP-6dL"/>
+                        <outlet property="table" destination="8Tr-At-OCT" id="W7d-7X-TYe"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="560" y="344"/>
         </scene>
-        <!--Done-->
-        <scene sceneID="GRj-Tx-fjP">
+        <!--Recipe Detail Interface Controller-->
+        <scene sceneID="fgT-b7-zxO">
             <objects>
-                <controller title="Done" id="OwX-M1-wqy"/>
-            </objects>
-            <point key="canvasLocation" x="227" y="641"/>
-        </scene>
-        <!--Interface Controller-->
-        <scene sceneID="ckw-E7-Qcg">
-            <objects>
-                <controller id="E5v-XA-ecC">
+                <controller id="VvF-jc-Hv7" customClass="RecipeDetailInterfaceController" customModule="SousChef_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Hello, World!" id="WJz-cb-CSH"/>
+                        <label alignment="center" text="Label" numberOfLines="0" id="jFW-Ge-GqC"/>
+                        <group width="1" alignment="left" spacing="15" id="tcP-hO-C8f">
+                            <items>
+                                <button alignment="center" id="bCM-t5-41u">
+                                    <group key="contentGroup" alignment="left" layout="vertical" id="kUE-Ez-jbb">
+                                        <items>
+                                            <imageView alignment="center" image="ingredients" id="gk4-wl-c0R"/>
+                                            <label alignment="center" text="Ingredients" id="hQG-bA-GgW">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <segue destination="GLd-Vc-cGz" kind="push" id="JPX-9e-qVT"/>
+                                    </connections>
+                                </button>
+                                <button alignment="center" id="pTN-He-hfr">
+                                    <group key="contentGroup" alignment="left" layout="vertical" id="Bqh-kj-9aC">
+                                        <items>
+                                            <imageView alignment="center" image="directions" id="nWa-Q2-olS"/>
+                                            <label alignment="center" text="Directions" id="dQb-K7-IbH">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <segue destination="UHG-iV-Kfr" kind="push" id="5a1-yW-gsM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                     <connections>
-                        <segue destination="uFx-pV-GP4" kind="relationship" relationship="nextPage" id="hcC-2v-A3Z"/>
+                        <outlet property="nameLabel" destination="jFW-Ge-GqC" id="lXS-Ib-dcf"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="485" y="349"/>
+            <point key="canvasLocation" x="783" y="343"/>
         </scene>
-        <!--Interface Controller-->
-        <scene sceneID="t5B-jX-tgw">
+        <!--Ingredients-->
+        <scene sceneID="mqm-ox-p0d">
             <objects>
-                <controller id="uFx-pV-GP4">
-                    <items>
-                        <button width="1" alignment="left" title="Tap Me!" id="d7I-eO-z2k"/>
-                    </items>
-                </controller>
+                <controller title="Ingredients" id="GLd-Vc-cGz"/>
             </objects>
-            <point key="canvasLocation" x="709" y="351"/>
+            <point key="canvasLocation" x="1005" y="290"/>
+        </scene>
+        <!--Directions-->
+        <scene sceneID="wRw-Gr-jA6">
+            <objects>
+                <controller title="Directions" id="UHG-iV-Kfr"/>
+            </objects>
+            <point key="canvasLocation" x="1005" y="641"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
