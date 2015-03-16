@@ -38,14 +38,35 @@
                                 </button>
                             </items>
                         </group>
+                        <group width="1" alignment="left" layout="vertical" id="9SW-6W-sfb">
+                            <items>
+                                <label alignment="left" text="Label" id="r5b-gF-Xrd"/>
+                                <slider width="1" alignment="left" value="2" maximum="3" steps="3" id="R1g-OY-2vb">
+                                    <connections>
+                                        <action selector="onTempChange:" destination="AgC-eL-Hgc" id="NSh-68-cGI"/>
+                                    </connections>
+                                </slider>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="86Q-kV-bmN">
+                            <items>
+                                <switch width="1" alignment="left" title="Metric" id="nLa-uK-uo3">
+                                    <connections>
+                                        <action selector="onMetricChanged:" destination="AgC-eL-Hgc" id="W6i-fY-Bn0"/>
+                                    </connections>
+                                </switch>
+                            </items>
+                        </group>
                     </items>
                     <connections>
+                        <outlet property="cookLabel" destination="r5b-gF-Xrd" id="ARq-GV-Xbq"/>
                         <outlet property="timer" destination="zhI-nb-cSa" id="B6I-ww-v3Z"/>
+                        <outlet property="timerButton" destination="FxK-tl-WMd" id="KAN-ru-AgY"/>
                         <outlet property="weightLabel" destination="zNZ-Id-fpn" id="f7o-g9-2PP"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="733" y="478"/>
+            <point key="canvasLocation" x="798" y="594.25"/>
         </scene>
     </scenes>
 </document>

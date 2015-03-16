@@ -27,8 +27,13 @@ class InterfaceController: WKInterfaceController {
     
     @IBOutlet weak var timer: WKInterfaceTimer!
     @IBOutlet weak var weightLabel: WKInterfaceLabel!
+    @IBOutlet weak var cookLabel: WKInterfaceLabel!
+    @IBOutlet weak var timerButton: WKInterfaceButton!
     
     var ounces = 16
+    var cookTemp = MeatTemperature.Medium
+    var timerRunning = false
+    var usingMetric = false
 
   override func awakeWithContext(context: AnyObject?) {
       super.awakeWithContext(context)
@@ -38,10 +43,18 @@ class InterfaceController: WKInterfaceController {
     @IBAction func onTimerButton() {
 //        println("onTimerButton")
         
-        let countdown: NSTimeInterval = 20
-        let date = NSDate(timeIntervalSinceNow: countdown)
-        timer.setDate(date)
-        timer.start()
+        
+        if timerRunning {
+            timer.stop()
+            timerButton.setTitle("Start Timer")
+        } else {
+            let time = cookTimeForOunces(ounces, cookTemp: cookTemp)
+            timer.setDate(NSDate(timeIntervalSinceNow: time))
+            timer.start()
+            timerButton.setTitle("Stop Timer")
+        }
+        
+        timerRunning = !timerRunning
     }
     @IBAction func onMinusButton() {
         ounces--
@@ -52,7 +65,42 @@ class InterfaceController: WKInterfaceController {
         updateConfiguration()
     }
     
+    //slider
+    @IBAction func onTempChange(value: Float) {
+        if let temp = MeatTemperature(rawValue: Int(value)) {
+            cookTemp = temp
+            updateConfiguration()
+        }
+    }
+    //switch
+    @IBAction func onMetricChanged(value: Bool) {
+        usingMetric = value
+        updateConfiguration()
+    }
+    
     func updateConfiguration() {
-        weightLabel.setText("Weight: \(ounces) oz")
+//        weightLabel.setText("Weight: \(ounces) oz")
+        
+        cookLabel.setText(cookTemp.stringValue)
+        
+        var weight = ounces
+        var unit = "oz"
+        
+        if usingMetric {
+            let grams = Double(ounces) * 28.3495
+            weight = Int(grams)
+            unit = "gm"
+        }
+        
+        weightLabel.setText("Weight: \(ounces) \(unit)")
+    }
+    
+    func cookTimeForOunces(ounces: Int, cookTemp: MeatTemperature) -> NSTimeInterval {
+        let baseTime: NSTimeInterval = 47 * 60
+        let baseWeight = 16
+        
+        let weightModifier: Double = Double(ounces) / Double(baseWeight)
+        let tempModifier = cookTemp.timeModifier
+        return baseTime * weightModifier * tempModifier
     }
 }
