@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7519.1" systemVersion="14D72i" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14D98g" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
         <!--Meat Cook-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller identifier="InitialController" title="Meat Cook" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MeatCooker_WatchKit_App" customModuleProvider="target">
+                <controller identifier="InitialController" title="Meat Cook" spacing="10" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MeatCooker_WatchKit_App" customModuleProvider="target">
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="ZP6-lG-dsF">
                             <items>
@@ -23,13 +23,29 @@
                                 </button>
                             </items>
                         </group>
+                        <label alignment="center" text="Weight: 16 oz" id="zNZ-Id-fpn"/>
+                        <group width="1" alignment="left" spacing="20" id="GcH-o7-voi">
+                            <items>
+                                <button alignment="center" backgroundImage="minus" id="SRm-gZ-EFQ">
+                                    <connections>
+                                        <action selector="onMinusButton" destination="AgC-eL-Hgc" id="Sbx-9Q-Wqa"/>
+                                    </connections>
+                                </button>
+                                <button alignment="center" backgroundImage="plus" id="5If-UL-Nvy">
+                                    <connections>
+                                        <action selector="onPlusButton" destination="AgC-eL-Hgc" id="sXz-tf-mlO"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="timer" destination="zhI-nb-cSa" id="B6I-ww-v3Z"/>
+                        <outlet property="weightLabel" destination="zNZ-Id-fpn" id="f7o-g9-2PP"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="936" y="635"/>
+            <point key="canvasLocation" x="733" y="478"/>
         </scene>
     </scenes>
 </document>

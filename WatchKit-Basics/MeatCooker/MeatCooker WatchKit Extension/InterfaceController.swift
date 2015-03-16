@@ -26,9 +26,13 @@ import Foundation
 class InterfaceController: WKInterfaceController {
     
     @IBOutlet weak var timer: WKInterfaceTimer!
+    @IBOutlet weak var weightLabel: WKInterfaceLabel!
+    
+    var ounces = 16
 
   override func awakeWithContext(context: AnyObject?) {
       super.awakeWithContext(context)
+      updateConfiguration()
   }
 
     @IBAction func onTimerButton() {
@@ -38,5 +42,17 @@ class InterfaceController: WKInterfaceController {
         let date = NSDate(timeIntervalSinceNow: countdown)
         timer.setDate(date)
         timer.start()
+    }
+    @IBAction func onMinusButton() {
+        ounces--
+        updateConfiguration()
+    }
+    @IBAction func onPlusButton() {
+        ounces++
+        updateConfiguration()
+    }
+    
+    func updateConfiguration() {
+        weightLabel.setText("Weight: \(ounces) oz")
     }
 }
