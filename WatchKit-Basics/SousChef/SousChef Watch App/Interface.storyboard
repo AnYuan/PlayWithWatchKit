@@ -27,6 +27,9 @@
                                             </label>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <segue destination="OwX-M1-wqy" kind="modal" identifier="DemoModalSegue" id="Kwq-ru-qR6"/>
+                                    </connections>
                                 </button>
                                 <button alignment="center" id="M6F-js-ajF">
                                     <group key="contentGroup" alignment="left" layout="vertical" id="Crd-Id-FcZ">
@@ -42,9 +45,44 @@
                         </group>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="15" bottom="0.0"/>
+                    <connections>
+                        <segue destination="E5v-XA-ecC" kind="relationship" relationship="nextPage" id="ks5-lP-6dL"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Done-->
+        <scene sceneID="GRj-Tx-fjP">
+            <objects>
+                <controller title="Done" id="OwX-M1-wqy"/>
+            </objects>
+            <point key="canvasLocation" x="227" y="641"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="ckw-E7-Qcg">
+            <objects>
+                <controller id="E5v-XA-ecC">
+                    <items>
+                        <label alignment="left" text="Hello, World!" id="WJz-cb-CSH"/>
+                    </items>
+                    <connections>
+                        <segue destination="uFx-pV-GP4" kind="relationship" relationship="nextPage" id="hcC-2v-A3Z"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="485" y="349"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="t5B-jX-tgw">
+            <objects>
+                <controller id="uFx-pV-GP4">
+                    <items>
+                        <button width="1" alignment="left" title="Tap Me!" id="d7I-eO-z2k"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="709" y="351"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
