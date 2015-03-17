@@ -67,15 +67,20 @@
                         <table alignment="left" id="8Tr-At-OCT">
                             <items>
                                 <tableRow identifier="RecipeRowType" id="uW7-Tb-zsW" customClass="RecipeRowController" customModule="SousChef_WatchKit_Extension">
-                                    <group key="rootItem" width="1" alignment="left" id="eCw-iw-IK1">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="eCw-iw-IK1">
                                         <items>
-                                            <label alignment="left" text="Label" id="8t9-7K-Doi"/>
+                                            <label alignment="left" text="Label" numberOfLines="0" id="8t9-7K-Doi"/>
+                                            <label alignment="left" text="Label" id="0rc-1d-Nxt">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
                                         </items>
                                         <connections>
                                             <segue destination="VvF-jc-Hv7" kind="push" id="ltR-cs-7e3"/>
                                         </connections>
                                     </group>
                                     <connections>
+                                        <outlet property="ingredientsLabel" destination="0rc-1d-Nxt" id="PTH-6y-Vnz"/>
                                         <outlet property="textLabel" destination="8t9-7K-Doi" id="Qfv-TD-HWV"/>
                                     </connections>
                                 </tableRow>
@@ -98,7 +103,7 @@
                         <group width="1" alignment="left" spacing="15" id="tcP-hO-C8f">
                             <items>
                                 <button alignment="center" id="bCM-t5-41u">
-                                    <group key="contentGroup" alignment="left" layout="vertical" id="kUE-Ez-jbb">
+                                    <group key="contentGroup" alignment="left" layout="vertical" spacing="8" id="kUE-Ez-jbb">
                                         <items>
                                             <imageView alignment="center" image="ingredients" id="gk4-wl-c0R"/>
                                             <label alignment="center" text="Ingredients" id="hQG-bA-GgW">
@@ -111,7 +116,7 @@
                                     </connections>
                                 </button>
                                 <button alignment="center" id="pTN-He-hfr">
-                                    <group key="contentGroup" alignment="left" layout="vertical" id="Bqh-kj-9aC">
+                                    <group key="contentGroup" alignment="left" layout="vertical" spacing="8" id="Bqh-kj-9aC">
                                         <items>
                                             <imageView alignment="center" image="directions" id="nWa-Q2-olS"/>
                                             <label alignment="center" text="Directions" id="dQb-K7-IbH">
