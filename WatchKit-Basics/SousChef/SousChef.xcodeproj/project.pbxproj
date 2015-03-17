@@ -10,6 +10,7 @@
 		048FB08E1AB72E5A00C63560 /* RecipeRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FB08D1AB72E5A00C63560 /* RecipeRowController.swift */; };
 		048FB0901AB72F7200C63560 /* RecipesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FB08F1AB72F7200C63560 /* RecipesInterfaceController.swift */; };
 		048FB0921AB732F200C63560 /* RecipeDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FB0911AB732F200C63560 /* RecipeDetailInterfaceController.swift */; };
+		04CCB9451AB7E0FB0039A8FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CCB9441AB7E0FB0039A8FA /* Images.xcassets */; };
 		294B75FE1A24173300BBCE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294B75FD1A24173300BBCE01 /* AppDelegate.swift */; };
 		294B76031A24173300BBCE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294B76011A24173300BBCE01 /* Main.storyboard */; };
 		294B76051A24173300BBCE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294B76041A24173300BBCE01 /* Images.xcassets */; };
@@ -32,7 +33,6 @@
 		299254471A243F4A0073F8AC /* RecipeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299254461A243F4A0073F8AC /* RecipeDetailController.swift */; };
 		299254491A2440CB0073F8AC /* ViewControllerContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299254481A2440CB0073F8AC /* ViewControllerContainers.swift */; };
 		299567681A268A2A006EE6EE /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299567671A268A2A006EE6EE /* WatchKit.framework */; };
-		299567721A268A2A006EE6EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299567711A268A2A006EE6EE /* Images.xcassets */; };
 		299567761A268A2A006EE6EE /* SousChef Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 299567751A268A2A006EE6EE /* SousChef Watch App.app */; };
 		2995677D1A268A2A006EE6EE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2995677C1A268A2A006EE6EE /* Interface.storyboard */; };
 		2995677F1A268A2A006EE6EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2995677E1A268A2A006EE6EE /* Images.xcassets */; };
@@ -111,6 +111,7 @@
 		048FB08D1AB72E5A00C63560 /* RecipeRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeRowController.swift; sourceTree = "<group>"; };
 		048FB08F1AB72F7200C63560 /* RecipesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesInterfaceController.swift; sourceTree = "<group>"; };
 		048FB0911AB732F200C63560 /* RecipeDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailInterfaceController.swift; sourceTree = "<group>"; };
+		04CCB9441AB7E0FB0039A8FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		294B75F81A24173300BBCE01 /* SousChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SousChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		294B75FC1A24173300BBCE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		294B75FD1A24173300BBCE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SousChef/AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,7 +138,6 @@
 		299567651A268A2A006EE6EE /* SousChef WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SousChef WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		299567671A268A2A006EE6EE /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		2995676B1A268A2A006EE6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		299567711A268A2A006EE6EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		299567751A268A2A006EE6EE /* SousChef Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SousChef Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2995677B1A268A2A006EE6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2995677C1A268A2A006EE6EE /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
@@ -355,8 +355,8 @@
 		299567691A268A2A006EE6EE /* SousChef WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				04CCB9441AB7E0FB0039A8FA /* Images.xcassets */,
 				294A21D81A268FF500C36CE5 /* Interface Controllers */,
-				299567711A268A2A006EE6EE /* Images.xcassets */,
 				2995676A1A268A2A006EE6EE /* Supporting Files */,
 				29FEC0761A2A8C4900684D80 /* Row Controllers */,
 			);
@@ -617,8 +617,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CCB9451AB7E0FB0039A8FA /* Images.xcassets in Resources */,
 				29C177981A2959AF00FFBA44 /* Images.xcassets in Resources */,
-				299567721A268A2A006EE6EE /* Images.xcassets in Resources */,
 				299567761A268A2A006EE6EE /* SousChef Watch App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
