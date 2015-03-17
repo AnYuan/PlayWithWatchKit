@@ -141,16 +141,65 @@
         <!--Ingredients-->
         <scene sceneID="mqm-ox-p0d">
             <objects>
-                <controller title="Ingredients" id="GLd-Vc-cGz"/>
+                <controller title="Ingredients" id="GLd-Vc-cGz" customClass="RecipeIngredientsInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="d5i-LI-MJi">
+                            <items>
+                                <tableRow identifier="IngredientRow" id="0nb-HS-0ck" customClass="IngredientRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="keq-Ng-Mdj">
+                                        <items>
+                                            <label alignment="left" text="Fresh Pepper" numberOfLines="0" id="mt0-x6-Cre"/>
+                                            <label alignment="left" text="1 tsp" id="adG-6P-4sw">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="measurementLabel" destination="adG-6P-4sw" id="41u-hg-qGS"/>
+                                        <outlet property="nameLabel" destination="mt0-x6-Cre" id="UYQ-GZ-qzj"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="d5i-LI-MJi" id="G6G-HG-bRO"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="1005" y="290"/>
         </scene>
         <!--Directions-->
         <scene sceneID="wRw-Gr-jA6">
             <objects>
-                <controller title="Directions" id="UHG-iV-Kfr"/>
+                <controller title="Directions" id="UHG-iV-Kfr" customClass="RecipeDirectionsInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="w5m-3Q-1dq">
+                            <items>
+                                <tableRow identifier="StepRow" id="8T1-rB-7DV" customClass="StepRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="38R-kr-tek">
+                                        <items>
+                                            <label alignment="left" text="Step 1" id="Sbt-UH-VTk">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                            <label alignment="left" text="Step description" numberOfLines="0" id="Hqe-XE-Sqk"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="directionsLabel" destination="Hqe-XE-Sqk" id="GQX-PH-VNt"/>
+                                        <outlet property="stepLabel" destination="Sbt-UH-VTk" id="b2M-as-Vef"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="w5m-3Q-1dq" id="J6B-Vi-QKS"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="1005" y="641"/>
+            <point key="canvasLocation" x="995" y="621"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>

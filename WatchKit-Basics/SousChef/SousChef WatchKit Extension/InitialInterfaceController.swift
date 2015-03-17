@@ -10,5 +10,7 @@ import WatchKit
 import SousChefKit
 
 class InitialInterfaceController: WKInterfaceController {
+    @IBOutlet weak var nameLabel: WKInterfaceLabel!
+    @IBOutlet weak var measurementLabel: WKInterfaceLabel!
    
 }
