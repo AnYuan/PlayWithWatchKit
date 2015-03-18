@@ -14,7 +14,7 @@ import SousChefKit
 class GroceryInterfaceController: WKInterfaceController {
     @IBOutlet weak var table: WKInterfaceTable!
     
-    let groceryList = GroceryList(useSample: true)
+    let groceryList = GroceryList()
     lazy var flatList: [FlatGroceryItem] = {
         return self.groceryList.flattenedGroceries()
     }()
@@ -101,4 +101,36 @@ class GroceryInterfaceController: WKInterfaceController {
         }
     }
 
+    @IBAction func onClearAll() {
+      let indices = NSIndexSet(indexesInRange: NSRange(location: 0, length: table.numberOfRows))
+      table.removeRowsAtIndexes(indices)
+      
+      groceryList.removeAllItems()
+      groceryList.sync()
+      
+      for (index, listItem) in enumerate(flatList) {
+        if let item = listItem.item as? Ingredient {
+          item.purchased = false
+        }
+      }
+      
+      flatList = self.groceryList.flattenedGroceries()
+    }
+    @IBAction func onRemovePurchased() {
+      
+      var indexSet = NSMutableIndexSet()
+      
+      for (index, listItem) in enumerate(flatList) {
+        if let item = flatList[index].item as? Ingredient {
+          if item.purchased {
+            indexSet.addIndex(index)
+            groceryList.removeItem(item)
+          }
+        }
+      }
+      groceryList.sync()
+      
+      table.removeRowsAtIndexes(indexSet)
+      flatList = self.groceryList.flattenedGroceries()
+    }
 }

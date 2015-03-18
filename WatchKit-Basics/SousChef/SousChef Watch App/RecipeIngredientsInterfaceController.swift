@@ -13,6 +13,7 @@ class RecipeIngredientsInterfaceController: WKInterfaceController {
 
   @IBOutlet weak var table: WKInterfaceTable!
   var recipe: Recipe?
+  let groceryList = GroceryList()
   
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -40,4 +41,12 @@ class RecipeIngredientsInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func onAddToGrocery() {
+      if let items = self.recipe?.ingredients {
+        for item in items {
+          groceryList.addItemToList(item)
+        }
+        groceryList.sync()
+      }
+    }
 }
