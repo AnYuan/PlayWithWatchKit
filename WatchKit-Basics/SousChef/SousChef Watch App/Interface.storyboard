@@ -217,7 +217,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1005" y="290"/>
+            <point key="canvasLocation" x="1010" y="288"/>
         </scene>
         <!--Directions-->
         <scene sceneID="wRw-Gr-jA6">
@@ -248,7 +248,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1010" y="570"/>
+            <point key="canvasLocation" x="1010" y="593"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
