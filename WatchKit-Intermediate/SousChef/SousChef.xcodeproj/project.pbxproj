@@ -115,6 +115,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04A14FF01ABC1F2D0022BB0E /* SousChef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SousChef.entitlements; path = SousChef/SousChef.entitlements; sourceTree = "<group>"; };
+		04DA6ABA1ABC39E800CCA5BE /* SousChef WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SousChef WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		294B75F81A24173300BBCE01 /* SousChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SousChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		294B75FC1A24173300BBCE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		294B75FD1A24173300BBCE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SousChef/AppDelegate.swift; sourceTree = "<group>"; };
@@ -372,6 +374,7 @@
 		299567691A268A2A006EE6EE /* SousChef WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				04DA6ABA1ABC39E800CCA5BE /* SousChef WatchKit Extension.entitlements */,
 				294A21D81A268FF500C36CE5 /* Interface Controllers */,
 				299567711A268A2A006EE6EE /* Images.xcassets */,
 				2995676A1A268A2A006EE6EE /* Supporting Files */,
@@ -409,6 +412,7 @@
 		2995678B1A268AB6006EE6EE /* SousChef */ = {
 			isa = PBXGroup;
 			children = (
+				04A14FF01ABC1F2D0022BB0E /* SousChef.entitlements */,
 				2992543F1A243BBD0073F8AC /* Classes */,
 				294B75FA1A24173300BBCE01 /* Resources */,
 				29C1D30E1A2591CD00A72B5B /* Vendor */,
@@ -582,15 +586,29 @@
 				TargetAttributes = {
 					294B75F71A24173300BBCE01 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AQ6VN3RS8G;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					2984B4601A266070003CDE5C = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AQ6VN3RS8G;
 					};
 					299567641A268A2A006EE6EE = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AQ6VN3RS8G;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					299567741A268A2A006EE6EE = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AQ6VN3RS8G;
 					};
 				};
 			};
@@ -798,7 +816,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SOUSCHEF_BUNDLE_PREFIX = com.raywenderlich;
+				SOUSCHEF_BUNDLE_PREFIX = com.baidu.Lebo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -834,7 +852,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SOUSCHEF_BUNDLE_PREFIX = com.raywenderlich;
+				SOUSCHEF_BUNDLE_PREFIX = com.baidu.Lebo;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -843,12 +861,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SousChef/SousChef.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SousChef/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/SousChef-Bridging-Header.h";
 			};
 			name = Debug;
@@ -857,12 +879,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SousChef/SousChef.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SousChef/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/SousChef-Bridging-Header.h";
 			};
 			name = Release;
@@ -871,6 +897,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -895,6 +922,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -916,6 +944,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -934,6 +963,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = RW_Recipes_WatchKit_Extension;
 				INFOPLIST_FILE = "SousChef Watch App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -946,6 +976,9 @@
 		299567871A268A2A006EE6EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SousChef WatchKit Extension/SousChef WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -953,6 +986,7 @@
 				INFOPLIST_FILE = "SousChef WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -960,9 +994,13 @@
 		299567881A268A2A006EE6EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SousChef WatchKit Extension/SousChef WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SousChef WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
