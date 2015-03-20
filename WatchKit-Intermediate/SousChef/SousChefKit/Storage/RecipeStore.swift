@@ -10,10 +10,38 @@ import Foundation
 
 private let kRecipesFileName = "Recipes"
 private let kRecipesFileExtension = "json"
+private let kAppGroupIdentifier = "group.com.baidu.lebo.documents"
+private let kInitialRecipesCopiedKey = "com.rw.souschef.recipesCopied"
 
 public class RecipeStore {
 
-  public init() {}
+  public init() {
+  
+    if let sharedUserDefaults = NSUserDefaults(suiteName: kAppGroupIdentifier) {
+      let isRecipesCopied = sharedUserDefaults.boolForKey(kInitialRecipesCopiedKey)
+      if isRecipesCopied == true {
+        return
+      }
+      
+      var bundledRecipesURL = NSBundle(forClass: RecipeStore.self).URLForResource(kRecipesFileName, withExtension: kRecipesFileExtension)
+      if (bundledRecipesURL == nil) {
+        return
+      }
+      
+      var data = NSData(contentsOfURL: bundledRecipesURL!)
+      if (data == nil) {
+        return
+      }
+      
+      let success = data?.writeToURL(self.savedRecipesURL, atomically: true)
+      if (success == true) {
+        sharedUserDefaults.setBool(true, forKey: kInitialRecipesCopiedKey)
+      } else {
+        println("Failed to copy Recipes from bundled into the shared container.")
+      }
+    }
+    
+  }
 
   public lazy var recipes: [Recipe] = {
     var recipes = [Recipe]()
@@ -81,12 +109,13 @@ public class RecipeStore {
     return newRecipes.sorted({ $0.name < $1.name })
   }
 
-  private let savedRecipesURL: NSURL = {
+  private let savedRecipesURL:NSURL = {
+    var sharedContainerURL: NSURL? = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier(kAppGroupIdentifier)
+    
     var docURL = NSURL()
-    if let bundledRecipes = NSBundle(forClass: RecipeStore.self).URLForResource(kRecipesFileName, withExtension: kRecipesFileExtension) {
-      docURL = bundledRecipes
+    if let sharedContainerURL = sharedContainerURL {
+      docURL = sharedContainerURL.URLByAppendingPathComponent("\(kRecipesFileName).\(kRecipesFileExtension)")
     }
     return docURL
-    }()
-
+  }()
 }
