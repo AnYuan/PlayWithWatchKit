@@ -32,7 +32,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     configureAppearance()
     registerUserNotificationSettings()
+    
+    updateRecipesController()
     return true
+  }
+  
+  func applicationWillEnterForeground(application: UIApplication) {
+    updateRecipesController()
+  }
+  
+  func application(application: UIApplication!, handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]!, reply: (([NSObject : AnyObject]!) -> Void)!) {
+    let kGroceryUpdateRequest = "com.baidu.update-recipes"
+    if let updateRecipesRequest = userInfo[kGroceryUpdateRequest] as? Bool {
+      updateRecipesWithRemoteServerWithCompletionBlock({ (Void) -> Void in
+        reply(nil)
+      })
+    }
   }
   
   // MARK: - Appearance
@@ -195,6 +210,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       notification.userInfo = userInfo
       
       application.scheduleLocalNotification(notification)
+    }
+  }
+  
+  func updateRecipesWithRemoteServerWithCompletionBlock(block:((Void) -> Void)?) {
+    recipeStore.refresh(completion: {
+      (recipes, error) -> Void in
+      if let block = block {
+        block()
+      }
+    })
+  }
+  
+  func updateRecipesController() {
+    updateRecipesWithRemoteServerWithCompletionBlock { (Void) -> Void in
+      if let tabBarController = self.window?.rootViewController as? UITabBarController {
+        if let navigationController = tabBarController.viewControllers?.first as? UINavigationController {
+          if let recipesController = navigationController.viewControllers?.first as? RecipesController {
+            recipesController.reloadContent()
+          }
+        }
+      }
     }
   }
 

@@ -32,27 +32,34 @@ class RecipesInterfaceController: WKInterfaceController {
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
 
-    // 1
-    let recipes = recipeStore.recipes
-    // 2
-    table.setNumberOfRows(recipes.count,
-      withRowType: "RecipeRowType")
-
-    // 3
-    for (index, recipe) in enumerate(recipes) {
-      // 4
-      let controller = table.rowControllerAtIndex(index)
-        as RecipeRowController
-      // 5
-      controller.textLabel.setText(recipe.name)
-      // 6
-      controller.ingredientsLabel.setText(
-        "\(recipe.ingredients.count) ingredients")
-    }
+    updateTable()
+  }
+  
+  override func willActivate() {
+    super.willActivate()
+    
+    let kGroceryUpdateRequest = "com.baidu.update-recipes"
+    let requestInfo: [NSObject: AnyObject] = [kGroceryUpdateRequest: true]
+    WKInterfaceController.openParentApplication(requestInfo, reply: { (replayInfo: [NSObject: AnyObject]!, error: NSError!) -> Void in
+      self.updateTable()
+    })
   }
 
   override func contextForSegueWithIdentifier(segueIdentifier: String, inTable table: WKInterfaceTable, rowIndex: Int) -> AnyObject? {
     return recipeStore.recipes[rowIndex]
+  }
+  
+  func updateTable() {
+    let recipes = recipeStore.recipes
+    if table.numberOfRows != recipes.count {
+      table.setNumberOfRows(recipes.count, withRowType: "RecipeRowType")
+    }
+    
+    for (index, recipe) in enumerate(recipes) {
+      let controller = table.rowControllerAtIndex(index) as RecipeRowController
+      controller.textLabel.setText(recipe.name)
+      controller.ingredientsLabel.setText(
+        "\(recipe.ingredients.count) ingredients")    }
   }
 
 }

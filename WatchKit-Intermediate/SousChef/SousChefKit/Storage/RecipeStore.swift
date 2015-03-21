@@ -13,6 +13,8 @@ private let kRecipesFileExtension = "json"
 private let kAppGroupIdentifier = "group.com.baidu.lebo.documents"
 private let kInitialRecipesCopiedKey = "com.rw.souschef.recipesCopied"
 
+private let kRemoteRecipesURLString = "https://raw.githubusercontent.com/AnYuan/recipes/master/Recipes.json"
+
 public class RecipeStore {
 
   public init() {
@@ -50,6 +52,30 @@ public class RecipeStore {
     }
     return recipes
     }()
+  
+  
+  public func refresh(#completion:((recipes: [Recipe], error: NSError?) -> Void)?) {
+    
+    let session = NSURLSession.sharedSession()
+    session.configuration.requestCachePolicy = NSURLRequestCachePolicy.ReloadIgnoringLocalCacheData
+    if let remoteRecipesURL = NSURL(string: kRemoteRecipesURLString) {
+      let task = session.dataTaskWithURL(remoteRecipesURL, completionHandler: { (data: NSData?, response:NSURLResponse?, error:NSError?) -> Void in
+        
+        if let data = data {
+          if data.writeToURL(self.savedRecipesURL, atomically: true) {
+            self.recipes = self.recipesFromData(data)
+          }
+        }
+        
+        if let completion = completion {
+          dispatch_async(dispatch_get_main_queue(), {() -> Void in
+            completion(recipes: self.recipes, error: error)
+          })
+        }
+      })
+      task.resume()
+    }
+  }
 
   // MARK: Private
   
