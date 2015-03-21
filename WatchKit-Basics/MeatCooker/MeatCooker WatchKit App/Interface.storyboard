@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7519.1" systemVersion="14D72i" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14D105g" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
@@ -19,6 +19,11 @@
                                 <button width="1" alignment="left" title="Start Timer" id="FxK-tl-WMd">
                                     <connections>
                                         <action selector="onTimerButton" destination="AgC-eL-Hgc" id="ZHi-dm-5DW"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Text Input" id="0JK-Vb-tvj">
+                                    <connections>
+                                        <action selector="onTextInput" destination="AgC-eL-Hgc" id="rqU-vC-RKm"/>
                                     </connections>
                                 </button>
                             </items>
@@ -66,7 +71,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="906" y="625"/>
+            <point key="canvasLocation" x="472" y="372"/>
         </scene>
     </scenes>
 </document>

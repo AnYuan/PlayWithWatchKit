@@ -78,6 +78,11 @@ class InterfaceController: WKInterfaceController {
         updateConfiguration()
     }
     
+    @IBAction func onTextInput() {
+        presentTextInputControllerWithSuggestions(["Option 1","Option 2"], allowedInputMode: .AllowEmoji) { (input) -> Void in
+            println("INPUT:\(input)")
+        }
+    }
     func updateConfiguration() {
 //        weightLabel.setText("Weight: \(ounces) oz")
         
