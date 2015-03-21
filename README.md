@@ -11,5 +11,5 @@
 ###WatchKit-Intermediate
 包括WatchKit开发的一些中级知识，包括数据共享， Glances, Handoff, Notifications。
 * SousChef 是用来学习以上知识点的Demo源码。
-* more about Share data see [this]: (https://github.com/NatashaTheRobot/watchkit "this").
+* more about Share data see  [this](https://github.com/NatashaTheRobot/watchkit "this")  .
 
