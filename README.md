@@ -3,7 +3,7 @@
 ##WatchKit learn path
 资源：
 * WatchKit tips (Apple) : [this](https://developer.apple.com/watchkit/tips/ "this")  
-* Building watchit apps in swift [this](http://realm.io/news/building-watchkit-apps-swift/ "this") 
+* Building watchit apps in swift : [this](http://realm.io/news/building-watchkit-apps-swift/ "this") 
 
 ###WatchKit-Basics 
 包括WatchKit开发的一些基础知识，包括常用组件，布局，Table, Menu, 页面基础跳转等。
