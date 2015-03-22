@@ -177,7 +177,7 @@
         <!--Directions-->
         <scene sceneID="t0a-HS-Xdr">
             <objects>
-                <controller title="Directions" id="CDS-Yr-cZl" customClass="RecipeDirectionsInterfaceController" customModule="SousChef_WatchKit_Extension">
+                <controller identifier="RecipeDirections" title="Directions" id="CDS-Yr-cZl" customClass="RecipeDirectionsInterfaceController" customModule="SousChef_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="Ur9-vp-Vwk">
                             <items>
@@ -276,6 +276,22 @@
             </objects>
             <point key="canvasLocation" x="455" y="492"/>
         </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AR8-3x-LJc">
+            <objects>
+                <notificationController id="W3A-P1-dly">
+                    <items>
+                        <label alignment="center" text="Alert Label" numberOfLines="0" id="OMN-C8-7XH"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="timer" id="b93-gm-whF"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="OMN-C8-7XH" id="eEn-pY-nbI"/>
+                        <segue destination="v2l-Pu-LmX" kind="relationship" relationship="dynamicNotificationInterface" id="1Ag-1z-3p2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="702" y="764"/>
+        </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="VSb-Wm-LzX">
             <objects>
@@ -302,6 +318,50 @@
                 </glanceController>
             </objects>
             <point key="canvasLocation" x="220" y="759"/>
+        </scene>
+        <!--Kitchen Timer Notification Controller-->
+        <scene sceneID="h7r-te-yWX">
+            <objects>
+                <controller id="v2l-Pu-LmX" customClass="KitchenTimerNotificationController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="&lt;title&gt;" numberOfLines="0" id="wPi-1S-yvg">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="center" text="&lt;message&gt;" numberOfLines="0" id="1uk-av-Noy"/>
+                    </items>
+                    <connections>
+                        <outlet property="messageLabel" destination="1uk-av-Noy" id="4Iu-6z-YD5"/>
+                        <outlet property="titleLabel" destination="wPi-1S-yvg" id="f9b-dh-jUQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="932" y="764"/>
+        </scene>
+        <!--TimerScheduler-->
+        <scene sceneID="0Si-JA-qW8">
+            <objects>
+                <controller identifier="TimerScheduler" id="BvM-xf-3d8" customClass="TimerSchedulerInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="&lt;message&gt;" numberOfLines="0" id="WkI-vO-fi4">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Start" id="nat-JW-XtN">
+                            <connections>
+                                <action selector="startButtonTapped" destination="BvM-xf-3d8" id="TGj-rL-Yaw"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Cancel" id="K7t-OA-8bd">
+                            <connections>
+                                <action selector="cancelButtonTapped" destination="BvM-xf-3d8" id="KDl-a7-vVQ"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="messageLabel" destination="WkI-vO-fi4" id="faE-mD-M80"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1190" y="638"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>

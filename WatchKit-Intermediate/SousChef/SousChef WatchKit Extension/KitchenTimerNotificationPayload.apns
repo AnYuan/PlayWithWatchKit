@@ -1,0 +1,19 @@
+{
+"aps": {
+      "alert": {
+        "body": "Timer: Cook on low for 7-9 hours.",
+        "title": "Crock Pot Roast"
+      },
+      "category": "timer"
+    },
+  
+  "WatchKit Simulator Actions": [
+                                 {
+                                 "title": "View Directions",
+                                 "identifier": "viewDirectionsButtonAction"
+                                 }
+  ],
+  
+  "message": "Timer: Cook on low for 7-9 hours.",
+  "title": "Worlds Greatest Crock Pot Roast",
+}

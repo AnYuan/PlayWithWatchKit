@@ -47,6 +47,16 @@ class RecipeDirectionsInterfaceController: WKInterfaceController {
     }
 
   }
+  
+  override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
+    if let timer = recipe?.timers[rowIndex] {
+      if timer > 0 {
+        let timerSchedulerData = TimerSchedulerData(recipe: recipe!, stepInstruction: recipe!.steps[rowIndex], timer: timer)
+        
+        presentControllerWithName("TimerScheduler", context: timerSchedulerData)
+      }
+    }
+  }
 
   override func willActivate() {
     // This method is called when watch view controller is about to be visible to user

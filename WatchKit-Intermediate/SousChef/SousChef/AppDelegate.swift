@@ -42,11 +42,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
   
   func application(application: UIApplication!, handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]!, reply: (([NSObject : AnyObject]!) -> Void)!) {
-    let kGroceryUpdateRequest = "com.baidu.update-recipes"
-    if let updateRecipesRequest = userInfo[kGroceryUpdateRequest] as? Bool {
-      updateRecipesWithRemoteServerWithCompletionBlock({ (Void) -> Void in
-        reply(nil)
-      })
+    
+    if let category = userInfo["category"] as? String {
+      
+      //checks the user's notification settings. If the user has disabled notifications, there's no point in scheduling 
+      //the kitchen timer since it won't be visible. It also checks if it's the timer category. Then the method calls
+      //scheduleTimerNotificationWithUserInfo, which simply schedules the local notification.
+      if ((application.currentUserNotificationSettings().types & UIUserNotificationType.Alert) != nil) && category == "timer"
+      {
+        scheduleTimerNotificationWithUserInfo(userInfo)
+        
+        if (reply != nil) {
+          reply(nil)
+        }
+      }
+      
+    } else {
+      let kGroceryUpdateRequest = "com.baidu.update-recipes"
+      if let updateRecipesRequest = userInfo[kGroceryUpdateRequest] as? Bool {
+        updateRecipesWithRemoteServerWithCompletionBlock({ (Void) -> Void in
+          reply(nil)
+        })
+      }
     }
   }
   

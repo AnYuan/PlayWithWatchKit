@@ -37,4 +37,26 @@ class InitialInterfaceController: WKInterfaceController {
       }
     }
   }
+  
+  let recipeStore = RecipeStore()
+  
+  override func handleActionWithIdentifier(identifier: String?, forLocalNotification localNotification: UILocalNotification) {
+    if let userInfo = localNotification.userInfo {
+      processActionWithIdentifier(identifier, withUserInfo: userInfo)
+    }
+  }
+  
+  override func handleActionWithIdentifier(identifier: String?, forRemoteNotification remoteNotification: [NSObject: AnyObject]) {
+    processActionWithIdentifier(identifier, withUserInfo: remoteNotification)
+  }
+  
+  func processActionWithIdentifier(identifier: String?, withUserInfo userInfo: [NSObject : AnyObject]) {
+    if identifier == "viewDirectionsButtonAction" {
+      if let title = userInfo["title"] as? String {
+        let matchingRecipes = recipeStore.recipes.filter({$0.name == title})
+        pushControllerWithName("RecipeDirections", context: matchingRecipes[0])
+      }
+    }
+  }
+
 }
