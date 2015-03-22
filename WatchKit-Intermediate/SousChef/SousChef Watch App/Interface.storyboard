@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14D105g" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
@@ -275,6 +275,33 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="455" y="478"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="VSb-Wm-LzX">
+            <objects>
+                <glanceController topTemplateType="largeBody1" id="HTY-QT-bic" customClass="GlanceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="3/7" id="aDf-3k-rLI"/>
+                        <label alignment="left" text="Groceries" id="gal-Z7-O8w"/>
+                        <group alignment="left" backgroundImage="blur" layout="vertical" spacing="20" id="2zt-fk-8eQ">
+                            <items>
+                                <label width="1" alignment="right" text="Bread" textAlignment="right" numberOfLines="0" id="Xfw-Az-Wx9">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                                <label width="1" alignment="right" text="Milk" textAlignment="right" numberOfLines="0" id="gzI-eb-mLM">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="onDeckLabel" destination="Xfw-Az-Wx9" id="IGi-C4-JEY"/>
+                        <outlet property="statusLabel" destination="aDf-3k-rLI" id="tFW-D6-1MQ"/>
+                        <outlet property="upNextLabel" destination="gzI-eb-mLM" id="5z7-cG-j7c"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="220" y="759"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>

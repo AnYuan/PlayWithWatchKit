@@ -59,7 +59,8 @@ class RecipesInterfaceController: WKInterfaceController {
       let controller = table.rowControllerAtIndex(index) as RecipeRowController
       controller.textLabel.setText(recipe.name)
       controller.ingredientsLabel.setText(
-        "\(recipe.ingredients.count) ingredients")    }
+        "\(recipe.ingredients.count) ingredients")
+    }
   }
 
 }
