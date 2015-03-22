@@ -16,3 +16,5 @@
 * SousChef 是用来学习以上知识点的Demo源码。
 * more about Share data see  [this](https://github.com/NatashaTheRobot/watchkit "this")  .
 
+###WatchKit-Advanced
+包括WatchKit的图片缓存和动画， 性能， iCloud
