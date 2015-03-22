@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		041845C31ABE6290008FA2D8 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041845C21ABE6290008FA2D8 /* GlanceController.swift */; };
+		041845C51ABEA7D2008FA2D8 /* HandoffConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041845C41ABEA7D2008FA2D8 /* HandoffConstans.swift */; };
 		04FF22131ABD122C006F2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FF22121ABD122C006F2D08 /* Images.xcassets */; };
 		294B75FE1A24173300BBCE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294B75FD1A24173300BBCE01 /* AppDelegate.swift */; };
 		294B76031A24173300BBCE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294B76011A24173300BBCE01 /* Main.storyboard */; };
@@ -117,6 +118,7 @@
 
 /* Begin PBXFileReference section */
 		041845C21ABE6290008FA2D8 /* GlanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		041845C41ABEA7D2008FA2D8 /* HandoffConstans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandoffConstans.swift; sourceTree = "<group>"; };
 		04A14FF01ABC1F2D0022BB0E /* SousChef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SousChef.entitlements; path = SousChef/SousChef.entitlements; sourceTree = "<group>"; };
 		04DA6ABA1ABC39E800CCA5BE /* SousChef WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SousChef WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		04FF22121ABD122C006F2D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				7857AF6C1A94017B0045CAEE /* RecipeDirectionsInterfaceController.swift */,
 				78F8A2E81A9407D30030AD4C /* GroceryInterfaceController.swift */,
 				041845C21ABE6290008FA2D8 /* GlanceController.swift */,
+				041845C41ABEA7D2008FA2D8 /* HandoffConstans.swift */,
 			);
 			name = "Interface Controllers";
 			path = "../SousChef Watch App";
@@ -731,6 +734,7 @@
 				7857AF691A93FFCE0045CAEE /* StepRowController.swift in Sources */,
 				78F8A2E91A9407D30030AD4C /* GroceryInterfaceController.swift in Sources */,
 				784DFFA01A93CF6C0025DE34 /* RecipeDetailInterfaceController.swift in Sources */,
+				041845C51ABEA7D2008FA2D8 /* HandoffConstans.swift in Sources */,
 				784DFF9C1A93CA7F0025DE34 /* RecipeRowController.swift in Sources */,
 				29D973211A45FA15002B6D90 /* InitialInterfaceController.swift in Sources */,
 				784DFF9E1A93CB6F0025DE34 /* RecipesInterfaceController.swift in Sources */,

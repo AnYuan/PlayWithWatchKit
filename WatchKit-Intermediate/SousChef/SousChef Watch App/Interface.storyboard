@@ -208,7 +208,7 @@
         <!--Groceries-->
         <scene sceneID="Caa-rk-oSX">
             <objects>
-                <controller title="Groceries" id="IFD-E8-9sZ" customClass="GroceryInterfaceController" customModule="SousChef_WatchKit_Extension">
+                <controller identifier="GroceryController" title="Groceries" id="IFD-E8-9sZ" customClass="GroceryInterfaceController" customModule="SousChef_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="sWz-AP-1Ic">
                             <items>
@@ -274,7 +274,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="455" y="478"/>
+            <point key="canvasLocation" x="455" y="492"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="VSb-Wm-LzX">

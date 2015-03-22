@@ -47,5 +47,16 @@ class GlanceController: WKInterfaceController {
     
     upNextLabel.setText(upNextItem?.name)
     onDeckLabel.setText(onDeckItem?.name)
+    
+    //broadcasting the user activity
+    if let upNextItem = upNextItem {
+      updateUserActivity(kGlanceHandoffActivityName, userInfo: [kHandoffVersionKey : kHandoffVersionNumber, kGlanceHandoffNextItemKey: upNextItem.name], webpageURL: nil)
+    }
+  }
+  
+  override func didDeactivate() {
+    super.didDeactivate()
+    //stop broadcasting the user activity
+    invalidateUserActivity()
   }
 }

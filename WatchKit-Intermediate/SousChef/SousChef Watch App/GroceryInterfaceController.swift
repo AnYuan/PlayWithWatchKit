@@ -52,7 +52,18 @@ class GroceryInterfaceController: WKInterfaceController {
 
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
-
+    println("Received context: \(context)")
+    if let context = context as? String {
+      for (index, value) in enumerate(flatList) {
+        if let ingredient = value.item as? Ingredient {
+          if context == ingredient.name {
+            groceryList.setIngredient(ingredient, purchased: true)
+            groceryList.sync()
+            break
+          }
+        }
+      }
+    }
     updateTable()
   }
 
