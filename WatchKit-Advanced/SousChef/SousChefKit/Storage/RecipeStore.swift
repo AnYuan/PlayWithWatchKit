@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Ray Wenderlich. All rights reserved.
 //
 
-import Foundation
+import Foundation 
 
 private let kRecipesFileName = "Recipes"
 private let kRecipesFileExtension = "json"
