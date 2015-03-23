@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FitnessArcs_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="left" contentMode="center" id="eFf-py-o0m">
+                            <items>
+                                <group width="1" height="1" alignment="left" contentMode="center" id="EQ1-ZK-yv3">
+                                    <items>
+                                        <group width="1" height="1" alignment="left" contentMode="center" layout="vertical" radius="0.0" spacing="0.0" id="tcQ-z8-FgA">
+                                            <items>
+                                                <label width="0.45000000000000001" alignment="left" text="Much cool" textAlignment="right" id="XwD-Dw-g72">
+                                                    <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                                <label width="0.45000000000000001" alignment="left" text="so color" textAlignment="right" id="y9u-6Q-tvm">
+                                                    <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                                <label width="0.45000000000000001" alignment="left" text="wow" textAlignment="right" id="9HP-jB-45S">
+                                                    <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                            </items>
+                                            <edgeInsets key="margins" left="0.0" right="0.0" top="14" bottom="0.0"/>
+                                            <variation key="device=watch38mm">
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="14" bottom="0.0"/>
+                                            </variation>
+                                            <variation key="device=watch42mm">
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="27" bottom="0.0"/>
+                                            </variation>
+                                        </group>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="cyanGroup" destination="EQ1-ZK-yv3" id="rIj-fQ-N16"/>
+                        <outlet property="cyanLabel" destination="y9u-6Q-tvm" id="b8j-Ii-iAm"/>
+                        <outlet property="greenGroup" destination="tcQ-z8-FgA" id="qlI-gD-lqp"/>
+                        <outlet property="greenLabel" destination="9HP-jB-45S" id="IfF-4b-s8v"/>
+                        <outlet property="redGroup" destination="eFf-py-o0m" id="Ifd-bE-Vxv"/>
+                        <outlet property="redLabel" destination="XwD-Dw-g72" id="1UO-KE-qqe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="183" y="294"/>
+        </scene>
+    </scenes>
+</document>
