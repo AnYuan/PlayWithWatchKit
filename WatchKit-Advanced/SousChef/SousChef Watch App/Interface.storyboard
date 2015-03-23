@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14D105g" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Initial Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller spacing="20" id="AgC-eL-Hgc" customClass="InitialInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" spacing="5" id="6qF-zz-w2R">
+                            <items>
+                                <imageView alignment="center" verticalAlignment="center" image="rw-circle" id="QIJ-jl-Dp8"/>
+                                <label alignment="center" verticalAlignment="center" text="Recipes" id="1IX-4O-n0W"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" spacing="15" id="CBL-Ng-4CP">
+                            <items>
+                                <button alignment="center" id="ued-nl-h7G">
+                                    <group key="contentGroup" alignment="left" layout="vertical" id="95D-vl-4pR">
+                                        <items>
+                                            <imageView alignment="center" image="bookmark-button" id="210-oa-D8B"/>
+                                            <label alignment="center" text="Recipes" id="uDr-dt-n7I">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <segue destination="BWw-bR-ekA" kind="push" id="ZGw-4P-gxw"/>
+                                    </connections>
+                                </button>
+                                <button alignment="center" id="vWz-wV-II9">
+                                    <group key="contentGroup" alignment="left" layout="vertical" id="cDV-Ys-nF7">
+                                        <items>
+                                            <imageView alignment="center" image="ingredients" id="HMG-ty-Hke"/>
+                                            <label alignment="center" text="Groceries" id="1BF-hp-0LB">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <segue destination="IFD-E8-9sZ" kind="push" id="Rmg-id-b5k"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="15" bottom="0.0"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Recipes-->
+        <scene sceneID="rJf-Us-86B">
+            <objects>
+                <controller title="Recipes" id="BWw-bR-ekA" customClass="RecipesInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="bUI-sU-t2G">
+                            <items>
+                                <tableRow identifier="RecipeRowType" id="k7i-gj-dFK" customClass="RecipeRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="1iF-5p-JYs">
+                                        <items>
+                                            <label alignment="left" text="Label" numberOfLines="0" id="9cB-Tg-ogF"/>
+                                            <label alignment="left" text="Label" id="MaP-X2-Bkc">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                        </items>
+                                        <connections>
+                                            <segue destination="b0K-ud-FKx" kind="push" id="QXz-YQ-1kQ"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="ingredientsLabel" destination="MaP-X2-Bkc" id="0ej-LO-uAl"/>
+                                        <outlet property="textLabel" destination="9cB-Tg-ogF" id="aLc-u9-mnK"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="bUI-sU-t2G" id="kOF-P3-ENN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="455" y="223"/>
+        </scene>
+        <!--Recipe Detail Interface Controller-->
+        <scene sceneID="F9a-el-BVP">
+            <objects>
+                <controller spacing="20" id="b0K-ud-FKx" customClass="RecipeDetailInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="Label" textAlignment="center" numberOfLines="0" id="5sV-AM-S5v"/>
+                        <group width="1" alignment="left" spacing="15" id="uwQ-EZ-EBQ">
+                            <items>
+                                <button alignment="center" id="MQU-xD-hdo">
+                                    <group key="contentGroup" alignment="left" layout="vertical" id="HYf-4C-RRc">
+                                        <items>
+                                            <imageView alignment="center" image="ingredients" id="vlH-ur-vAW"/>
+                                            <label alignment="center" text="Ingredients" id="tho-dn-hu0">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <segue destination="My8-qM-YdQ" kind="push" id="xrE-kl-VMg"/>
+                                    </connections>
+                                </button>
+                                <button alignment="center" id="KYy-CN-7qj">
+                                    <group key="contentGroup" alignment="left" layout="vertical" id="tNd-8M-Zx5">
+                                        <items>
+                                            <imageView alignment="center" image="directions" id="mqt-Nb-tTT"/>
+                                            <label alignment="center" text="Directions" id="6n8-bI-XTf">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <segue destination="CDS-Yr-cZl" kind="push" id="q1q-My-bHw"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="15" bottom="0.0"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="5sV-AM-S5v" id="PyZ-yS-KqL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="647" y="221"/>
+        </scene>
+        <!--Ingredients-->
+        <scene sceneID="obA-Rr-Nc2">
+            <objects>
+                <controller title="Ingredients" id="My8-qM-YdQ" customClass="RecipeIngredientsInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="BQn-i9-Y4C">
+                            <items>
+                                <tableRow identifier="IngredientRow" id="7V4-Ze-yo6" customClass="IngredientRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="J8N-WO-lsD">
+                                        <items>
+                                            <label alignment="left" text="Fresh Pepper" numberOfLines="0" id="kU9-yW-x6V"/>
+                                            <label alignment="left" text="1 tsp" id="UIH-cZ-ohV">
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="measurementLabel" destination="UIH-cZ-ohV" id="J5x-e2-3LS"/>
+                                        <outlet property="nameLabel" destination="kU9-yW-x6V" id="psp-U5-AdN"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="XBV-S1-vQN">
+                        <items>
+                            <menuItem title="Add to List" icon="add" id="Bkj-dc-c1w">
+                                <connections>
+                                    <action selector="onAddToGrocery" destination="My8-qM-YdQ" id="czM-tX-hTq"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Cancel" icon="decline" id="N0O-bB-b5o"/>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="table" destination="BQn-i9-Y4C" id="9Dk-nP-sf4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="848" y="318"/>
+        </scene>
+        <!--Directions-->
+        <scene sceneID="t0a-HS-Xdr">
+            <objects>
+                <controller identifier="RecipeDirections" title="Directions" id="CDS-Yr-cZl" customClass="RecipeDirectionsInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="Ur9-vp-Vwk">
+                            <items>
+                                <tableRow identifier="StepRow" id="dwO-tr-rUq" customClass="StepRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="66Z-R6-JEM">
+                                        <items>
+                                            <label alignment="left" text="Step 1" id="toe-ye-WGb">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                            <label alignment="left" text="Step description" numberOfLines="0" id="nQa-cp-Py5"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="directionsLabel" destination="nQa-cp-Py5" id="3R8-dI-5Nc"/>
+                                        <outlet property="stepLabel" destination="toe-ye-WGb" id="cWX-D2-hOX"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Ur9-vp-Vwk" id="bd2-SR-9EI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="849" y="77"/>
+        </scene>
+        <!--Groceries-->
+        <scene sceneID="Caa-rk-oSX">
+            <objects>
+                <controller identifier="GroceryController" title="Groceries" id="IFD-E8-9sZ" customClass="GroceryInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="sWz-AP-1Ic">
+                            <items>
+                                <tableRow identifier="GroceryTypeRow" id="Jtn-Pz-XcX" customClass="GroceryTypeRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="DDz-HY-dMq">
+                                        <items>
+                                            <imageView alignment="left" verticalAlignment="center" image="meat" id="vec-DT-2Dm"/>
+                                            <label alignment="left" verticalAlignment="center" text="Type" id="u60-tw-R4y">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="vec-DT-2Dm" id="ybW-1B-dGt"/>
+                                        <outlet property="textLabel" destination="u60-tw-R4y" id="oGH-yi-7Vb"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="GroceryRow" id="RJR-rW-U9k" customClass="GroceryRowController" customModule="SousChef_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="n0S-ri-aqD">
+                                        <items>
+                                            <label alignment="left" text="Ingredient" numberOfLines="0" id="MAu-cN-brA"/>
+                                            <group width="1" alignment="left" id="jBJ-lQ-gSD">
+                                                <items>
+                                                    <label alignment="left" text="2 tbsp" id="NJs-Mf-t4f">
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                                    </label>
+                                                    <label alignment="right" text="x3" id="VbJ-Ra-Sos">
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="measurementLabel" destination="NJs-Mf-t4f" id="0nq-Bn-lm2"/>
+                                        <outlet property="quantityLabel" destination="VbJ-Ra-Sos" id="Kee-Xl-ySe"/>
+                                        <outlet property="textLabel" destination="MAu-cN-brA" id="lnQ-lR-dtn"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="Is2-ya-Z1H">
+                        <items>
+                            <menuItem title="Clear All" icon="trash" id="CK7-eE-Jjn">
+                                <connections>
+                                    <action selector="onClearAll" destination="IFD-E8-9sZ" id="7Ql-1e-YvY"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Purchased" image="clear-purchased" id="v0L-MX-fwd">
+                                <connections>
+                                    <action selector="onRemovePurchased" destination="IFD-E8-9sZ" id="on8-aI-L6p"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Cancel" icon="decline" id="6T9-JW-dsC"/>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="table" destination="sWz-AP-1Ic" id="8e4-I6-YRN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="455" y="492"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AR8-3x-LJc">
+            <objects>
+                <notificationController id="W3A-P1-dly">
+                    <items>
+                        <label alignment="center" text="Alert Label" numberOfLines="0" id="OMN-C8-7XH"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="timer" id="b93-gm-whF"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="OMN-C8-7XH" id="eEn-pY-nbI"/>
+                        <segue destination="v2l-Pu-LmX" kind="relationship" relationship="dynamicNotificationInterface" id="1Ag-1z-3p2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="702" y="764"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="VSb-Wm-LzX">
+            <objects>
+                <glanceController topTemplateType="largeBody1" id="HTY-QT-bic" customClass="GlanceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="3/7" id="aDf-3k-rLI"/>
+                        <label alignment="left" text="Groceries" id="gal-Z7-O8w"/>
+                        <group alignment="left" backgroundImage="blur" layout="vertical" spacing="20" id="2zt-fk-8eQ">
+                            <items>
+                                <label width="1" alignment="right" text="Bread" textAlignment="right" numberOfLines="0" id="Xfw-Az-Wx9">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                                <label width="1" alignment="right" text="Milk" textAlignment="right" numberOfLines="0" id="gzI-eb-mLM">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="onDeckLabel" destination="Xfw-Az-Wx9" id="IGi-C4-JEY"/>
+                        <outlet property="statusLabel" destination="aDf-3k-rLI" id="tFW-D6-1MQ"/>
+                        <outlet property="upNextLabel" destination="gzI-eb-mLM" id="5z7-cG-j7c"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="220" y="759"/>
+        </scene>
+        <!--Kitchen Timer Notification Controller-->
+        <scene sceneID="h7r-te-yWX">
+            <objects>
+                <controller id="v2l-Pu-LmX" customClass="KitchenTimerNotificationController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="&lt;title&gt;" numberOfLines="0" id="wPi-1S-yvg">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="center" text="&lt;message&gt;" numberOfLines="0" id="1uk-av-Noy"/>
+                    </items>
+                    <connections>
+                        <outlet property="messageLabel" destination="1uk-av-Noy" id="4Iu-6z-YD5"/>
+                        <outlet property="titleLabel" destination="wPi-1S-yvg" id="f9b-dh-jUQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="932" y="764"/>
+        </scene>
+        <!--TimerScheduler-->
+        <scene sceneID="0Si-JA-qW8">
+            <objects>
+                <controller identifier="TimerScheduler" id="BvM-xf-3d8" customClass="TimerSchedulerInterfaceController" customModule="SousChef_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="&lt;message&gt;" numberOfLines="0" id="WkI-vO-fi4">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Start" id="nat-JW-XtN">
+                            <connections>
+                                <action selector="startButtonTapped" destination="BvM-xf-3d8" id="TGj-rL-Yaw"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Cancel" id="K7t-OA-8bd">
+                            <connections>
+                                <action selector="cancelButtonTapped" destination="BvM-xf-3d8" id="KDl-a7-vVQ"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="messageLabel" destination="WkI-vO-fi4" id="faE-mD-M80"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1190" y="638"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+</document>
