@@ -24,6 +24,14 @@ class InterfaceController: WKInterfaceController {
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     // Configure interface objects here.
+    
+    redGroup.setBackgroundImageNamed("progressRed")
+    cyanGroup.setBackgroundImageNamed("progressCyan")
+    greenGroup.setBackgroundImageNamed("progressGreen")
+    
+    redGroup.startAnimatingWithImagesInRange(NSMakeRange(0, 30), duration: 1, repeatCount: 1)
+    cyanGroup.startAnimatingWithImagesInRange(NSMakeRange(0, 45), duration: 1, repeatCount: 1)
+    greenGroup.startAnimatingWithImagesInRange(NSMakeRange(0, 85), duration: 1, repeatCount: 1)
 
   }
 

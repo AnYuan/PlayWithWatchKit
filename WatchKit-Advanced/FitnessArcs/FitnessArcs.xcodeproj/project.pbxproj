@@ -7,6 +7,306 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041846FE1AC06078008FA2D8 /* progressCyan0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D01AC06078008FA2D8 /* progressCyan0@2x.png */; };
+		041846FF1AC06078008FA2D8 /* progressCyan10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D11AC06078008FA2D8 /* progressCyan10@2x.png */; };
+		041847001AC06078008FA2D8 /* progressCyan11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D21AC06078008FA2D8 /* progressCyan11@2x.png */; };
+		041847011AC06078008FA2D8 /* progressCyan12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D31AC06078008FA2D8 /* progressCyan12@2x.png */; };
+		041847021AC06078008FA2D8 /* progressCyan13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D41AC06078008FA2D8 /* progressCyan13@2x.png */; };
+		041847031AC06078008FA2D8 /* progressCyan14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D51AC06078008FA2D8 /* progressCyan14@2x.png */; };
+		041847041AC06078008FA2D8 /* progressCyan15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D61AC06078008FA2D8 /* progressCyan15@2x.png */; };
+		041847051AC06078008FA2D8 /* progressCyan16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D71AC06078008FA2D8 /* progressCyan16@2x.png */; };
+		041847061AC06078008FA2D8 /* progressCyan17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D81AC06078008FA2D8 /* progressCyan17@2x.png */; };
+		041847071AC06078008FA2D8 /* progressCyan18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845D91AC06078008FA2D8 /* progressCyan18@2x.png */; };
+		041847081AC06078008FA2D8 /* progressCyan19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845DA1AC06078008FA2D8 /* progressCyan19@2x.png */; };
+		041847091AC06078008FA2D8 /* progressCyan1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845DB1AC06078008FA2D8 /* progressCyan1@2x.png */; };
+		0418470A1AC06078008FA2D8 /* progressCyan20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845DC1AC06078008FA2D8 /* progressCyan20@2x.png */; };
+		0418470B1AC06078008FA2D8 /* progressCyan21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845DD1AC06078008FA2D8 /* progressCyan21@2x.png */; };
+		0418470C1AC06078008FA2D8 /* progressCyan22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845DE1AC06078008FA2D8 /* progressCyan22@2x.png */; };
+		0418470D1AC06078008FA2D8 /* progressCyan23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845DF1AC06078008FA2D8 /* progressCyan23@2x.png */; };
+		0418470E1AC06078008FA2D8 /* progressCyan24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E01AC06078008FA2D8 /* progressCyan24@2x.png */; };
+		0418470F1AC06078008FA2D8 /* progressCyan25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E11AC06078008FA2D8 /* progressCyan25@2x.png */; };
+		041847101AC06078008FA2D8 /* progressCyan26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E21AC06078008FA2D8 /* progressCyan26@2x.png */; };
+		041847111AC06078008FA2D8 /* progressCyan27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E31AC06078008FA2D8 /* progressCyan27@2x.png */; };
+		041847121AC06078008FA2D8 /* progressCyan28@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E41AC06078008FA2D8 /* progressCyan28@2x.png */; };
+		041847131AC06078008FA2D8 /* progressCyan29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E51AC06078008FA2D8 /* progressCyan29@2x.png */; };
+		041847141AC06078008FA2D8 /* progressCyan2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E61AC06078008FA2D8 /* progressCyan2@2x.png */; };
+		041847151AC06078008FA2D8 /* progressCyan30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E71AC06078008FA2D8 /* progressCyan30@2x.png */; };
+		041847161AC06078008FA2D8 /* progressCyan31@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E81AC06078008FA2D8 /* progressCyan31@2x.png */; };
+		041847171AC06078008FA2D8 /* progressCyan32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845E91AC06078008FA2D8 /* progressCyan32@2x.png */; };
+		041847181AC06078008FA2D8 /* progressCyan33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845EA1AC06078008FA2D8 /* progressCyan33@2x.png */; };
+		041847191AC06078008FA2D8 /* progressCyan34@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845EB1AC06078008FA2D8 /* progressCyan34@2x.png */; };
+		0418471A1AC06078008FA2D8 /* progressCyan35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845EC1AC06078008FA2D8 /* progressCyan35@2x.png */; };
+		0418471B1AC06078008FA2D8 /* progressCyan36@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845ED1AC06078008FA2D8 /* progressCyan36@2x.png */; };
+		0418471C1AC06078008FA2D8 /* progressCyan37@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845EE1AC06078008FA2D8 /* progressCyan37@2x.png */; };
+		0418471D1AC06078008FA2D8 /* progressCyan38@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845EF1AC06078008FA2D8 /* progressCyan38@2x.png */; };
+		0418471E1AC06078008FA2D8 /* progressCyan39@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F01AC06078008FA2D8 /* progressCyan39@2x.png */; };
+		0418471F1AC06078008FA2D8 /* progressCyan3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F11AC06078008FA2D8 /* progressCyan3@2x.png */; };
+		041847201AC06078008FA2D8 /* progressCyan40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F21AC06078008FA2D8 /* progressCyan40@2x.png */; };
+		041847211AC06078008FA2D8 /* progressCyan41@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F31AC06078008FA2D8 /* progressCyan41@2x.png */; };
+		041847221AC06078008FA2D8 /* progressCyan42@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F41AC06078008FA2D8 /* progressCyan42@2x.png */; };
+		041847231AC06078008FA2D8 /* progressCyan43@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F51AC06078008FA2D8 /* progressCyan43@2x.png */; };
+		041847241AC06078008FA2D8 /* progressCyan44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F61AC06078008FA2D8 /* progressCyan44@2x.png */; };
+		041847251AC06078008FA2D8 /* progressCyan45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F71AC06078008FA2D8 /* progressCyan45@2x.png */; };
+		041847261AC06078008FA2D8 /* progressCyan46@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F81AC06078008FA2D8 /* progressCyan46@2x.png */; };
+		041847271AC06078008FA2D8 /* progressCyan47@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845F91AC06078008FA2D8 /* progressCyan47@2x.png */; };
+		041847281AC06078008FA2D8 /* progressCyan48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845FA1AC06078008FA2D8 /* progressCyan48@2x.png */; };
+		041847291AC06078008FA2D8 /* progressCyan49@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845FB1AC06078008FA2D8 /* progressCyan49@2x.png */; };
+		0418472A1AC06078008FA2D8 /* progressCyan4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845FC1AC06078008FA2D8 /* progressCyan4@2x.png */; };
+		0418472B1AC06078008FA2D8 /* progressCyan50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845FD1AC06078008FA2D8 /* progressCyan50@2x.png */; };
+		0418472C1AC06078008FA2D8 /* progressCyan51@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845FE1AC06078008FA2D8 /* progressCyan51@2x.png */; };
+		0418472D1AC06078008FA2D8 /* progressCyan52@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041845FF1AC06078008FA2D8 /* progressCyan52@2x.png */; };
+		0418472E1AC06078008FA2D8 /* progressCyan53@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846001AC06078008FA2D8 /* progressCyan53@2x.png */; };
+		0418472F1AC06078008FA2D8 /* progressCyan54@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846011AC06078008FA2D8 /* progressCyan54@2x.png */; };
+		041847301AC06078008FA2D8 /* progressCyan55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846021AC06078008FA2D8 /* progressCyan55@2x.png */; };
+		041847311AC06078008FA2D8 /* progressCyan56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846031AC06078008FA2D8 /* progressCyan56@2x.png */; };
+		041847321AC06078008FA2D8 /* progressCyan57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846041AC06078008FA2D8 /* progressCyan57@2x.png */; };
+		041847331AC06078008FA2D8 /* progressCyan58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846051AC06078008FA2D8 /* progressCyan58@2x.png */; };
+		041847341AC06078008FA2D8 /* progressCyan59@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846061AC06078008FA2D8 /* progressCyan59@2x.png */; };
+		041847351AC06078008FA2D8 /* progressCyan5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846071AC06078008FA2D8 /* progressCyan5@2x.png */; };
+		041847361AC06078008FA2D8 /* progressCyan60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846081AC06078008FA2D8 /* progressCyan60@2x.png */; };
+		041847371AC06078008FA2D8 /* progressCyan61@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846091AC06078008FA2D8 /* progressCyan61@2x.png */; };
+		041847381AC06078008FA2D8 /* progressCyan62@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418460A1AC06078008FA2D8 /* progressCyan62@2x.png */; };
+		041847391AC06078008FA2D8 /* progressCyan63@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418460B1AC06078008FA2D8 /* progressCyan63@2x.png */; };
+		0418473A1AC06078008FA2D8 /* progressCyan64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418460C1AC06078008FA2D8 /* progressCyan64@2x.png */; };
+		0418473B1AC06078008FA2D8 /* progressCyan65@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418460D1AC06078008FA2D8 /* progressCyan65@2x.png */; };
+		0418473C1AC06078008FA2D8 /* progressCyan66@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418460E1AC06078008FA2D8 /* progressCyan66@2x.png */; };
+		0418473D1AC06078008FA2D8 /* progressCyan67@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418460F1AC06078008FA2D8 /* progressCyan67@2x.png */; };
+		0418473E1AC06078008FA2D8 /* progressCyan68@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846101AC06078008FA2D8 /* progressCyan68@2x.png */; };
+		0418473F1AC06078008FA2D8 /* progressCyan69@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846111AC06078008FA2D8 /* progressCyan69@2x.png */; };
+		041847401AC06078008FA2D8 /* progressCyan6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846121AC06078008FA2D8 /* progressCyan6@2x.png */; };
+		041847411AC06078008FA2D8 /* progressCyan70@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846131AC06078008FA2D8 /* progressCyan70@2x.png */; };
+		041847421AC06078008FA2D8 /* progressCyan71@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846141AC06078008FA2D8 /* progressCyan71@2x.png */; };
+		041847431AC06078008FA2D8 /* progressCyan72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846151AC06078008FA2D8 /* progressCyan72@2x.png */; };
+		041847441AC06078008FA2D8 /* progressCyan73@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846161AC06078008FA2D8 /* progressCyan73@2x.png */; };
+		041847451AC06078008FA2D8 /* progressCyan74@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846171AC06078008FA2D8 /* progressCyan74@2x.png */; };
+		041847461AC06078008FA2D8 /* progressCyan75@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846181AC06078008FA2D8 /* progressCyan75@2x.png */; };
+		041847471AC06078008FA2D8 /* progressCyan76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846191AC06078008FA2D8 /* progressCyan76@2x.png */; };
+		041847481AC06078008FA2D8 /* progressCyan77@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418461A1AC06078008FA2D8 /* progressCyan77@2x.png */; };
+		041847491AC06078008FA2D8 /* progressCyan78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418461B1AC06078008FA2D8 /* progressCyan78@2x.png */; };
+		0418474A1AC06078008FA2D8 /* progressCyan79@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418461C1AC06078008FA2D8 /* progressCyan79@2x.png */; };
+		0418474B1AC06078008FA2D8 /* progressCyan7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418461D1AC06078008FA2D8 /* progressCyan7@2x.png */; };
+		0418474C1AC06078008FA2D8 /* progressCyan80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418461E1AC06078008FA2D8 /* progressCyan80@2x.png */; };
+		0418474D1AC06078008FA2D8 /* progressCyan81@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418461F1AC06078008FA2D8 /* progressCyan81@2x.png */; };
+		0418474E1AC06078008FA2D8 /* progressCyan82@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846201AC06078008FA2D8 /* progressCyan82@2x.png */; };
+		0418474F1AC06078008FA2D8 /* progressCyan83@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846211AC06078008FA2D8 /* progressCyan83@2x.png */; };
+		041847501AC06078008FA2D8 /* progressCyan84@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846221AC06078008FA2D8 /* progressCyan84@2x.png */; };
+		041847511AC06078008FA2D8 /* progressCyan85@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846231AC06078008FA2D8 /* progressCyan85@2x.png */; };
+		041847521AC06078008FA2D8 /* progressCyan86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846241AC06078008FA2D8 /* progressCyan86@2x.png */; };
+		041847531AC06078008FA2D8 /* progressCyan87@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846251AC06078008FA2D8 /* progressCyan87@2x.png */; };
+		041847541AC06078008FA2D8 /* progressCyan88@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846261AC06078008FA2D8 /* progressCyan88@2x.png */; };
+		041847551AC06078008FA2D8 /* progressCyan89@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846271AC06078008FA2D8 /* progressCyan89@2x.png */; };
+		041847561AC06078008FA2D8 /* progressCyan8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846281AC06078008FA2D8 /* progressCyan8@2x.png */; };
+		041847571AC06078008FA2D8 /* progressCyan90@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846291AC06078008FA2D8 /* progressCyan90@2x.png */; };
+		041847581AC06078008FA2D8 /* progressCyan91@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418462A1AC06078008FA2D8 /* progressCyan91@2x.png */; };
+		041847591AC06078008FA2D8 /* progressCyan92@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418462B1AC06078008FA2D8 /* progressCyan92@2x.png */; };
+		0418475A1AC06078008FA2D8 /* progressCyan93@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418462C1AC06078008FA2D8 /* progressCyan93@2x.png */; };
+		0418475B1AC06078008FA2D8 /* progressCyan94@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418462D1AC06078008FA2D8 /* progressCyan94@2x.png */; };
+		0418475C1AC06078008FA2D8 /* progressCyan95@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418462E1AC06078008FA2D8 /* progressCyan95@2x.png */; };
+		0418475D1AC06078008FA2D8 /* progressCyan96@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418462F1AC06078008FA2D8 /* progressCyan96@2x.png */; };
+		0418475E1AC06078008FA2D8 /* progressCyan97@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846301AC06078008FA2D8 /* progressCyan97@2x.png */; };
+		0418475F1AC06078008FA2D8 /* progressCyan98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846311AC06078008FA2D8 /* progressCyan98@2x.png */; };
+		041847601AC06078008FA2D8 /* progressCyan99@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846321AC06078008FA2D8 /* progressCyan99@2x.png */; };
+		041847611AC06078008FA2D8 /* progressCyan9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846331AC06078008FA2D8 /* progressCyan9@2x.png */; };
+		041847621AC06078008FA2D8 /* progressGreen0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846351AC06078008FA2D8 /* progressGreen0@2x.png */; };
+		041847631AC06078008FA2D8 /* progressGreen10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846361AC06078008FA2D8 /* progressGreen10@2x.png */; };
+		041847641AC06078008FA2D8 /* progressGreen11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846371AC06078008FA2D8 /* progressGreen11@2x.png */; };
+		041847651AC06078008FA2D8 /* progressGreen12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846381AC06078008FA2D8 /* progressGreen12@2x.png */; };
+		041847661AC06078008FA2D8 /* progressGreen13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846391AC06078008FA2D8 /* progressGreen13@2x.png */; };
+		041847671AC06078008FA2D8 /* progressGreen14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418463A1AC06078008FA2D8 /* progressGreen14@2x.png */; };
+		041847681AC06078008FA2D8 /* progressGreen15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418463B1AC06078008FA2D8 /* progressGreen15@2x.png */; };
+		041847691AC06078008FA2D8 /* progressGreen16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418463C1AC06078008FA2D8 /* progressGreen16@2x.png */; };
+		0418476A1AC06078008FA2D8 /* progressGreen17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418463D1AC06078008FA2D8 /* progressGreen17@2x.png */; };
+		0418476B1AC06078008FA2D8 /* progressGreen18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418463E1AC06078008FA2D8 /* progressGreen18@2x.png */; };
+		0418476C1AC06078008FA2D8 /* progressGreen19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418463F1AC06078008FA2D8 /* progressGreen19@2x.png */; };
+		0418476D1AC06078008FA2D8 /* progressGreen1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846401AC06078008FA2D8 /* progressGreen1@2x.png */; };
+		0418476E1AC06078008FA2D8 /* progressGreen20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846411AC06078008FA2D8 /* progressGreen20@2x.png */; };
+		0418476F1AC06078008FA2D8 /* progressGreen21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846421AC06078008FA2D8 /* progressGreen21@2x.png */; };
+		041847701AC06078008FA2D8 /* progressGreen22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846431AC06078008FA2D8 /* progressGreen22@2x.png */; };
+		041847711AC06078008FA2D8 /* progressGreen23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846441AC06078008FA2D8 /* progressGreen23@2x.png */; };
+		041847721AC06078008FA2D8 /* progressGreen24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846451AC06078008FA2D8 /* progressGreen24@2x.png */; };
+		041847731AC06078008FA2D8 /* progressGreen25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846461AC06078008FA2D8 /* progressGreen25@2x.png */; };
+		041847741AC06078008FA2D8 /* progressGreen26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846471AC06078008FA2D8 /* progressGreen26@2x.png */; };
+		041847751AC06078008FA2D8 /* progressGreen27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846481AC06078008FA2D8 /* progressGreen27@2x.png */; };
+		041847761AC06078008FA2D8 /* progressGreen28@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846491AC06078008FA2D8 /* progressGreen28@2x.png */; };
+		041847771AC06078008FA2D8 /* progressGreen29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418464A1AC06078008FA2D8 /* progressGreen29@2x.png */; };
+		041847781AC06078008FA2D8 /* progressGreen2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418464B1AC06078008FA2D8 /* progressGreen2@2x.png */; };
+		041847791AC06078008FA2D8 /* progressGreen30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418464C1AC06078008FA2D8 /* progressGreen30@2x.png */; };
+		0418477A1AC06078008FA2D8 /* progressGreen31@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418464D1AC06078008FA2D8 /* progressGreen31@2x.png */; };
+		0418477B1AC06078008FA2D8 /* progressGreen32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418464E1AC06078008FA2D8 /* progressGreen32@2x.png */; };
+		0418477C1AC06078008FA2D8 /* progressGreen33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418464F1AC06078008FA2D8 /* progressGreen33@2x.png */; };
+		0418477D1AC06078008FA2D8 /* progressGreen34@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846501AC06078008FA2D8 /* progressGreen34@2x.png */; };
+		0418477E1AC06078008FA2D8 /* progressGreen35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846511AC06078008FA2D8 /* progressGreen35@2x.png */; };
+		0418477F1AC06078008FA2D8 /* progressGreen36@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846521AC06078008FA2D8 /* progressGreen36@2x.png */; };
+		041847801AC06078008FA2D8 /* progressGreen37@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846531AC06078008FA2D8 /* progressGreen37@2x.png */; };
+		041847811AC06078008FA2D8 /* progressGreen38@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846541AC06078008FA2D8 /* progressGreen38@2x.png */; };
+		041847821AC06078008FA2D8 /* progressGreen39@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846551AC06078008FA2D8 /* progressGreen39@2x.png */; };
+		041847831AC06078008FA2D8 /* progressGreen3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846561AC06078008FA2D8 /* progressGreen3@2x.png */; };
+		041847841AC06078008FA2D8 /* progressGreen40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846571AC06078008FA2D8 /* progressGreen40@2x.png */; };
+		041847851AC06078008FA2D8 /* progressGreen41@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846581AC06078008FA2D8 /* progressGreen41@2x.png */; };
+		041847861AC06078008FA2D8 /* progressGreen42@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846591AC06078008FA2D8 /* progressGreen42@2x.png */; };
+		041847871AC06078008FA2D8 /* progressGreen43@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418465A1AC06078008FA2D8 /* progressGreen43@2x.png */; };
+		041847881AC06078008FA2D8 /* progressGreen44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418465B1AC06078008FA2D8 /* progressGreen44@2x.png */; };
+		041847891AC06078008FA2D8 /* progressGreen45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418465C1AC06078008FA2D8 /* progressGreen45@2x.png */; };
+		0418478A1AC06078008FA2D8 /* progressGreen46@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418465D1AC06078008FA2D8 /* progressGreen46@2x.png */; };
+		0418478B1AC06078008FA2D8 /* progressGreen47@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418465E1AC06078008FA2D8 /* progressGreen47@2x.png */; };
+		0418478C1AC06078008FA2D8 /* progressGreen48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418465F1AC06078008FA2D8 /* progressGreen48@2x.png */; };
+		0418478D1AC06078008FA2D8 /* progressGreen49@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846601AC06078008FA2D8 /* progressGreen49@2x.png */; };
+		0418478E1AC06078008FA2D8 /* progressGreen4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846611AC06078008FA2D8 /* progressGreen4@2x.png */; };
+		0418478F1AC06078008FA2D8 /* progressGreen50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846621AC06078008FA2D8 /* progressGreen50@2x.png */; };
+		041847901AC06078008FA2D8 /* progressGreen51@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846631AC06078008FA2D8 /* progressGreen51@2x.png */; };
+		041847911AC06078008FA2D8 /* progressGreen52@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846641AC06078008FA2D8 /* progressGreen52@2x.png */; };
+		041847921AC06078008FA2D8 /* progressGreen53@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846651AC06078008FA2D8 /* progressGreen53@2x.png */; };
+		041847931AC06078008FA2D8 /* progressGreen54@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846661AC06078008FA2D8 /* progressGreen54@2x.png */; };
+		041847941AC06078008FA2D8 /* progressGreen55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846671AC06078008FA2D8 /* progressGreen55@2x.png */; };
+		041847951AC06078008FA2D8 /* progressGreen56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846681AC06078008FA2D8 /* progressGreen56@2x.png */; };
+		041847961AC06078008FA2D8 /* progressGreen57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846691AC06078008FA2D8 /* progressGreen57@2x.png */; };
+		041847971AC06078008FA2D8 /* progressGreen58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418466A1AC06078008FA2D8 /* progressGreen58@2x.png */; };
+		041847981AC06078008FA2D8 /* progressGreen59@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418466B1AC06078008FA2D8 /* progressGreen59@2x.png */; };
+		041847991AC06078008FA2D8 /* progressGreen5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418466C1AC06078008FA2D8 /* progressGreen5@2x.png */; };
+		0418479A1AC06078008FA2D8 /* progressGreen60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418466D1AC06078008FA2D8 /* progressGreen60@2x.png */; };
+		0418479B1AC06078008FA2D8 /* progressGreen61@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418466E1AC06078008FA2D8 /* progressGreen61@2x.png */; };
+		0418479C1AC06078008FA2D8 /* progressGreen62@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418466F1AC06078008FA2D8 /* progressGreen62@2x.png */; };
+		0418479D1AC06078008FA2D8 /* progressGreen63@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846701AC06078008FA2D8 /* progressGreen63@2x.png */; };
+		0418479E1AC06078008FA2D8 /* progressGreen64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846711AC06078008FA2D8 /* progressGreen64@2x.png */; };
+		0418479F1AC06078008FA2D8 /* progressGreen65@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846721AC06078008FA2D8 /* progressGreen65@2x.png */; };
+		041847A01AC06078008FA2D8 /* progressGreen66@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846731AC06078008FA2D8 /* progressGreen66@2x.png */; };
+		041847A11AC06078008FA2D8 /* progressGreen67@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846741AC06078008FA2D8 /* progressGreen67@2x.png */; };
+		041847A21AC06078008FA2D8 /* progressGreen68@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846751AC06078008FA2D8 /* progressGreen68@2x.png */; };
+		041847A31AC06078008FA2D8 /* progressGreen69@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846761AC06078008FA2D8 /* progressGreen69@2x.png */; };
+		041847A41AC06078008FA2D8 /* progressGreen6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846771AC06078008FA2D8 /* progressGreen6@2x.png */; };
+		041847A51AC06078008FA2D8 /* progressGreen70@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846781AC06078008FA2D8 /* progressGreen70@2x.png */; };
+		041847A61AC06078008FA2D8 /* progressGreen71@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846791AC06078008FA2D8 /* progressGreen71@2x.png */; };
+		041847A71AC06078008FA2D8 /* progressGreen72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418467A1AC06078008FA2D8 /* progressGreen72@2x.png */; };
+		041847A81AC06078008FA2D8 /* progressGreen73@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418467B1AC06078008FA2D8 /* progressGreen73@2x.png */; };
+		041847A91AC06078008FA2D8 /* progressGreen74@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418467C1AC06078008FA2D8 /* progressGreen74@2x.png */; };
+		041847AA1AC06078008FA2D8 /* progressGreen75@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418467D1AC06078008FA2D8 /* progressGreen75@2x.png */; };
+		041847AB1AC06078008FA2D8 /* progressGreen76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418467E1AC06078008FA2D8 /* progressGreen76@2x.png */; };
+		041847AC1AC06078008FA2D8 /* progressGreen77@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418467F1AC06078008FA2D8 /* progressGreen77@2x.png */; };
+		041847AD1AC06078008FA2D8 /* progressGreen78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846801AC06078008FA2D8 /* progressGreen78@2x.png */; };
+		041847AE1AC06078008FA2D8 /* progressGreen79@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846811AC06078008FA2D8 /* progressGreen79@2x.png */; };
+		041847AF1AC06078008FA2D8 /* progressGreen7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846821AC06078008FA2D8 /* progressGreen7@2x.png */; };
+		041847B01AC06078008FA2D8 /* progressGreen80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846831AC06078008FA2D8 /* progressGreen80@2x.png */; };
+		041847B11AC06078008FA2D8 /* progressGreen81@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846841AC06078008FA2D8 /* progressGreen81@2x.png */; };
+		041847B21AC06078008FA2D8 /* progressGreen82@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846851AC06078008FA2D8 /* progressGreen82@2x.png */; };
+		041847B31AC06078008FA2D8 /* progressGreen83@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846861AC06078008FA2D8 /* progressGreen83@2x.png */; };
+		041847B41AC06078008FA2D8 /* progressGreen84@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846871AC06078008FA2D8 /* progressGreen84@2x.png */; };
+		041847B51AC06078008FA2D8 /* progressGreen85@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846881AC06078008FA2D8 /* progressGreen85@2x.png */; };
+		041847B61AC06078008FA2D8 /* progressGreen86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846891AC06078008FA2D8 /* progressGreen86@2x.png */; };
+		041847B71AC06078008FA2D8 /* progressGreen87@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418468A1AC06078008FA2D8 /* progressGreen87@2x.png */; };
+		041847B81AC06078008FA2D8 /* progressGreen88@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418468B1AC06078008FA2D8 /* progressGreen88@2x.png */; };
+		041847B91AC06078008FA2D8 /* progressGreen89@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418468C1AC06078008FA2D8 /* progressGreen89@2x.png */; };
+		041847BA1AC06078008FA2D8 /* progressGreen8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418468D1AC06078008FA2D8 /* progressGreen8@2x.png */; };
+		041847BB1AC06078008FA2D8 /* progressGreen90@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418468E1AC06078008FA2D8 /* progressGreen90@2x.png */; };
+		041847BC1AC06078008FA2D8 /* progressGreen91@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418468F1AC06078008FA2D8 /* progressGreen91@2x.png */; };
+		041847BD1AC06078008FA2D8 /* progressGreen92@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846901AC06078008FA2D8 /* progressGreen92@2x.png */; };
+		041847BE1AC06078008FA2D8 /* progressGreen93@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846911AC06078008FA2D8 /* progressGreen93@2x.png */; };
+		041847BF1AC06078008FA2D8 /* progressGreen94@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846921AC06078008FA2D8 /* progressGreen94@2x.png */; };
+		041847C01AC06078008FA2D8 /* progressGreen95@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846931AC06078008FA2D8 /* progressGreen95@2x.png */; };
+		041847C11AC06078008FA2D8 /* progressGreen96@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846941AC06078008FA2D8 /* progressGreen96@2x.png */; };
+		041847C21AC06078008FA2D8 /* progressGreen97@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846951AC06078008FA2D8 /* progressGreen97@2x.png */; };
+		041847C31AC06078008FA2D8 /* progressGreen98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846961AC06078008FA2D8 /* progressGreen98@2x.png */; };
+		041847C41AC06078008FA2D8 /* progressGreen99@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846971AC06078008FA2D8 /* progressGreen99@2x.png */; };
+		041847C51AC06078008FA2D8 /* progressGreen9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846981AC06078008FA2D8 /* progressGreen9@2x.png */; };
+		041847C61AC06078008FA2D8 /* progressRed0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418469A1AC06078008FA2D8 /* progressRed0@2x.png */; };
+		041847C71AC06078008FA2D8 /* progressRed10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418469B1AC06078008FA2D8 /* progressRed10@2x.png */; };
+		041847C81AC06078008FA2D8 /* progressRed11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418469C1AC06078008FA2D8 /* progressRed11@2x.png */; };
+		041847C91AC06078008FA2D8 /* progressRed12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418469D1AC06078008FA2D8 /* progressRed12@2x.png */; };
+		041847CA1AC06078008FA2D8 /* progressRed13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418469E1AC06078008FA2D8 /* progressRed13@2x.png */; };
+		041847CB1AC06078008FA2D8 /* progressRed14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418469F1AC06078008FA2D8 /* progressRed14@2x.png */; };
+		041847CC1AC06078008FA2D8 /* progressRed15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A01AC06078008FA2D8 /* progressRed15@2x.png */; };
+		041847CD1AC06078008FA2D8 /* progressRed16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A11AC06078008FA2D8 /* progressRed16@2x.png */; };
+		041847CE1AC06078008FA2D8 /* progressRed17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A21AC06078008FA2D8 /* progressRed17@2x.png */; };
+		041847CF1AC06078008FA2D8 /* progressRed18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A31AC06078008FA2D8 /* progressRed18@2x.png */; };
+		041847D01AC06078008FA2D8 /* progressRed19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A41AC06078008FA2D8 /* progressRed19@2x.png */; };
+		041847D11AC06078008FA2D8 /* progressRed1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A51AC06078008FA2D8 /* progressRed1@2x.png */; };
+		041847D21AC06078008FA2D8 /* progressRed20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A61AC06078008FA2D8 /* progressRed20@2x.png */; };
+		041847D31AC06078008FA2D8 /* progressRed21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A71AC06078008FA2D8 /* progressRed21@2x.png */; };
+		041847D41AC06078008FA2D8 /* progressRed22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A81AC06078008FA2D8 /* progressRed22@2x.png */; };
+		041847D51AC06078008FA2D8 /* progressRed23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846A91AC06078008FA2D8 /* progressRed23@2x.png */; };
+		041847D61AC06078008FA2D8 /* progressRed24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846AA1AC06078008FA2D8 /* progressRed24@2x.png */; };
+		041847D71AC06078008FA2D8 /* progressRed25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846AB1AC06078008FA2D8 /* progressRed25@2x.png */; };
+		041847D81AC06078008FA2D8 /* progressRed26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846AC1AC06078008FA2D8 /* progressRed26@2x.png */; };
+		041847D91AC06078008FA2D8 /* progressRed27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846AD1AC06078008FA2D8 /* progressRed27@2x.png */; };
+		041847DA1AC06078008FA2D8 /* progressRed28@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846AE1AC06078008FA2D8 /* progressRed28@2x.png */; };
+		041847DB1AC06078008FA2D8 /* progressRed29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846AF1AC06078008FA2D8 /* progressRed29@2x.png */; };
+		041847DC1AC06078008FA2D8 /* progressRed2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B01AC06078008FA2D8 /* progressRed2@2x.png */; };
+		041847DD1AC06078008FA2D8 /* progressRed30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B11AC06078008FA2D8 /* progressRed30@2x.png */; };
+		041847DE1AC06078008FA2D8 /* progressRed31@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B21AC06078008FA2D8 /* progressRed31@2x.png */; };
+		041847DF1AC06078008FA2D8 /* progressRed32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B31AC06078008FA2D8 /* progressRed32@2x.png */; };
+		041847E01AC06078008FA2D8 /* progressRed33@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B41AC06078008FA2D8 /* progressRed33@2x.png */; };
+		041847E11AC06078008FA2D8 /* progressRed34@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B51AC06078008FA2D8 /* progressRed34@2x.png */; };
+		041847E21AC06078008FA2D8 /* progressRed35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B61AC06078008FA2D8 /* progressRed35@2x.png */; };
+		041847E31AC06078008FA2D8 /* progressRed36@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B71AC06078008FA2D8 /* progressRed36@2x.png */; };
+		041847E41AC06078008FA2D8 /* progressRed37@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B81AC06078008FA2D8 /* progressRed37@2x.png */; };
+		041847E51AC06078008FA2D8 /* progressRed38@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846B91AC06078008FA2D8 /* progressRed38@2x.png */; };
+		041847E61AC06078008FA2D8 /* progressRed39@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846BA1AC06078008FA2D8 /* progressRed39@2x.png */; };
+		041847E71AC06078008FA2D8 /* progressRed3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846BB1AC06078008FA2D8 /* progressRed3@2x.png */; };
+		041847E81AC06078008FA2D8 /* progressRed40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846BC1AC06078008FA2D8 /* progressRed40@2x.png */; };
+		041847E91AC06078008FA2D8 /* progressRed41@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846BD1AC06078008FA2D8 /* progressRed41@2x.png */; };
+		041847EA1AC06078008FA2D8 /* progressRed42@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846BE1AC06078008FA2D8 /* progressRed42@2x.png */; };
+		041847EB1AC06078008FA2D8 /* progressRed43@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846BF1AC06078008FA2D8 /* progressRed43@2x.png */; };
+		041847EC1AC06078008FA2D8 /* progressRed44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C01AC06078008FA2D8 /* progressRed44@2x.png */; };
+		041847ED1AC06078008FA2D8 /* progressRed45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C11AC06078008FA2D8 /* progressRed45@2x.png */; };
+		041847EE1AC06078008FA2D8 /* progressRed46@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C21AC06078008FA2D8 /* progressRed46@2x.png */; };
+		041847EF1AC06078008FA2D8 /* progressRed47@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C31AC06078008FA2D8 /* progressRed47@2x.png */; };
+		041847F01AC06078008FA2D8 /* progressRed48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C41AC06078008FA2D8 /* progressRed48@2x.png */; };
+		041847F11AC06078008FA2D8 /* progressRed49@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C51AC06078008FA2D8 /* progressRed49@2x.png */; };
+		041847F21AC06078008FA2D8 /* progressRed4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C61AC06078008FA2D8 /* progressRed4@2x.png */; };
+		041847F31AC06078008FA2D8 /* progressRed50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C71AC06078008FA2D8 /* progressRed50@2x.png */; };
+		041847F41AC06078008FA2D8 /* progressRed51@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C81AC06078008FA2D8 /* progressRed51@2x.png */; };
+		041847F51AC06078008FA2D8 /* progressRed52@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846C91AC06078008FA2D8 /* progressRed52@2x.png */; };
+		041847F61AC06078008FA2D8 /* progressRed53@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846CA1AC06078008FA2D8 /* progressRed53@2x.png */; };
+		041847F71AC06078008FA2D8 /* progressRed54@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846CB1AC06078008FA2D8 /* progressRed54@2x.png */; };
+		041847F81AC06078008FA2D8 /* progressRed55@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846CC1AC06078008FA2D8 /* progressRed55@2x.png */; };
+		041847F91AC06078008FA2D8 /* progressRed56@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846CD1AC06078008FA2D8 /* progressRed56@2x.png */; };
+		041847FA1AC06078008FA2D8 /* progressRed57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846CE1AC06078008FA2D8 /* progressRed57@2x.png */; };
+		041847FB1AC06078008FA2D8 /* progressRed58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846CF1AC06078008FA2D8 /* progressRed58@2x.png */; };
+		041847FC1AC06078008FA2D8 /* progressRed59@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D01AC06078008FA2D8 /* progressRed59@2x.png */; };
+		041847FD1AC06078008FA2D8 /* progressRed5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D11AC06078008FA2D8 /* progressRed5@2x.png */; };
+		041847FE1AC06078008FA2D8 /* progressRed60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D21AC06078008FA2D8 /* progressRed60@2x.png */; };
+		041847FF1AC06078008FA2D8 /* progressRed61@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D31AC06078008FA2D8 /* progressRed61@2x.png */; };
+		041848001AC06078008FA2D8 /* progressRed62@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D41AC06078008FA2D8 /* progressRed62@2x.png */; };
+		041848011AC06078008FA2D8 /* progressRed63@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D51AC06078008FA2D8 /* progressRed63@2x.png */; };
+		041848021AC06078008FA2D8 /* progressRed64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D61AC06078008FA2D8 /* progressRed64@2x.png */; };
+		041848031AC06078008FA2D8 /* progressRed65@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D71AC06078008FA2D8 /* progressRed65@2x.png */; };
+		041848041AC06078008FA2D8 /* progressRed66@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D81AC06078008FA2D8 /* progressRed66@2x.png */; };
+		041848051AC06078008FA2D8 /* progressRed67@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846D91AC06078008FA2D8 /* progressRed67@2x.png */; };
+		041848061AC06078008FA2D8 /* progressRed68@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846DA1AC06078008FA2D8 /* progressRed68@2x.png */; };
+		041848071AC06078008FA2D8 /* progressRed69@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846DB1AC06078008FA2D8 /* progressRed69@2x.png */; };
+		041848081AC06078008FA2D8 /* progressRed6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846DC1AC06078008FA2D8 /* progressRed6@2x.png */; };
+		041848091AC06078008FA2D8 /* progressRed70@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846DD1AC06078008FA2D8 /* progressRed70@2x.png */; };
+		0418480A1AC06078008FA2D8 /* progressRed71@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846DE1AC06078008FA2D8 /* progressRed71@2x.png */; };
+		0418480B1AC06078008FA2D8 /* progressRed72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846DF1AC06078008FA2D8 /* progressRed72@2x.png */; };
+		0418480C1AC06078008FA2D8 /* progressRed73@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E01AC06078008FA2D8 /* progressRed73@2x.png */; };
+		0418480D1AC06078008FA2D8 /* progressRed74@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E11AC06078008FA2D8 /* progressRed74@2x.png */; };
+		0418480E1AC06078008FA2D8 /* progressRed75@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E21AC06078008FA2D8 /* progressRed75@2x.png */; };
+		0418480F1AC06078008FA2D8 /* progressRed76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E31AC06078008FA2D8 /* progressRed76@2x.png */; };
+		041848101AC06078008FA2D8 /* progressRed77@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E41AC06078008FA2D8 /* progressRed77@2x.png */; };
+		041848111AC06078008FA2D8 /* progressRed78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E51AC06078008FA2D8 /* progressRed78@2x.png */; };
+		041848121AC06078008FA2D8 /* progressRed79@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E61AC06078008FA2D8 /* progressRed79@2x.png */; };
+		041848131AC06078008FA2D8 /* progressRed7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E71AC06078008FA2D8 /* progressRed7@2x.png */; };
+		041848141AC06078008FA2D8 /* progressRed80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E81AC06078008FA2D8 /* progressRed80@2x.png */; };
+		041848151AC06078008FA2D8 /* progressRed81@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846E91AC06078008FA2D8 /* progressRed81@2x.png */; };
+		041848161AC06078008FA2D8 /* progressRed82@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846EA1AC06078008FA2D8 /* progressRed82@2x.png */; };
+		041848171AC06078008FA2D8 /* progressRed83@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846EB1AC06078008FA2D8 /* progressRed83@2x.png */; };
+		041848181AC06078008FA2D8 /* progressRed84@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846EC1AC06078008FA2D8 /* progressRed84@2x.png */; };
+		041848191AC06078008FA2D8 /* progressRed85@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846ED1AC06078008FA2D8 /* progressRed85@2x.png */; };
+		0418481A1AC06078008FA2D8 /* progressRed86@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846EE1AC06078008FA2D8 /* progressRed86@2x.png */; };
+		0418481B1AC06078008FA2D8 /* progressRed87@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846EF1AC06078008FA2D8 /* progressRed87@2x.png */; };
+		0418481C1AC06078008FA2D8 /* progressRed88@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F01AC06078008FA2D8 /* progressRed88@2x.png */; };
+		0418481D1AC06078008FA2D8 /* progressRed89@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F11AC06078008FA2D8 /* progressRed89@2x.png */; };
+		0418481E1AC06078008FA2D8 /* progressRed8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F21AC06078008FA2D8 /* progressRed8@2x.png */; };
+		0418481F1AC06078008FA2D8 /* progressRed90@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F31AC06078008FA2D8 /* progressRed90@2x.png */; };
+		041848201AC06078008FA2D8 /* progressRed91@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F41AC06078008FA2D8 /* progressRed91@2x.png */; };
+		041848211AC06078008FA2D8 /* progressRed92@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F51AC06078008FA2D8 /* progressRed92@2x.png */; };
+		041848221AC06078008FA2D8 /* progressRed93@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F61AC06078008FA2D8 /* progressRed93@2x.png */; };
+		041848231AC06078008FA2D8 /* progressRed94@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F71AC06078008FA2D8 /* progressRed94@2x.png */; };
+		041848241AC06078008FA2D8 /* progressRed95@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F81AC06078008FA2D8 /* progressRed95@2x.png */; };
+		041848251AC06078008FA2D8 /* progressRed96@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846F91AC06078008FA2D8 /* progressRed96@2x.png */; };
+		041848261AC06078008FA2D8 /* progressRed97@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846FA1AC06078008FA2D8 /* progressRed97@2x.png */; };
+		041848271AC06078008FA2D8 /* progressRed98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846FB1AC06078008FA2D8 /* progressRed98@2x.png */; };
+		041848281AC06078008FA2D8 /* progressRed99@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846FC1AC06078008FA2D8 /* progressRed99@2x.png */; };
+		041848291AC06078008FA2D8 /* progressRed9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041846FD1AC06078008FA2D8 /* progressRed9@2x.png */; };
 		4DABBBD51A495AA80036EB47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABBBD41A495AA80036EB47 /* AppDelegate.swift */; };
 		4DABBBD71A495AA80036EB47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DABBBD61A495AA80036EB47 /* ViewController.swift */; };
 		4DABBBDA1A495AA80036EB47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DABBBD81A495AA80036EB47 /* Main.storyboard */; };
@@ -60,6 +360,306 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		041845D01AC06078008FA2D8 /* progressCyan0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan0@2x.png"; sourceTree = "<group>"; };
+		041845D11AC06078008FA2D8 /* progressCyan10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan10@2x.png"; sourceTree = "<group>"; };
+		041845D21AC06078008FA2D8 /* progressCyan11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan11@2x.png"; sourceTree = "<group>"; };
+		041845D31AC06078008FA2D8 /* progressCyan12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan12@2x.png"; sourceTree = "<group>"; };
+		041845D41AC06078008FA2D8 /* progressCyan13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan13@2x.png"; sourceTree = "<group>"; };
+		041845D51AC06078008FA2D8 /* progressCyan14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan14@2x.png"; sourceTree = "<group>"; };
+		041845D61AC06078008FA2D8 /* progressCyan15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan15@2x.png"; sourceTree = "<group>"; };
+		041845D71AC06078008FA2D8 /* progressCyan16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan16@2x.png"; sourceTree = "<group>"; };
+		041845D81AC06078008FA2D8 /* progressCyan17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan17@2x.png"; sourceTree = "<group>"; };
+		041845D91AC06078008FA2D8 /* progressCyan18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan18@2x.png"; sourceTree = "<group>"; };
+		041845DA1AC06078008FA2D8 /* progressCyan19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan19@2x.png"; sourceTree = "<group>"; };
+		041845DB1AC06078008FA2D8 /* progressCyan1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan1@2x.png"; sourceTree = "<group>"; };
+		041845DC1AC06078008FA2D8 /* progressCyan20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan20@2x.png"; sourceTree = "<group>"; };
+		041845DD1AC06078008FA2D8 /* progressCyan21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan21@2x.png"; sourceTree = "<group>"; };
+		041845DE1AC06078008FA2D8 /* progressCyan22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan22@2x.png"; sourceTree = "<group>"; };
+		041845DF1AC06078008FA2D8 /* progressCyan23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan23@2x.png"; sourceTree = "<group>"; };
+		041845E01AC06078008FA2D8 /* progressCyan24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan24@2x.png"; sourceTree = "<group>"; };
+		041845E11AC06078008FA2D8 /* progressCyan25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan25@2x.png"; sourceTree = "<group>"; };
+		041845E21AC06078008FA2D8 /* progressCyan26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan26@2x.png"; sourceTree = "<group>"; };
+		041845E31AC06078008FA2D8 /* progressCyan27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan27@2x.png"; sourceTree = "<group>"; };
+		041845E41AC06078008FA2D8 /* progressCyan28@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan28@2x.png"; sourceTree = "<group>"; };
+		041845E51AC06078008FA2D8 /* progressCyan29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan29@2x.png"; sourceTree = "<group>"; };
+		041845E61AC06078008FA2D8 /* progressCyan2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan2@2x.png"; sourceTree = "<group>"; };
+		041845E71AC06078008FA2D8 /* progressCyan30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan30@2x.png"; sourceTree = "<group>"; };
+		041845E81AC06078008FA2D8 /* progressCyan31@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan31@2x.png"; sourceTree = "<group>"; };
+		041845E91AC06078008FA2D8 /* progressCyan32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan32@2x.png"; sourceTree = "<group>"; };
+		041845EA1AC06078008FA2D8 /* progressCyan33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan33@2x.png"; sourceTree = "<group>"; };
+		041845EB1AC06078008FA2D8 /* progressCyan34@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan34@2x.png"; sourceTree = "<group>"; };
+		041845EC1AC06078008FA2D8 /* progressCyan35@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan35@2x.png"; sourceTree = "<group>"; };
+		041845ED1AC06078008FA2D8 /* progressCyan36@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan36@2x.png"; sourceTree = "<group>"; };
+		041845EE1AC06078008FA2D8 /* progressCyan37@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan37@2x.png"; sourceTree = "<group>"; };
+		041845EF1AC06078008FA2D8 /* progressCyan38@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan38@2x.png"; sourceTree = "<group>"; };
+		041845F01AC06078008FA2D8 /* progressCyan39@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan39@2x.png"; sourceTree = "<group>"; };
+		041845F11AC06078008FA2D8 /* progressCyan3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan3@2x.png"; sourceTree = "<group>"; };
+		041845F21AC06078008FA2D8 /* progressCyan40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan40@2x.png"; sourceTree = "<group>"; };
+		041845F31AC06078008FA2D8 /* progressCyan41@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan41@2x.png"; sourceTree = "<group>"; };
+		041845F41AC06078008FA2D8 /* progressCyan42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan42@2x.png"; sourceTree = "<group>"; };
+		041845F51AC06078008FA2D8 /* progressCyan43@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan43@2x.png"; sourceTree = "<group>"; };
+		041845F61AC06078008FA2D8 /* progressCyan44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan44@2x.png"; sourceTree = "<group>"; };
+		041845F71AC06078008FA2D8 /* progressCyan45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan45@2x.png"; sourceTree = "<group>"; };
+		041845F81AC06078008FA2D8 /* progressCyan46@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan46@2x.png"; sourceTree = "<group>"; };
+		041845F91AC06078008FA2D8 /* progressCyan47@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan47@2x.png"; sourceTree = "<group>"; };
+		041845FA1AC06078008FA2D8 /* progressCyan48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan48@2x.png"; sourceTree = "<group>"; };
+		041845FB1AC06078008FA2D8 /* progressCyan49@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan49@2x.png"; sourceTree = "<group>"; };
+		041845FC1AC06078008FA2D8 /* progressCyan4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan4@2x.png"; sourceTree = "<group>"; };
+		041845FD1AC06078008FA2D8 /* progressCyan50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan50@2x.png"; sourceTree = "<group>"; };
+		041845FE1AC06078008FA2D8 /* progressCyan51@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan51@2x.png"; sourceTree = "<group>"; };
+		041845FF1AC06078008FA2D8 /* progressCyan52@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan52@2x.png"; sourceTree = "<group>"; };
+		041846001AC06078008FA2D8 /* progressCyan53@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan53@2x.png"; sourceTree = "<group>"; };
+		041846011AC06078008FA2D8 /* progressCyan54@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan54@2x.png"; sourceTree = "<group>"; };
+		041846021AC06078008FA2D8 /* progressCyan55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan55@2x.png"; sourceTree = "<group>"; };
+		041846031AC06078008FA2D8 /* progressCyan56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan56@2x.png"; sourceTree = "<group>"; };
+		041846041AC06078008FA2D8 /* progressCyan57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan57@2x.png"; sourceTree = "<group>"; };
+		041846051AC06078008FA2D8 /* progressCyan58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan58@2x.png"; sourceTree = "<group>"; };
+		041846061AC06078008FA2D8 /* progressCyan59@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan59@2x.png"; sourceTree = "<group>"; };
+		041846071AC06078008FA2D8 /* progressCyan5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan5@2x.png"; sourceTree = "<group>"; };
+		041846081AC06078008FA2D8 /* progressCyan60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan60@2x.png"; sourceTree = "<group>"; };
+		041846091AC06078008FA2D8 /* progressCyan61@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan61@2x.png"; sourceTree = "<group>"; };
+		0418460A1AC06078008FA2D8 /* progressCyan62@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan62@2x.png"; sourceTree = "<group>"; };
+		0418460B1AC06078008FA2D8 /* progressCyan63@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan63@2x.png"; sourceTree = "<group>"; };
+		0418460C1AC06078008FA2D8 /* progressCyan64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan64@2x.png"; sourceTree = "<group>"; };
+		0418460D1AC06078008FA2D8 /* progressCyan65@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan65@2x.png"; sourceTree = "<group>"; };
+		0418460E1AC06078008FA2D8 /* progressCyan66@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan66@2x.png"; sourceTree = "<group>"; };
+		0418460F1AC06078008FA2D8 /* progressCyan67@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan67@2x.png"; sourceTree = "<group>"; };
+		041846101AC06078008FA2D8 /* progressCyan68@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan68@2x.png"; sourceTree = "<group>"; };
+		041846111AC06078008FA2D8 /* progressCyan69@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan69@2x.png"; sourceTree = "<group>"; };
+		041846121AC06078008FA2D8 /* progressCyan6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan6@2x.png"; sourceTree = "<group>"; };
+		041846131AC06078008FA2D8 /* progressCyan70@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan70@2x.png"; sourceTree = "<group>"; };
+		041846141AC06078008FA2D8 /* progressCyan71@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan71@2x.png"; sourceTree = "<group>"; };
+		041846151AC06078008FA2D8 /* progressCyan72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan72@2x.png"; sourceTree = "<group>"; };
+		041846161AC06078008FA2D8 /* progressCyan73@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan73@2x.png"; sourceTree = "<group>"; };
+		041846171AC06078008FA2D8 /* progressCyan74@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan74@2x.png"; sourceTree = "<group>"; };
+		041846181AC06078008FA2D8 /* progressCyan75@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan75@2x.png"; sourceTree = "<group>"; };
+		041846191AC06078008FA2D8 /* progressCyan76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan76@2x.png"; sourceTree = "<group>"; };
+		0418461A1AC06078008FA2D8 /* progressCyan77@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan77@2x.png"; sourceTree = "<group>"; };
+		0418461B1AC06078008FA2D8 /* progressCyan78@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan78@2x.png"; sourceTree = "<group>"; };
+		0418461C1AC06078008FA2D8 /* progressCyan79@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan79@2x.png"; sourceTree = "<group>"; };
+		0418461D1AC06078008FA2D8 /* progressCyan7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan7@2x.png"; sourceTree = "<group>"; };
+		0418461E1AC06078008FA2D8 /* progressCyan80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan80@2x.png"; sourceTree = "<group>"; };
+		0418461F1AC06078008FA2D8 /* progressCyan81@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan81@2x.png"; sourceTree = "<group>"; };
+		041846201AC06078008FA2D8 /* progressCyan82@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan82@2x.png"; sourceTree = "<group>"; };
+		041846211AC06078008FA2D8 /* progressCyan83@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan83@2x.png"; sourceTree = "<group>"; };
+		041846221AC06078008FA2D8 /* progressCyan84@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan84@2x.png"; sourceTree = "<group>"; };
+		041846231AC06078008FA2D8 /* progressCyan85@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan85@2x.png"; sourceTree = "<group>"; };
+		041846241AC06078008FA2D8 /* progressCyan86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan86@2x.png"; sourceTree = "<group>"; };
+		041846251AC06078008FA2D8 /* progressCyan87@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan87@2x.png"; sourceTree = "<group>"; };
+		041846261AC06078008FA2D8 /* progressCyan88@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan88@2x.png"; sourceTree = "<group>"; };
+		041846271AC06078008FA2D8 /* progressCyan89@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan89@2x.png"; sourceTree = "<group>"; };
+		041846281AC06078008FA2D8 /* progressCyan8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan8@2x.png"; sourceTree = "<group>"; };
+		041846291AC06078008FA2D8 /* progressCyan90@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan90@2x.png"; sourceTree = "<group>"; };
+		0418462A1AC06078008FA2D8 /* progressCyan91@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan91@2x.png"; sourceTree = "<group>"; };
+		0418462B1AC06078008FA2D8 /* progressCyan92@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan92@2x.png"; sourceTree = "<group>"; };
+		0418462C1AC06078008FA2D8 /* progressCyan93@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan93@2x.png"; sourceTree = "<group>"; };
+		0418462D1AC06078008FA2D8 /* progressCyan94@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan94@2x.png"; sourceTree = "<group>"; };
+		0418462E1AC06078008FA2D8 /* progressCyan95@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan95@2x.png"; sourceTree = "<group>"; };
+		0418462F1AC06078008FA2D8 /* progressCyan96@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan96@2x.png"; sourceTree = "<group>"; };
+		041846301AC06078008FA2D8 /* progressCyan97@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan97@2x.png"; sourceTree = "<group>"; };
+		041846311AC06078008FA2D8 /* progressCyan98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan98@2x.png"; sourceTree = "<group>"; };
+		041846321AC06078008FA2D8 /* progressCyan99@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan99@2x.png"; sourceTree = "<group>"; };
+		041846331AC06078008FA2D8 /* progressCyan9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressCyan9@2x.png"; sourceTree = "<group>"; };
+		041846351AC06078008FA2D8 /* progressGreen0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen0@2x.png"; sourceTree = "<group>"; };
+		041846361AC06078008FA2D8 /* progressGreen10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen10@2x.png"; sourceTree = "<group>"; };
+		041846371AC06078008FA2D8 /* progressGreen11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen11@2x.png"; sourceTree = "<group>"; };
+		041846381AC06078008FA2D8 /* progressGreen12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen12@2x.png"; sourceTree = "<group>"; };
+		041846391AC06078008FA2D8 /* progressGreen13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen13@2x.png"; sourceTree = "<group>"; };
+		0418463A1AC06078008FA2D8 /* progressGreen14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen14@2x.png"; sourceTree = "<group>"; };
+		0418463B1AC06078008FA2D8 /* progressGreen15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen15@2x.png"; sourceTree = "<group>"; };
+		0418463C1AC06078008FA2D8 /* progressGreen16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen16@2x.png"; sourceTree = "<group>"; };
+		0418463D1AC06078008FA2D8 /* progressGreen17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen17@2x.png"; sourceTree = "<group>"; };
+		0418463E1AC06078008FA2D8 /* progressGreen18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen18@2x.png"; sourceTree = "<group>"; };
+		0418463F1AC06078008FA2D8 /* progressGreen19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen19@2x.png"; sourceTree = "<group>"; };
+		041846401AC06078008FA2D8 /* progressGreen1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen1@2x.png"; sourceTree = "<group>"; };
+		041846411AC06078008FA2D8 /* progressGreen20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen20@2x.png"; sourceTree = "<group>"; };
+		041846421AC06078008FA2D8 /* progressGreen21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen21@2x.png"; sourceTree = "<group>"; };
+		041846431AC06078008FA2D8 /* progressGreen22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen22@2x.png"; sourceTree = "<group>"; };
+		041846441AC06078008FA2D8 /* progressGreen23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen23@2x.png"; sourceTree = "<group>"; };
+		041846451AC06078008FA2D8 /* progressGreen24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen24@2x.png"; sourceTree = "<group>"; };
+		041846461AC06078008FA2D8 /* progressGreen25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen25@2x.png"; sourceTree = "<group>"; };
+		041846471AC06078008FA2D8 /* progressGreen26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen26@2x.png"; sourceTree = "<group>"; };
+		041846481AC06078008FA2D8 /* progressGreen27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen27@2x.png"; sourceTree = "<group>"; };
+		041846491AC06078008FA2D8 /* progressGreen28@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen28@2x.png"; sourceTree = "<group>"; };
+		0418464A1AC06078008FA2D8 /* progressGreen29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen29@2x.png"; sourceTree = "<group>"; };
+		0418464B1AC06078008FA2D8 /* progressGreen2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen2@2x.png"; sourceTree = "<group>"; };
+		0418464C1AC06078008FA2D8 /* progressGreen30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen30@2x.png"; sourceTree = "<group>"; };
+		0418464D1AC06078008FA2D8 /* progressGreen31@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen31@2x.png"; sourceTree = "<group>"; };
+		0418464E1AC06078008FA2D8 /* progressGreen32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen32@2x.png"; sourceTree = "<group>"; };
+		0418464F1AC06078008FA2D8 /* progressGreen33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen33@2x.png"; sourceTree = "<group>"; };
+		041846501AC06078008FA2D8 /* progressGreen34@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen34@2x.png"; sourceTree = "<group>"; };
+		041846511AC06078008FA2D8 /* progressGreen35@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen35@2x.png"; sourceTree = "<group>"; };
+		041846521AC06078008FA2D8 /* progressGreen36@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen36@2x.png"; sourceTree = "<group>"; };
+		041846531AC06078008FA2D8 /* progressGreen37@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen37@2x.png"; sourceTree = "<group>"; };
+		041846541AC06078008FA2D8 /* progressGreen38@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen38@2x.png"; sourceTree = "<group>"; };
+		041846551AC06078008FA2D8 /* progressGreen39@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen39@2x.png"; sourceTree = "<group>"; };
+		041846561AC06078008FA2D8 /* progressGreen3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen3@2x.png"; sourceTree = "<group>"; };
+		041846571AC06078008FA2D8 /* progressGreen40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen40@2x.png"; sourceTree = "<group>"; };
+		041846581AC06078008FA2D8 /* progressGreen41@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen41@2x.png"; sourceTree = "<group>"; };
+		041846591AC06078008FA2D8 /* progressGreen42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen42@2x.png"; sourceTree = "<group>"; };
+		0418465A1AC06078008FA2D8 /* progressGreen43@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen43@2x.png"; sourceTree = "<group>"; };
+		0418465B1AC06078008FA2D8 /* progressGreen44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen44@2x.png"; sourceTree = "<group>"; };
+		0418465C1AC06078008FA2D8 /* progressGreen45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen45@2x.png"; sourceTree = "<group>"; };
+		0418465D1AC06078008FA2D8 /* progressGreen46@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen46@2x.png"; sourceTree = "<group>"; };
+		0418465E1AC06078008FA2D8 /* progressGreen47@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen47@2x.png"; sourceTree = "<group>"; };
+		0418465F1AC06078008FA2D8 /* progressGreen48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen48@2x.png"; sourceTree = "<group>"; };
+		041846601AC06078008FA2D8 /* progressGreen49@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen49@2x.png"; sourceTree = "<group>"; };
+		041846611AC06078008FA2D8 /* progressGreen4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen4@2x.png"; sourceTree = "<group>"; };
+		041846621AC06078008FA2D8 /* progressGreen50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen50@2x.png"; sourceTree = "<group>"; };
+		041846631AC06078008FA2D8 /* progressGreen51@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen51@2x.png"; sourceTree = "<group>"; };
+		041846641AC06078008FA2D8 /* progressGreen52@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen52@2x.png"; sourceTree = "<group>"; };
+		041846651AC06078008FA2D8 /* progressGreen53@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen53@2x.png"; sourceTree = "<group>"; };
+		041846661AC06078008FA2D8 /* progressGreen54@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen54@2x.png"; sourceTree = "<group>"; };
+		041846671AC06078008FA2D8 /* progressGreen55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen55@2x.png"; sourceTree = "<group>"; };
+		041846681AC06078008FA2D8 /* progressGreen56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen56@2x.png"; sourceTree = "<group>"; };
+		041846691AC06078008FA2D8 /* progressGreen57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen57@2x.png"; sourceTree = "<group>"; };
+		0418466A1AC06078008FA2D8 /* progressGreen58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen58@2x.png"; sourceTree = "<group>"; };
+		0418466B1AC06078008FA2D8 /* progressGreen59@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen59@2x.png"; sourceTree = "<group>"; };
+		0418466C1AC06078008FA2D8 /* progressGreen5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen5@2x.png"; sourceTree = "<group>"; };
+		0418466D1AC06078008FA2D8 /* progressGreen60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen60@2x.png"; sourceTree = "<group>"; };
+		0418466E1AC06078008FA2D8 /* progressGreen61@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen61@2x.png"; sourceTree = "<group>"; };
+		0418466F1AC06078008FA2D8 /* progressGreen62@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen62@2x.png"; sourceTree = "<group>"; };
+		041846701AC06078008FA2D8 /* progressGreen63@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen63@2x.png"; sourceTree = "<group>"; };
+		041846711AC06078008FA2D8 /* progressGreen64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen64@2x.png"; sourceTree = "<group>"; };
+		041846721AC06078008FA2D8 /* progressGreen65@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen65@2x.png"; sourceTree = "<group>"; };
+		041846731AC06078008FA2D8 /* progressGreen66@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen66@2x.png"; sourceTree = "<group>"; };
+		041846741AC06078008FA2D8 /* progressGreen67@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen67@2x.png"; sourceTree = "<group>"; };
+		041846751AC06078008FA2D8 /* progressGreen68@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen68@2x.png"; sourceTree = "<group>"; };
+		041846761AC06078008FA2D8 /* progressGreen69@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen69@2x.png"; sourceTree = "<group>"; };
+		041846771AC06078008FA2D8 /* progressGreen6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen6@2x.png"; sourceTree = "<group>"; };
+		041846781AC06078008FA2D8 /* progressGreen70@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen70@2x.png"; sourceTree = "<group>"; };
+		041846791AC06078008FA2D8 /* progressGreen71@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen71@2x.png"; sourceTree = "<group>"; };
+		0418467A1AC06078008FA2D8 /* progressGreen72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen72@2x.png"; sourceTree = "<group>"; };
+		0418467B1AC06078008FA2D8 /* progressGreen73@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen73@2x.png"; sourceTree = "<group>"; };
+		0418467C1AC06078008FA2D8 /* progressGreen74@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen74@2x.png"; sourceTree = "<group>"; };
+		0418467D1AC06078008FA2D8 /* progressGreen75@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen75@2x.png"; sourceTree = "<group>"; };
+		0418467E1AC06078008FA2D8 /* progressGreen76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen76@2x.png"; sourceTree = "<group>"; };
+		0418467F1AC06078008FA2D8 /* progressGreen77@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen77@2x.png"; sourceTree = "<group>"; };
+		041846801AC06078008FA2D8 /* progressGreen78@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen78@2x.png"; sourceTree = "<group>"; };
+		041846811AC06078008FA2D8 /* progressGreen79@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen79@2x.png"; sourceTree = "<group>"; };
+		041846821AC06078008FA2D8 /* progressGreen7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen7@2x.png"; sourceTree = "<group>"; };
+		041846831AC06078008FA2D8 /* progressGreen80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen80@2x.png"; sourceTree = "<group>"; };
+		041846841AC06078008FA2D8 /* progressGreen81@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen81@2x.png"; sourceTree = "<group>"; };
+		041846851AC06078008FA2D8 /* progressGreen82@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen82@2x.png"; sourceTree = "<group>"; };
+		041846861AC06078008FA2D8 /* progressGreen83@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen83@2x.png"; sourceTree = "<group>"; };
+		041846871AC06078008FA2D8 /* progressGreen84@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen84@2x.png"; sourceTree = "<group>"; };
+		041846881AC06078008FA2D8 /* progressGreen85@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen85@2x.png"; sourceTree = "<group>"; };
+		041846891AC06078008FA2D8 /* progressGreen86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen86@2x.png"; sourceTree = "<group>"; };
+		0418468A1AC06078008FA2D8 /* progressGreen87@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen87@2x.png"; sourceTree = "<group>"; };
+		0418468B1AC06078008FA2D8 /* progressGreen88@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen88@2x.png"; sourceTree = "<group>"; };
+		0418468C1AC06078008FA2D8 /* progressGreen89@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen89@2x.png"; sourceTree = "<group>"; };
+		0418468D1AC06078008FA2D8 /* progressGreen8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen8@2x.png"; sourceTree = "<group>"; };
+		0418468E1AC06078008FA2D8 /* progressGreen90@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen90@2x.png"; sourceTree = "<group>"; };
+		0418468F1AC06078008FA2D8 /* progressGreen91@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen91@2x.png"; sourceTree = "<group>"; };
+		041846901AC06078008FA2D8 /* progressGreen92@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen92@2x.png"; sourceTree = "<group>"; };
+		041846911AC06078008FA2D8 /* progressGreen93@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen93@2x.png"; sourceTree = "<group>"; };
+		041846921AC06078008FA2D8 /* progressGreen94@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen94@2x.png"; sourceTree = "<group>"; };
+		041846931AC06078008FA2D8 /* progressGreen95@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen95@2x.png"; sourceTree = "<group>"; };
+		041846941AC06078008FA2D8 /* progressGreen96@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen96@2x.png"; sourceTree = "<group>"; };
+		041846951AC06078008FA2D8 /* progressGreen97@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen97@2x.png"; sourceTree = "<group>"; };
+		041846961AC06078008FA2D8 /* progressGreen98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen98@2x.png"; sourceTree = "<group>"; };
+		041846971AC06078008FA2D8 /* progressGreen99@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen99@2x.png"; sourceTree = "<group>"; };
+		041846981AC06078008FA2D8 /* progressGreen9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressGreen9@2x.png"; sourceTree = "<group>"; };
+		0418469A1AC06078008FA2D8 /* progressRed0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed0@2x.png"; sourceTree = "<group>"; };
+		0418469B1AC06078008FA2D8 /* progressRed10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed10@2x.png"; sourceTree = "<group>"; };
+		0418469C1AC06078008FA2D8 /* progressRed11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed11@2x.png"; sourceTree = "<group>"; };
+		0418469D1AC06078008FA2D8 /* progressRed12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed12@2x.png"; sourceTree = "<group>"; };
+		0418469E1AC06078008FA2D8 /* progressRed13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed13@2x.png"; sourceTree = "<group>"; };
+		0418469F1AC06078008FA2D8 /* progressRed14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed14@2x.png"; sourceTree = "<group>"; };
+		041846A01AC06078008FA2D8 /* progressRed15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed15@2x.png"; sourceTree = "<group>"; };
+		041846A11AC06078008FA2D8 /* progressRed16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed16@2x.png"; sourceTree = "<group>"; };
+		041846A21AC06078008FA2D8 /* progressRed17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed17@2x.png"; sourceTree = "<group>"; };
+		041846A31AC06078008FA2D8 /* progressRed18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed18@2x.png"; sourceTree = "<group>"; };
+		041846A41AC06078008FA2D8 /* progressRed19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed19@2x.png"; sourceTree = "<group>"; };
+		041846A51AC06078008FA2D8 /* progressRed1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed1@2x.png"; sourceTree = "<group>"; };
+		041846A61AC06078008FA2D8 /* progressRed20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed20@2x.png"; sourceTree = "<group>"; };
+		041846A71AC06078008FA2D8 /* progressRed21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed21@2x.png"; sourceTree = "<group>"; };
+		041846A81AC06078008FA2D8 /* progressRed22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed22@2x.png"; sourceTree = "<group>"; };
+		041846A91AC06078008FA2D8 /* progressRed23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed23@2x.png"; sourceTree = "<group>"; };
+		041846AA1AC06078008FA2D8 /* progressRed24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed24@2x.png"; sourceTree = "<group>"; };
+		041846AB1AC06078008FA2D8 /* progressRed25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed25@2x.png"; sourceTree = "<group>"; };
+		041846AC1AC06078008FA2D8 /* progressRed26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed26@2x.png"; sourceTree = "<group>"; };
+		041846AD1AC06078008FA2D8 /* progressRed27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed27@2x.png"; sourceTree = "<group>"; };
+		041846AE1AC06078008FA2D8 /* progressRed28@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed28@2x.png"; sourceTree = "<group>"; };
+		041846AF1AC06078008FA2D8 /* progressRed29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed29@2x.png"; sourceTree = "<group>"; };
+		041846B01AC06078008FA2D8 /* progressRed2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed2@2x.png"; sourceTree = "<group>"; };
+		041846B11AC06078008FA2D8 /* progressRed30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed30@2x.png"; sourceTree = "<group>"; };
+		041846B21AC06078008FA2D8 /* progressRed31@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed31@2x.png"; sourceTree = "<group>"; };
+		041846B31AC06078008FA2D8 /* progressRed32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed32@2x.png"; sourceTree = "<group>"; };
+		041846B41AC06078008FA2D8 /* progressRed33@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed33@2x.png"; sourceTree = "<group>"; };
+		041846B51AC06078008FA2D8 /* progressRed34@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed34@2x.png"; sourceTree = "<group>"; };
+		041846B61AC06078008FA2D8 /* progressRed35@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed35@2x.png"; sourceTree = "<group>"; };
+		041846B71AC06078008FA2D8 /* progressRed36@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed36@2x.png"; sourceTree = "<group>"; };
+		041846B81AC06078008FA2D8 /* progressRed37@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed37@2x.png"; sourceTree = "<group>"; };
+		041846B91AC06078008FA2D8 /* progressRed38@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed38@2x.png"; sourceTree = "<group>"; };
+		041846BA1AC06078008FA2D8 /* progressRed39@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed39@2x.png"; sourceTree = "<group>"; };
+		041846BB1AC06078008FA2D8 /* progressRed3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed3@2x.png"; sourceTree = "<group>"; };
+		041846BC1AC06078008FA2D8 /* progressRed40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed40@2x.png"; sourceTree = "<group>"; };
+		041846BD1AC06078008FA2D8 /* progressRed41@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed41@2x.png"; sourceTree = "<group>"; };
+		041846BE1AC06078008FA2D8 /* progressRed42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed42@2x.png"; sourceTree = "<group>"; };
+		041846BF1AC06078008FA2D8 /* progressRed43@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed43@2x.png"; sourceTree = "<group>"; };
+		041846C01AC06078008FA2D8 /* progressRed44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed44@2x.png"; sourceTree = "<group>"; };
+		041846C11AC06078008FA2D8 /* progressRed45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed45@2x.png"; sourceTree = "<group>"; };
+		041846C21AC06078008FA2D8 /* progressRed46@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed46@2x.png"; sourceTree = "<group>"; };
+		041846C31AC06078008FA2D8 /* progressRed47@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed47@2x.png"; sourceTree = "<group>"; };
+		041846C41AC06078008FA2D8 /* progressRed48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed48@2x.png"; sourceTree = "<group>"; };
+		041846C51AC06078008FA2D8 /* progressRed49@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed49@2x.png"; sourceTree = "<group>"; };
+		041846C61AC06078008FA2D8 /* progressRed4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed4@2x.png"; sourceTree = "<group>"; };
+		041846C71AC06078008FA2D8 /* progressRed50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed50@2x.png"; sourceTree = "<group>"; };
+		041846C81AC06078008FA2D8 /* progressRed51@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed51@2x.png"; sourceTree = "<group>"; };
+		041846C91AC06078008FA2D8 /* progressRed52@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed52@2x.png"; sourceTree = "<group>"; };
+		041846CA1AC06078008FA2D8 /* progressRed53@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed53@2x.png"; sourceTree = "<group>"; };
+		041846CB1AC06078008FA2D8 /* progressRed54@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed54@2x.png"; sourceTree = "<group>"; };
+		041846CC1AC06078008FA2D8 /* progressRed55@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed55@2x.png"; sourceTree = "<group>"; };
+		041846CD1AC06078008FA2D8 /* progressRed56@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed56@2x.png"; sourceTree = "<group>"; };
+		041846CE1AC06078008FA2D8 /* progressRed57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed57@2x.png"; sourceTree = "<group>"; };
+		041846CF1AC06078008FA2D8 /* progressRed58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed58@2x.png"; sourceTree = "<group>"; };
+		041846D01AC06078008FA2D8 /* progressRed59@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed59@2x.png"; sourceTree = "<group>"; };
+		041846D11AC06078008FA2D8 /* progressRed5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed5@2x.png"; sourceTree = "<group>"; };
+		041846D21AC06078008FA2D8 /* progressRed60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed60@2x.png"; sourceTree = "<group>"; };
+		041846D31AC06078008FA2D8 /* progressRed61@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed61@2x.png"; sourceTree = "<group>"; };
+		041846D41AC06078008FA2D8 /* progressRed62@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed62@2x.png"; sourceTree = "<group>"; };
+		041846D51AC06078008FA2D8 /* progressRed63@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed63@2x.png"; sourceTree = "<group>"; };
+		041846D61AC06078008FA2D8 /* progressRed64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed64@2x.png"; sourceTree = "<group>"; };
+		041846D71AC06078008FA2D8 /* progressRed65@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed65@2x.png"; sourceTree = "<group>"; };
+		041846D81AC06078008FA2D8 /* progressRed66@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed66@2x.png"; sourceTree = "<group>"; };
+		041846D91AC06078008FA2D8 /* progressRed67@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed67@2x.png"; sourceTree = "<group>"; };
+		041846DA1AC06078008FA2D8 /* progressRed68@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed68@2x.png"; sourceTree = "<group>"; };
+		041846DB1AC06078008FA2D8 /* progressRed69@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed69@2x.png"; sourceTree = "<group>"; };
+		041846DC1AC06078008FA2D8 /* progressRed6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed6@2x.png"; sourceTree = "<group>"; };
+		041846DD1AC06078008FA2D8 /* progressRed70@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed70@2x.png"; sourceTree = "<group>"; };
+		041846DE1AC06078008FA2D8 /* progressRed71@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed71@2x.png"; sourceTree = "<group>"; };
+		041846DF1AC06078008FA2D8 /* progressRed72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed72@2x.png"; sourceTree = "<group>"; };
+		041846E01AC06078008FA2D8 /* progressRed73@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed73@2x.png"; sourceTree = "<group>"; };
+		041846E11AC06078008FA2D8 /* progressRed74@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed74@2x.png"; sourceTree = "<group>"; };
+		041846E21AC06078008FA2D8 /* progressRed75@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed75@2x.png"; sourceTree = "<group>"; };
+		041846E31AC06078008FA2D8 /* progressRed76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed76@2x.png"; sourceTree = "<group>"; };
+		041846E41AC06078008FA2D8 /* progressRed77@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed77@2x.png"; sourceTree = "<group>"; };
+		041846E51AC06078008FA2D8 /* progressRed78@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed78@2x.png"; sourceTree = "<group>"; };
+		041846E61AC06078008FA2D8 /* progressRed79@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed79@2x.png"; sourceTree = "<group>"; };
+		041846E71AC06078008FA2D8 /* progressRed7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed7@2x.png"; sourceTree = "<group>"; };
+		041846E81AC06078008FA2D8 /* progressRed80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed80@2x.png"; sourceTree = "<group>"; };
+		041846E91AC06078008FA2D8 /* progressRed81@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed81@2x.png"; sourceTree = "<group>"; };
+		041846EA1AC06078008FA2D8 /* progressRed82@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed82@2x.png"; sourceTree = "<group>"; };
+		041846EB1AC06078008FA2D8 /* progressRed83@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed83@2x.png"; sourceTree = "<group>"; };
+		041846EC1AC06078008FA2D8 /* progressRed84@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed84@2x.png"; sourceTree = "<group>"; };
+		041846ED1AC06078008FA2D8 /* progressRed85@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed85@2x.png"; sourceTree = "<group>"; };
+		041846EE1AC06078008FA2D8 /* progressRed86@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed86@2x.png"; sourceTree = "<group>"; };
+		041846EF1AC06078008FA2D8 /* progressRed87@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed87@2x.png"; sourceTree = "<group>"; };
+		041846F01AC06078008FA2D8 /* progressRed88@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed88@2x.png"; sourceTree = "<group>"; };
+		041846F11AC06078008FA2D8 /* progressRed89@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed89@2x.png"; sourceTree = "<group>"; };
+		041846F21AC06078008FA2D8 /* progressRed8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed8@2x.png"; sourceTree = "<group>"; };
+		041846F31AC06078008FA2D8 /* progressRed90@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed90@2x.png"; sourceTree = "<group>"; };
+		041846F41AC06078008FA2D8 /* progressRed91@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed91@2x.png"; sourceTree = "<group>"; };
+		041846F51AC06078008FA2D8 /* progressRed92@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed92@2x.png"; sourceTree = "<group>"; };
+		041846F61AC06078008FA2D8 /* progressRed93@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed93@2x.png"; sourceTree = "<group>"; };
+		041846F71AC06078008FA2D8 /* progressRed94@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed94@2x.png"; sourceTree = "<group>"; };
+		041846F81AC06078008FA2D8 /* progressRed95@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed95@2x.png"; sourceTree = "<group>"; };
+		041846F91AC06078008FA2D8 /* progressRed96@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed96@2x.png"; sourceTree = "<group>"; };
+		041846FA1AC06078008FA2D8 /* progressRed97@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed97@2x.png"; sourceTree = "<group>"; };
+		041846FB1AC06078008FA2D8 /* progressRed98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed98@2x.png"; sourceTree = "<group>"; };
+		041846FC1AC06078008FA2D8 /* progressRed99@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed99@2x.png"; sourceTree = "<group>"; };
+		041846FD1AC06078008FA2D8 /* progressRed9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressRed9@2x.png"; sourceTree = "<group>"; };
 		4DABBBCF1A495AA80036EB47 /* FitnessArcs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessArcs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DABBBD31A495AA80036EB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DABBBD41A495AA80036EB47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +705,327 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041845CF1AC06078008FA2D8 /* progressCyan */ = {
+			isa = PBXGroup;
+			children = (
+				041845D01AC06078008FA2D8 /* progressCyan0@2x.png */,
+				041845D11AC06078008FA2D8 /* progressCyan10@2x.png */,
+				041845D21AC06078008FA2D8 /* progressCyan11@2x.png */,
+				041845D31AC06078008FA2D8 /* progressCyan12@2x.png */,
+				041845D41AC06078008FA2D8 /* progressCyan13@2x.png */,
+				041845D51AC06078008FA2D8 /* progressCyan14@2x.png */,
+				041845D61AC06078008FA2D8 /* progressCyan15@2x.png */,
+				041845D71AC06078008FA2D8 /* progressCyan16@2x.png */,
+				041845D81AC06078008FA2D8 /* progressCyan17@2x.png */,
+				041845D91AC06078008FA2D8 /* progressCyan18@2x.png */,
+				041845DA1AC06078008FA2D8 /* progressCyan19@2x.png */,
+				041845DB1AC06078008FA2D8 /* progressCyan1@2x.png */,
+				041845DC1AC06078008FA2D8 /* progressCyan20@2x.png */,
+				041845DD1AC06078008FA2D8 /* progressCyan21@2x.png */,
+				041845DE1AC06078008FA2D8 /* progressCyan22@2x.png */,
+				041845DF1AC06078008FA2D8 /* progressCyan23@2x.png */,
+				041845E01AC06078008FA2D8 /* progressCyan24@2x.png */,
+				041845E11AC06078008FA2D8 /* progressCyan25@2x.png */,
+				041845E21AC06078008FA2D8 /* progressCyan26@2x.png */,
+				041845E31AC06078008FA2D8 /* progressCyan27@2x.png */,
+				041845E41AC06078008FA2D8 /* progressCyan28@2x.png */,
+				041845E51AC06078008FA2D8 /* progressCyan29@2x.png */,
+				041845E61AC06078008FA2D8 /* progressCyan2@2x.png */,
+				041845E71AC06078008FA2D8 /* progressCyan30@2x.png */,
+				041845E81AC06078008FA2D8 /* progressCyan31@2x.png */,
+				041845E91AC06078008FA2D8 /* progressCyan32@2x.png */,
+				041845EA1AC06078008FA2D8 /* progressCyan33@2x.png */,
+				041845EB1AC06078008FA2D8 /* progressCyan34@2x.png */,
+				041845EC1AC06078008FA2D8 /* progressCyan35@2x.png */,
+				041845ED1AC06078008FA2D8 /* progressCyan36@2x.png */,
+				041845EE1AC06078008FA2D8 /* progressCyan37@2x.png */,
+				041845EF1AC06078008FA2D8 /* progressCyan38@2x.png */,
+				041845F01AC06078008FA2D8 /* progressCyan39@2x.png */,
+				041845F11AC06078008FA2D8 /* progressCyan3@2x.png */,
+				041845F21AC06078008FA2D8 /* progressCyan40@2x.png */,
+				041845F31AC06078008FA2D8 /* progressCyan41@2x.png */,
+				041845F41AC06078008FA2D8 /* progressCyan42@2x.png */,
+				041845F51AC06078008FA2D8 /* progressCyan43@2x.png */,
+				041845F61AC06078008FA2D8 /* progressCyan44@2x.png */,
+				041845F71AC06078008FA2D8 /* progressCyan45@2x.png */,
+				041845F81AC06078008FA2D8 /* progressCyan46@2x.png */,
+				041845F91AC06078008FA2D8 /* progressCyan47@2x.png */,
+				041845FA1AC06078008FA2D8 /* progressCyan48@2x.png */,
+				041845FB1AC06078008FA2D8 /* progressCyan49@2x.png */,
+				041845FC1AC06078008FA2D8 /* progressCyan4@2x.png */,
+				041845FD1AC06078008FA2D8 /* progressCyan50@2x.png */,
+				041845FE1AC06078008FA2D8 /* progressCyan51@2x.png */,
+				041845FF1AC06078008FA2D8 /* progressCyan52@2x.png */,
+				041846001AC06078008FA2D8 /* progressCyan53@2x.png */,
+				041846011AC06078008FA2D8 /* progressCyan54@2x.png */,
+				041846021AC06078008FA2D8 /* progressCyan55@2x.png */,
+				041846031AC06078008FA2D8 /* progressCyan56@2x.png */,
+				041846041AC06078008FA2D8 /* progressCyan57@2x.png */,
+				041846051AC06078008FA2D8 /* progressCyan58@2x.png */,
+				041846061AC06078008FA2D8 /* progressCyan59@2x.png */,
+				041846071AC06078008FA2D8 /* progressCyan5@2x.png */,
+				041846081AC06078008FA2D8 /* progressCyan60@2x.png */,
+				041846091AC06078008FA2D8 /* progressCyan61@2x.png */,
+				0418460A1AC06078008FA2D8 /* progressCyan62@2x.png */,
+				0418460B1AC06078008FA2D8 /* progressCyan63@2x.png */,
+				0418460C1AC06078008FA2D8 /* progressCyan64@2x.png */,
+				0418460D1AC06078008FA2D8 /* progressCyan65@2x.png */,
+				0418460E1AC06078008FA2D8 /* progressCyan66@2x.png */,
+				0418460F1AC06078008FA2D8 /* progressCyan67@2x.png */,
+				041846101AC06078008FA2D8 /* progressCyan68@2x.png */,
+				041846111AC06078008FA2D8 /* progressCyan69@2x.png */,
+				041846121AC06078008FA2D8 /* progressCyan6@2x.png */,
+				041846131AC06078008FA2D8 /* progressCyan70@2x.png */,
+				041846141AC06078008FA2D8 /* progressCyan71@2x.png */,
+				041846151AC06078008FA2D8 /* progressCyan72@2x.png */,
+				041846161AC06078008FA2D8 /* progressCyan73@2x.png */,
+				041846171AC06078008FA2D8 /* progressCyan74@2x.png */,
+				041846181AC06078008FA2D8 /* progressCyan75@2x.png */,
+				041846191AC06078008FA2D8 /* progressCyan76@2x.png */,
+				0418461A1AC06078008FA2D8 /* progressCyan77@2x.png */,
+				0418461B1AC06078008FA2D8 /* progressCyan78@2x.png */,
+				0418461C1AC06078008FA2D8 /* progressCyan79@2x.png */,
+				0418461D1AC06078008FA2D8 /* progressCyan7@2x.png */,
+				0418461E1AC06078008FA2D8 /* progressCyan80@2x.png */,
+				0418461F1AC06078008FA2D8 /* progressCyan81@2x.png */,
+				041846201AC06078008FA2D8 /* progressCyan82@2x.png */,
+				041846211AC06078008FA2D8 /* progressCyan83@2x.png */,
+				041846221AC06078008FA2D8 /* progressCyan84@2x.png */,
+				041846231AC06078008FA2D8 /* progressCyan85@2x.png */,
+				041846241AC06078008FA2D8 /* progressCyan86@2x.png */,
+				041846251AC06078008FA2D8 /* progressCyan87@2x.png */,
+				041846261AC06078008FA2D8 /* progressCyan88@2x.png */,
+				041846271AC06078008FA2D8 /* progressCyan89@2x.png */,
+				041846281AC06078008FA2D8 /* progressCyan8@2x.png */,
+				041846291AC06078008FA2D8 /* progressCyan90@2x.png */,
+				0418462A1AC06078008FA2D8 /* progressCyan91@2x.png */,
+				0418462B1AC06078008FA2D8 /* progressCyan92@2x.png */,
+				0418462C1AC06078008FA2D8 /* progressCyan93@2x.png */,
+				0418462D1AC06078008FA2D8 /* progressCyan94@2x.png */,
+				0418462E1AC06078008FA2D8 /* progressCyan95@2x.png */,
+				0418462F1AC06078008FA2D8 /* progressCyan96@2x.png */,
+				041846301AC06078008FA2D8 /* progressCyan97@2x.png */,
+				041846311AC06078008FA2D8 /* progressCyan98@2x.png */,
+				041846321AC06078008FA2D8 /* progressCyan99@2x.png */,
+				041846331AC06078008FA2D8 /* progressCyan9@2x.png */,
+			);
+			path = progressCyan;
+			sourceTree = "<group>";
+		};
+		041846341AC06078008FA2D8 /* progressGreen */ = {
+			isa = PBXGroup;
+			children = (
+				041846351AC06078008FA2D8 /* progressGreen0@2x.png */,
+				041846361AC06078008FA2D8 /* progressGreen10@2x.png */,
+				041846371AC06078008FA2D8 /* progressGreen11@2x.png */,
+				041846381AC06078008FA2D8 /* progressGreen12@2x.png */,
+				041846391AC06078008FA2D8 /* progressGreen13@2x.png */,
+				0418463A1AC06078008FA2D8 /* progressGreen14@2x.png */,
+				0418463B1AC06078008FA2D8 /* progressGreen15@2x.png */,
+				0418463C1AC06078008FA2D8 /* progressGreen16@2x.png */,
+				0418463D1AC06078008FA2D8 /* progressGreen17@2x.png */,
+				0418463E1AC06078008FA2D8 /* progressGreen18@2x.png */,
+				0418463F1AC06078008FA2D8 /* progressGreen19@2x.png */,
+				041846401AC06078008FA2D8 /* progressGreen1@2x.png */,
+				041846411AC06078008FA2D8 /* progressGreen20@2x.png */,
+				041846421AC06078008FA2D8 /* progressGreen21@2x.png */,
+				041846431AC06078008FA2D8 /* progressGreen22@2x.png */,
+				041846441AC06078008FA2D8 /* progressGreen23@2x.png */,
+				041846451AC06078008FA2D8 /* progressGreen24@2x.png */,
+				041846461AC06078008FA2D8 /* progressGreen25@2x.png */,
+				041846471AC06078008FA2D8 /* progressGreen26@2x.png */,
+				041846481AC06078008FA2D8 /* progressGreen27@2x.png */,
+				041846491AC06078008FA2D8 /* progressGreen28@2x.png */,
+				0418464A1AC06078008FA2D8 /* progressGreen29@2x.png */,
+				0418464B1AC06078008FA2D8 /* progressGreen2@2x.png */,
+				0418464C1AC06078008FA2D8 /* progressGreen30@2x.png */,
+				0418464D1AC06078008FA2D8 /* progressGreen31@2x.png */,
+				0418464E1AC06078008FA2D8 /* progressGreen32@2x.png */,
+				0418464F1AC06078008FA2D8 /* progressGreen33@2x.png */,
+				041846501AC06078008FA2D8 /* progressGreen34@2x.png */,
+				041846511AC06078008FA2D8 /* progressGreen35@2x.png */,
+				041846521AC06078008FA2D8 /* progressGreen36@2x.png */,
+				041846531AC06078008FA2D8 /* progressGreen37@2x.png */,
+				041846541AC06078008FA2D8 /* progressGreen38@2x.png */,
+				041846551AC06078008FA2D8 /* progressGreen39@2x.png */,
+				041846561AC06078008FA2D8 /* progressGreen3@2x.png */,
+				041846571AC06078008FA2D8 /* progressGreen40@2x.png */,
+				041846581AC06078008FA2D8 /* progressGreen41@2x.png */,
+				041846591AC06078008FA2D8 /* progressGreen42@2x.png */,
+				0418465A1AC06078008FA2D8 /* progressGreen43@2x.png */,
+				0418465B1AC06078008FA2D8 /* progressGreen44@2x.png */,
+				0418465C1AC06078008FA2D8 /* progressGreen45@2x.png */,
+				0418465D1AC06078008FA2D8 /* progressGreen46@2x.png */,
+				0418465E1AC06078008FA2D8 /* progressGreen47@2x.png */,
+				0418465F1AC06078008FA2D8 /* progressGreen48@2x.png */,
+				041846601AC06078008FA2D8 /* progressGreen49@2x.png */,
+				041846611AC06078008FA2D8 /* progressGreen4@2x.png */,
+				041846621AC06078008FA2D8 /* progressGreen50@2x.png */,
+				041846631AC06078008FA2D8 /* progressGreen51@2x.png */,
+				041846641AC06078008FA2D8 /* progressGreen52@2x.png */,
+				041846651AC06078008FA2D8 /* progressGreen53@2x.png */,
+				041846661AC06078008FA2D8 /* progressGreen54@2x.png */,
+				041846671AC06078008FA2D8 /* progressGreen55@2x.png */,
+				041846681AC06078008FA2D8 /* progressGreen56@2x.png */,
+				041846691AC06078008FA2D8 /* progressGreen57@2x.png */,
+				0418466A1AC06078008FA2D8 /* progressGreen58@2x.png */,
+				0418466B1AC06078008FA2D8 /* progressGreen59@2x.png */,
+				0418466C1AC06078008FA2D8 /* progressGreen5@2x.png */,
+				0418466D1AC06078008FA2D8 /* progressGreen60@2x.png */,
+				0418466E1AC06078008FA2D8 /* progressGreen61@2x.png */,
+				0418466F1AC06078008FA2D8 /* progressGreen62@2x.png */,
+				041846701AC06078008FA2D8 /* progressGreen63@2x.png */,
+				041846711AC06078008FA2D8 /* progressGreen64@2x.png */,
+				041846721AC06078008FA2D8 /* progressGreen65@2x.png */,
+				041846731AC06078008FA2D8 /* progressGreen66@2x.png */,
+				041846741AC06078008FA2D8 /* progressGreen67@2x.png */,
+				041846751AC06078008FA2D8 /* progressGreen68@2x.png */,
+				041846761AC06078008FA2D8 /* progressGreen69@2x.png */,
+				041846771AC06078008FA2D8 /* progressGreen6@2x.png */,
+				041846781AC06078008FA2D8 /* progressGreen70@2x.png */,
+				041846791AC06078008FA2D8 /* progressGreen71@2x.png */,
+				0418467A1AC06078008FA2D8 /* progressGreen72@2x.png */,
+				0418467B1AC06078008FA2D8 /* progressGreen73@2x.png */,
+				0418467C1AC06078008FA2D8 /* progressGreen74@2x.png */,
+				0418467D1AC06078008FA2D8 /* progressGreen75@2x.png */,
+				0418467E1AC06078008FA2D8 /* progressGreen76@2x.png */,
+				0418467F1AC06078008FA2D8 /* progressGreen77@2x.png */,
+				041846801AC06078008FA2D8 /* progressGreen78@2x.png */,
+				041846811AC06078008FA2D8 /* progressGreen79@2x.png */,
+				041846821AC06078008FA2D8 /* progressGreen7@2x.png */,
+				041846831AC06078008FA2D8 /* progressGreen80@2x.png */,
+				041846841AC06078008FA2D8 /* progressGreen81@2x.png */,
+				041846851AC06078008FA2D8 /* progressGreen82@2x.png */,
+				041846861AC06078008FA2D8 /* progressGreen83@2x.png */,
+				041846871AC06078008FA2D8 /* progressGreen84@2x.png */,
+				041846881AC06078008FA2D8 /* progressGreen85@2x.png */,
+				041846891AC06078008FA2D8 /* progressGreen86@2x.png */,
+				0418468A1AC06078008FA2D8 /* progressGreen87@2x.png */,
+				0418468B1AC06078008FA2D8 /* progressGreen88@2x.png */,
+				0418468C1AC06078008FA2D8 /* progressGreen89@2x.png */,
+				0418468D1AC06078008FA2D8 /* progressGreen8@2x.png */,
+				0418468E1AC06078008FA2D8 /* progressGreen90@2x.png */,
+				0418468F1AC06078008FA2D8 /* progressGreen91@2x.png */,
+				041846901AC06078008FA2D8 /* progressGreen92@2x.png */,
+				041846911AC06078008FA2D8 /* progressGreen93@2x.png */,
+				041846921AC06078008FA2D8 /* progressGreen94@2x.png */,
+				041846931AC06078008FA2D8 /* progressGreen95@2x.png */,
+				041846941AC06078008FA2D8 /* progressGreen96@2x.png */,
+				041846951AC06078008FA2D8 /* progressGreen97@2x.png */,
+				041846961AC06078008FA2D8 /* progressGreen98@2x.png */,
+				041846971AC06078008FA2D8 /* progressGreen99@2x.png */,
+				041846981AC06078008FA2D8 /* progressGreen9@2x.png */,
+			);
+			path = progressGreen;
+			sourceTree = "<group>";
+		};
+		041846991AC06078008FA2D8 /* progressRed */ = {
+			isa = PBXGroup;
+			children = (
+				0418469A1AC06078008FA2D8 /* progressRed0@2x.png */,
+				0418469B1AC06078008FA2D8 /* progressRed10@2x.png */,
+				0418469C1AC06078008FA2D8 /* progressRed11@2x.png */,
+				0418469D1AC06078008FA2D8 /* progressRed12@2x.png */,
+				0418469E1AC06078008FA2D8 /* progressRed13@2x.png */,
+				0418469F1AC06078008FA2D8 /* progressRed14@2x.png */,
+				041846A01AC06078008FA2D8 /* progressRed15@2x.png */,
+				041846A11AC06078008FA2D8 /* progressRed16@2x.png */,
+				041846A21AC06078008FA2D8 /* progressRed17@2x.png */,
+				041846A31AC06078008FA2D8 /* progressRed18@2x.png */,
+				041846A41AC06078008FA2D8 /* progressRed19@2x.png */,
+				041846A51AC06078008FA2D8 /* progressRed1@2x.png */,
+				041846A61AC06078008FA2D8 /* progressRed20@2x.png */,
+				041846A71AC06078008FA2D8 /* progressRed21@2x.png */,
+				041846A81AC06078008FA2D8 /* progressRed22@2x.png */,
+				041846A91AC06078008FA2D8 /* progressRed23@2x.png */,
+				041846AA1AC06078008FA2D8 /* progressRed24@2x.png */,
+				041846AB1AC06078008FA2D8 /* progressRed25@2x.png */,
+				041846AC1AC06078008FA2D8 /* progressRed26@2x.png */,
+				041846AD1AC06078008FA2D8 /* progressRed27@2x.png */,
+				041846AE1AC06078008FA2D8 /* progressRed28@2x.png */,
+				041846AF1AC06078008FA2D8 /* progressRed29@2x.png */,
+				041846B01AC06078008FA2D8 /* progressRed2@2x.png */,
+				041846B11AC06078008FA2D8 /* progressRed30@2x.png */,
+				041846B21AC06078008FA2D8 /* progressRed31@2x.png */,
+				041846B31AC06078008FA2D8 /* progressRed32@2x.png */,
+				041846B41AC06078008FA2D8 /* progressRed33@2x.png */,
+				041846B51AC06078008FA2D8 /* progressRed34@2x.png */,
+				041846B61AC06078008FA2D8 /* progressRed35@2x.png */,
+				041846B71AC06078008FA2D8 /* progressRed36@2x.png */,
+				041846B81AC06078008FA2D8 /* progressRed37@2x.png */,
+				041846B91AC06078008FA2D8 /* progressRed38@2x.png */,
+				041846BA1AC06078008FA2D8 /* progressRed39@2x.png */,
+				041846BB1AC06078008FA2D8 /* progressRed3@2x.png */,
+				041846BC1AC06078008FA2D8 /* progressRed40@2x.png */,
+				041846BD1AC06078008FA2D8 /* progressRed41@2x.png */,
+				041846BE1AC06078008FA2D8 /* progressRed42@2x.png */,
+				041846BF1AC06078008FA2D8 /* progressRed43@2x.png */,
+				041846C01AC06078008FA2D8 /* progressRed44@2x.png */,
+				041846C11AC06078008FA2D8 /* progressRed45@2x.png */,
+				041846C21AC06078008FA2D8 /* progressRed46@2x.png */,
+				041846C31AC06078008FA2D8 /* progressRed47@2x.png */,
+				041846C41AC06078008FA2D8 /* progressRed48@2x.png */,
+				041846C51AC06078008FA2D8 /* progressRed49@2x.png */,
+				041846C61AC06078008FA2D8 /* progressRed4@2x.png */,
+				041846C71AC06078008FA2D8 /* progressRed50@2x.png */,
+				041846C81AC06078008FA2D8 /* progressRed51@2x.png */,
+				041846C91AC06078008FA2D8 /* progressRed52@2x.png */,
+				041846CA1AC06078008FA2D8 /* progressRed53@2x.png */,
+				041846CB1AC06078008FA2D8 /* progressRed54@2x.png */,
+				041846CC1AC06078008FA2D8 /* progressRed55@2x.png */,
+				041846CD1AC06078008FA2D8 /* progressRed56@2x.png */,
+				041846CE1AC06078008FA2D8 /* progressRed57@2x.png */,
+				041846CF1AC06078008FA2D8 /* progressRed58@2x.png */,
+				041846D01AC06078008FA2D8 /* progressRed59@2x.png */,
+				041846D11AC06078008FA2D8 /* progressRed5@2x.png */,
+				041846D21AC06078008FA2D8 /* progressRed60@2x.png */,
+				041846D31AC06078008FA2D8 /* progressRed61@2x.png */,
+				041846D41AC06078008FA2D8 /* progressRed62@2x.png */,
+				041846D51AC06078008FA2D8 /* progressRed63@2x.png */,
+				041846D61AC06078008FA2D8 /* progressRed64@2x.png */,
+				041846D71AC06078008FA2D8 /* progressRed65@2x.png */,
+				041846D81AC06078008FA2D8 /* progressRed66@2x.png */,
+				041846D91AC06078008FA2D8 /* progressRed67@2x.png */,
+				041846DA1AC06078008FA2D8 /* progressRed68@2x.png */,
+				041846DB1AC06078008FA2D8 /* progressRed69@2x.png */,
+				041846DC1AC06078008FA2D8 /* progressRed6@2x.png */,
+				041846DD1AC06078008FA2D8 /* progressRed70@2x.png */,
+				041846DE1AC06078008FA2D8 /* progressRed71@2x.png */,
+				041846DF1AC06078008FA2D8 /* progressRed72@2x.png */,
+				041846E01AC06078008FA2D8 /* progressRed73@2x.png */,
+				041846E11AC06078008FA2D8 /* progressRed74@2x.png */,
+				041846E21AC06078008FA2D8 /* progressRed75@2x.png */,
+				041846E31AC06078008FA2D8 /* progressRed76@2x.png */,
+				041846E41AC06078008FA2D8 /* progressRed77@2x.png */,
+				041846E51AC06078008FA2D8 /* progressRed78@2x.png */,
+				041846E61AC06078008FA2D8 /* progressRed79@2x.png */,
+				041846E71AC06078008FA2D8 /* progressRed7@2x.png */,
+				041846E81AC06078008FA2D8 /* progressRed80@2x.png */,
+				041846E91AC06078008FA2D8 /* progressRed81@2x.png */,
+				041846EA1AC06078008FA2D8 /* progressRed82@2x.png */,
+				041846EB1AC06078008FA2D8 /* progressRed83@2x.png */,
+				041846EC1AC06078008FA2D8 /* progressRed84@2x.png */,
+				041846ED1AC06078008FA2D8 /* progressRed85@2x.png */,
+				041846EE1AC06078008FA2D8 /* progressRed86@2x.png */,
+				041846EF1AC06078008FA2D8 /* progressRed87@2x.png */,
+				041846F01AC06078008FA2D8 /* progressRed88@2x.png */,
+				041846F11AC06078008FA2D8 /* progressRed89@2x.png */,
+				041846F21AC06078008FA2D8 /* progressRed8@2x.png */,
+				041846F31AC06078008FA2D8 /* progressRed90@2x.png */,
+				041846F41AC06078008FA2D8 /* progressRed91@2x.png */,
+				041846F51AC06078008FA2D8 /* progressRed92@2x.png */,
+				041846F61AC06078008FA2D8 /* progressRed93@2x.png */,
+				041846F71AC06078008FA2D8 /* progressRed94@2x.png */,
+				041846F81AC06078008FA2D8 /* progressRed95@2x.png */,
+				041846F91AC06078008FA2D8 /* progressRed96@2x.png */,
+				041846FA1AC06078008FA2D8 /* progressRed97@2x.png */,
+				041846FB1AC06078008FA2D8 /* progressRed98@2x.png */,
+				041846FC1AC06078008FA2D8 /* progressRed99@2x.png */,
+				041846FD1AC06078008FA2D8 /* progressRed9@2x.png */,
+			);
+			path = progressRed;
+			sourceTree = "<group>";
+		};
 		4DABBBC61A495AA80036EB47 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +1109,9 @@
 			children = (
 				4DABBC091A495ABE0036EB47 /* Interface.storyboard */,
 				4DABBC0C1A495ABE0036EB47 /* Images.xcassets */,
+				041845CF1AC06078008FA2D8 /* progressCyan */,
+				041846341AC06078008FA2D8 /* progressGreen */,
+				041846991AC06078008FA2D8 /* progressRed */,
 				4DABBC071A495ABE0036EB47 /* Supporting Files */,
 			);
 			path = "FitnessArcs WatchKit App";
@@ -350,8 +1274,308 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041847501AC06078008FA2D8 /* progressCyan84@2x.png in Resources */,
+				041847531AC06078008FA2D8 /* progressCyan87@2x.png in Resources */,
+				041848111AC06078008FA2D8 /* progressRed78@2x.png in Resources */,
+				041847B21AC06078008FA2D8 /* progressGreen82@2x.png in Resources */,
+				041847971AC06078008FA2D8 /* progressGreen58@2x.png in Resources */,
+				041847791AC06078008FA2D8 /* progressGreen30@2x.png in Resources */,
+				0418477A1AC06078008FA2D8 /* progressGreen31@2x.png in Resources */,
+				041847E21AC06078008FA2D8 /* progressRed35@2x.png in Resources */,
+				041847721AC06078008FA2D8 /* progressGreen24@2x.png in Resources */,
+				041847AB1AC06078008FA2D8 /* progressGreen76@2x.png in Resources */,
+				0418476B1AC06078008FA2D8 /* progressGreen18@2x.png in Resources */,
+				0418479C1AC06078008FA2D8 /* progressGreen62@2x.png in Resources */,
+				041847CA1AC06078008FA2D8 /* progressRed13@2x.png in Resources */,
+				041847561AC06078008FA2D8 /* progressCyan8@2x.png in Resources */,
+				041848001AC06078008FA2D8 /* progressRed62@2x.png in Resources */,
+				041847D71AC06078008FA2D8 /* progressRed25@2x.png in Resources */,
+				041847181AC06078008FA2D8 /* progressCyan33@2x.png in Resources */,
+				041847441AC06078008FA2D8 /* progressCyan73@2x.png in Resources */,
+				041847211AC06078008FA2D8 /* progressCyan41@2x.png in Resources */,
+				041847981AC06078008FA2D8 /* progressGreen59@2x.png in Resources */,
+				041847101AC06078008FA2D8 /* progressCyan26@2x.png in Resources */,
+				041847741AC06078008FA2D8 /* progressGreen26@2x.png in Resources */,
+				041847D81AC06078008FA2D8 /* progressRed26@2x.png in Resources */,
+				0418470E1AC06078008FA2D8 /* progressCyan24@2x.png in Resources */,
+				041847A11AC06078008FA2D8 /* progressGreen67@2x.png in Resources */,
+				041847491AC06078008FA2D8 /* progressCyan78@2x.png in Resources */,
+				041847B71AC06078008FA2D8 /* progressGreen87@2x.png in Resources */,
+				041847951AC06078008FA2D8 /* progressGreen56@2x.png in Resources */,
+				041847361AC06078008FA2D8 /* progressCyan60@2x.png in Resources */,
+				041847411AC06078008FA2D8 /* progressCyan70@2x.png in Resources */,
+				0418473F1AC06078008FA2D8 /* progressCyan69@2x.png in Resources */,
+				041847FD1AC06078008FA2D8 /* progressRed5@2x.png in Resources */,
+				0418478C1AC06078008FA2D8 /* progressGreen48@2x.png in Resources */,
+				041847EE1AC06078008FA2D8 /* progressRed46@2x.png in Resources */,
+				041847C91AC06078008FA2D8 /* progressRed12@2x.png in Resources */,
+				0418470F1AC06078008FA2D8 /* progressCyan25@2x.png in Resources */,
+				041847B01AC06078008FA2D8 /* progressGreen80@2x.png in Resources */,
+				0418475D1AC06078008FA2D8 /* progressCyan96@2x.png in Resources */,
+				041847961AC06078008FA2D8 /* progressGreen57@2x.png in Resources */,
+				041847701AC06078008FA2D8 /* progressGreen22@2x.png in Resources */,
+				041848211AC06078008FA2D8 /* progressRed92@2x.png in Resources */,
 				4DABBC0B1A495ABE0036EB47 /* Interface.storyboard in Resources */,
+				0418477C1AC06078008FA2D8 /* progressGreen33@2x.png in Resources */,
+				0418477F1AC06078008FA2D8 /* progressGreen36@2x.png in Resources */,
+				0418476F1AC06078008FA2D8 /* progressGreen21@2x.png in Resources */,
+				041847EB1AC06078008FA2D8 /* progressRed43@2x.png in Resources */,
+				041847061AC06078008FA2D8 /* progressCyan17@2x.png in Resources */,
+				041847B61AC06078008FA2D8 /* progressGreen86@2x.png in Resources */,
+				041847FE1AC06078008FA2D8 /* progressRed60@2x.png in Resources */,
+				041847131AC06078008FA2D8 /* progressCyan29@2x.png in Resources */,
+				0418474E1AC06078008FA2D8 /* progressCyan82@2x.png in Resources */,
+				0418479B1AC06078008FA2D8 /* progressGreen61@2x.png in Resources */,
+				041848021AC06078008FA2D8 /* progressRed64@2x.png in Resources */,
+				041847831AC06078008FA2D8 /* progressGreen3@2x.png in Resources */,
+				041848271AC06078008FA2D8 /* progressRed98@2x.png in Resources */,
+				0418470C1AC06078008FA2D8 /* progressCyan22@2x.png in Resources */,
+				041847DC1AC06078008FA2D8 /* progressRed2@2x.png in Resources */,
+				041847AD1AC06078008FA2D8 /* progressGreen78@2x.png in Resources */,
+				041847E11AC06078008FA2D8 /* progressRed34@2x.png in Resources */,
+				041848041AC06078008FA2D8 /* progressRed66@2x.png in Resources */,
+				041847011AC06078008FA2D8 /* progressCyan12@2x.png in Resources */,
+				041847421AC06078008FA2D8 /* progressCyan71@2x.png in Resources */,
+				041847F71AC06078008FA2D8 /* progressRed54@2x.png in Resources */,
+				041847471AC06078008FA2D8 /* progressCyan76@2x.png in Resources */,
+				041847021AC06078008FA2D8 /* progressCyan13@2x.png in Resources */,
+				0418472D1AC06078008FA2D8 /* progressCyan52@2x.png in Resources */,
+				041847CF1AC06078008FA2D8 /* progressRed18@2x.png in Resources */,
+				041847B51AC06078008FA2D8 /* progressGreen85@2x.png in Resources */,
+				041847D91AC06078008FA2D8 /* progressRed27@2x.png in Resources */,
+				041848201AC06078008FA2D8 /* progressRed91@2x.png in Resources */,
+				041847591AC06078008FA2D8 /* progressCyan92@2x.png in Resources */,
+				041847291AC06078008FA2D8 /* progressCyan49@2x.png in Resources */,
+				041847F31AC06078008FA2D8 /* progressRed50@2x.png in Resources */,
+				041847E51AC06078008FA2D8 /* progressRed38@2x.png in Resources */,
+				0418480D1AC06078008FA2D8 /* progressRed74@2x.png in Resources */,
+				041847C61AC06078008FA2D8 /* progressRed0@2x.png in Resources */,
+				041847621AC06078008FA2D8 /* progressGreen0@2x.png in Resources */,
+				041847801AC06078008FA2D8 /* progressGreen37@2x.png in Resources */,
+				041847311AC06078008FA2D8 /* progressCyan56@2x.png in Resources */,
+				041847391AC06078008FA2D8 /* progressCyan63@2x.png in Resources */,
+				041848281AC06078008FA2D8 /* progressRed99@2x.png in Resources */,
+				041847D11AC06078008FA2D8 /* progressRed1@2x.png in Resources */,
+				0418478A1AC06078008FA2D8 /* progressGreen46@2x.png in Resources */,
+				041847091AC06078008FA2D8 /* progressCyan1@2x.png in Resources */,
+				041847AE1AC06078008FA2D8 /* progressGreen79@2x.png in Resources */,
+				0418471A1AC06078008FA2D8 /* progressCyan35@2x.png in Resources */,
+				041847351AC06078008FA2D8 /* progressCyan5@2x.png in Resources */,
+				0418480C1AC06078008FA2D8 /* progressRed73@2x.png in Resources */,
+				0418471E1AC06078008FA2D8 /* progressCyan39@2x.png in Resources */,
+				0418475B1AC06078008FA2D8 /* progressCyan94@2x.png in Resources */,
+				041847A71AC06078008FA2D8 /* progressGreen72@2x.png in Resources */,
+				041848061AC06078008FA2D8 /* progressRed68@2x.png in Resources */,
+				041847B31AC06078008FA2D8 /* progressGreen83@2x.png in Resources */,
+				0418477D1AC06078008FA2D8 /* progressGreen34@2x.png in Resources */,
+				041847551AC06078008FA2D8 /* progressCyan89@2x.png in Resources */,
+				0418480F1AC06078008FA2D8 /* progressRed76@2x.png in Resources */,
+				041847461AC06078008FA2D8 /* progressCyan75@2x.png in Resources */,
+				041847BA1AC06078008FA2D8 /* progressGreen8@2x.png in Resources */,
+				0418480B1AC06078008FA2D8 /* progressRed72@2x.png in Resources */,
+				0418470B1AC06078008FA2D8 /* progressCyan21@2x.png in Resources */,
+				041847611AC06078008FA2D8 /* progressCyan9@2x.png in Resources */,
+				041847F41AC06078008FA2D8 /* progressRed51@2x.png in Resources */,
+				041847D41AC06078008FA2D8 /* progressRed22@2x.png in Resources */,
+				041848081AC06078008FA2D8 /* progressRed6@2x.png in Resources */,
+				041847161AC06078008FA2D8 /* progressCyan31@2x.png in Resources */,
+				041847191AC06078008FA2D8 /* progressCyan34@2x.png in Resources */,
+				0418476D1AC06078008FA2D8 /* progressGreen1@2x.png in Resources */,
+				041847F61AC06078008FA2D8 /* progressRed53@2x.png in Resources */,
+				041847571AC06078008FA2D8 /* progressCyan90@2x.png in Resources */,
+				041847321AC06078008FA2D8 /* progressCyan57@2x.png in Resources */,
+				0418474A1AC06078008FA2D8 /* progressCyan79@2x.png in Resources */,
+				041847431AC06078008FA2D8 /* progressCyan72@2x.png in Resources */,
+				0418477E1AC06078008FA2D8 /* progressGreen35@2x.png in Resources */,
+				041848261AC06078008FA2D8 /* progressRed97@2x.png in Resources */,
+				0418474D1AC06078008FA2D8 /* progressCyan81@2x.png in Resources */,
+				041847991AC06078008FA2D8 /* progressGreen5@2x.png in Resources */,
+				041847DA1AC06078008FA2D8 /* progressRed28@2x.png in Resources */,
+				0418479F1AC06078008FA2D8 /* progressGreen65@2x.png in Resources */,
+				041847001AC06078008FA2D8 /* progressCyan11@2x.png in Resources */,
+				041847671AC06078008FA2D8 /* progressGreen14@2x.png in Resources */,
+				0418476A1AC06078008FA2D8 /* progressGreen17@2x.png in Resources */,
+				041847B11AC06078008FA2D8 /* progressGreen81@2x.png in Resources */,
+				0418474C1AC06078008FA2D8 /* progressCyan80@2x.png in Resources */,
+				0418476E1AC06078008FA2D8 /* progressGreen20@2x.png in Resources */,
+				041847111AC06078008FA2D8 /* progressCyan27@2x.png in Resources */,
+				041848121AC06078008FA2D8 /* progressRed79@2x.png in Resources */,
+				041847251AC06078008FA2D8 /* progressCyan45@2x.png in Resources */,
+				041847D01AC06078008FA2D8 /* progressRed19@2x.png in Resources */,
+				041847FB1AC06078008FA2D8 /* progressRed58@2x.png in Resources */,
+				041847C51AC06078008FA2D8 /* progressGreen9@2x.png in Resources */,
+				041847911AC06078008FA2D8 /* progressGreen52@2x.png in Resources */,
+				041847EF1AC06078008FA2D8 /* progressRed47@2x.png in Resources */,
+				0418473C1AC06078008FA2D8 /* progressCyan66@2x.png in Resources */,
+				041847CC1AC06078008FA2D8 /* progressRed15@2x.png in Resources */,
+				041847F81AC06078008FA2D8 /* progressRed55@2x.png in Resources */,
+				0418472C1AC06078008FA2D8 /* progressCyan51@2x.png in Resources */,
+				0418477B1AC06078008FA2D8 /* progressGreen32@2x.png in Resources */,
+				0418472F1AC06078008FA2D8 /* progressCyan54@2x.png in Resources */,
+				041847F01AC06078008FA2D8 /* progressRed48@2x.png in Resources */,
+				0418473B1AC06078008FA2D8 /* progressCyan65@2x.png in Resources */,
+				041847DB1AC06078008FA2D8 /* progressRed29@2x.png in Resources */,
+				041847D21AC06078008FA2D8 /* progressRed20@2x.png in Resources */,
+				041847931AC06078008FA2D8 /* progressGreen54@2x.png in Resources */,
+				0418481F1AC06078008FA2D8 /* progressRed90@2x.png in Resources */,
+				0418475C1AC06078008FA2D8 /* progressCyan95@2x.png in Resources */,
+				041848071AC06078008FA2D8 /* progressRed69@2x.png in Resources */,
+				0418481A1AC06078008FA2D8 /* progressRed86@2x.png in Resources */,
+				041847E91AC06078008FA2D8 /* progressRed41@2x.png in Resources */,
+				041847E41AC06078008FA2D8 /* progressRed37@2x.png in Resources */,
+				041846FE1AC06078008FA2D8 /* progressCyan0@2x.png in Resources */,
+				0418481B1AC06078008FA2D8 /* progressRed87@2x.png in Resources */,
+				041848291AC06078008FA2D8 /* progressRed9@2x.png in Resources */,
+				041848101AC06078008FA2D8 /* progressRed77@2x.png in Resources */,
+				041847E01AC06078008FA2D8 /* progressRed33@2x.png in Resources */,
+				041847681AC06078008FA2D8 /* progressGreen15@2x.png in Resources */,
+				041847BC1AC06078008FA2D8 /* progressGreen91@2x.png in Resources */,
+				041847051AC06078008FA2D8 /* progressCyan16@2x.png in Resources */,
+				041847581AC06078008FA2D8 /* progressCyan91@2x.png in Resources */,
+				0418475A1AC06078008FA2D8 /* progressCyan93@2x.png in Resources */,
+				041847151AC06078008FA2D8 /* progressCyan30@2x.png in Resources */,
+				0418480E1AC06078008FA2D8 /* progressRed75@2x.png in Resources */,
+				0418470A1AC06078008FA2D8 /* progressCyan20@2x.png in Resources */,
+				041847BE1AC06078008FA2D8 /* progressGreen93@2x.png in Resources */,
+				041848151AC06078008FA2D8 /* progressRed81@2x.png in Resources */,
+				041847EA1AC06078008FA2D8 /* progressRed42@2x.png in Resources */,
 				4DABBC0D1A495ABE0036EB47 /* Images.xcassets in Resources */,
+				041847761AC06078008FA2D8 /* progressGreen28@2x.png in Resources */,
+				041847811AC06078008FA2D8 /* progressGreen38@2x.png in Resources */,
+				041847371AC06078008FA2D8 /* progressCyan61@2x.png in Resources */,
+				041847331AC06078008FA2D8 /* progressCyan58@2x.png in Resources */,
+				041847F11AC06078008FA2D8 /* progressRed49@2x.png in Resources */,
+				041847041AC06078008FA2D8 /* progressCyan15@2x.png in Resources */,
+				041848241AC06078008FA2D8 /* progressRed95@2x.png in Resources */,
+				0418481E1AC06078008FA2D8 /* progressRed8@2x.png in Resources */,
+				041847B41AC06078008FA2D8 /* progressGreen84@2x.png in Resources */,
+				041847231AC06078008FA2D8 /* progressCyan43@2x.png in Resources */,
+				041847DD1AC06078008FA2D8 /* progressRed30@2x.png in Resources */,
+				0418473A1AC06078008FA2D8 /* progressCyan64@2x.png in Resources */,
+				041847D31AC06078008FA2D8 /* progressRed21@2x.png in Resources */,
+				041847631AC06078008FA2D8 /* progressGreen10@2x.png in Resources */,
+				041847A81AC06078008FA2D8 /* progressGreen73@2x.png in Resources */,
+				041847601AC06078008FA2D8 /* progressCyan99@2x.png in Resources */,
+				0418473D1AC06078008FA2D8 /* progressCyan67@2x.png in Resources */,
+				041847881AC06078008FA2D8 /* progressGreen44@2x.png in Resources */,
+				041847201AC06078008FA2D8 /* progressCyan40@2x.png in Resources */,
+				041848191AC06078008FA2D8 /* progressRed85@2x.png in Resources */,
+				041848161AC06078008FA2D8 /* progressRed82@2x.png in Resources */,
+				041847CD1AC06078008FA2D8 /* progressRed16@2x.png in Resources */,
+				041847301AC06078008FA2D8 /* progressCyan55@2x.png in Resources */,
+				041847B81AC06078008FA2D8 /* progressGreen88@2x.png in Resources */,
+				0418471D1AC06078008FA2D8 /* progressCyan38@2x.png in Resources */,
+				0418470D1AC06078008FA2D8 /* progressCyan23@2x.png in Resources */,
+				041847121AC06078008FA2D8 /* progressCyan28@2x.png in Resources */,
+				041847241AC06078008FA2D8 /* progressCyan44@2x.png in Resources */,
+				041847A01AC06078008FA2D8 /* progressGreen66@2x.png in Resources */,
+				0418475F1AC06078008FA2D8 /* progressCyan98@2x.png in Resources */,
+				041847751AC06078008FA2D8 /* progressGreen27@2x.png in Resources */,
+				041848131AC06078008FA2D8 /* progressRed7@2x.png in Resources */,
+				041847CB1AC06078008FA2D8 /* progressRed14@2x.png in Resources */,
+				041848221AC06078008FA2D8 /* progressRed93@2x.png in Resources */,
+				041847E71AC06078008FA2D8 /* progressRed3@2x.png in Resources */,
+				041847C81AC06078008FA2D8 /* progressRed11@2x.png in Resources */,
+				041847851AC06078008FA2D8 /* progressGreen41@2x.png in Resources */,
+				0418479A1AC06078008FA2D8 /* progressGreen60@2x.png in Resources */,
+				041847CE1AC06078008FA2D8 /* progressRed17@2x.png in Resources */,
+				041847BB1AC06078008FA2D8 /* progressGreen90@2x.png in Resources */,
+				041847711AC06078008FA2D8 /* progressGreen23@2x.png in Resources */,
+				0418472E1AC06078008FA2D8 /* progressCyan53@2x.png in Resources */,
+				041847861AC06078008FA2D8 /* progressGreen42@2x.png in Resources */,
+				0418475E1AC06078008FA2D8 /* progressCyan97@2x.png in Resources */,
+				0418478F1AC06078008FA2D8 /* progressGreen50@2x.png in Resources */,
+				0418480A1AC06078008FA2D8 /* progressRed71@2x.png in Resources */,
+				041847A51AC06078008FA2D8 /* progressGreen70@2x.png in Resources */,
+				041847A31AC06078008FA2D8 /* progressGreen69@2x.png in Resources */,
+				041847FA1AC06078008FA2D8 /* progressRed57@2x.png in Resources */,
+				041847C71AC06078008FA2D8 /* progressRed10@2x.png in Resources */,
+				041847901AC06078008FA2D8 /* progressGreen51@2x.png in Resources */,
+				041847731AC06078008FA2D8 /* progressGreen25@2x.png in Resources */,
+				041848051AC06078008FA2D8 /* progressRed67@2x.png in Resources */,
+				041847541AC06078008FA2D8 /* progressCyan88@2x.png in Resources */,
+				041847A41AC06078008FA2D8 /* progressGreen6@2x.png in Resources */,
+				041847941AC06078008FA2D8 /* progressGreen55@2x.png in Resources */,
+				041846FF1AC06078008FA2D8 /* progressCyan10@2x.png in Resources */,
+				041847841AC06078008FA2D8 /* progressGreen40@2x.png in Resources */,
+				041847F91AC06078008FA2D8 /* progressRed56@2x.png in Resources */,
+				041847511AC06078008FA2D8 /* progressCyan85@2x.png in Resources */,
+				041848251AC06078008FA2D8 /* progressRed96@2x.png in Resources */,
+				041847FC1AC06078008FA2D8 /* progressRed59@2x.png in Resources */,
+				041847661AC06078008FA2D8 /* progressGreen13@2x.png in Resources */,
+				041847891AC06078008FA2D8 /* progressGreen45@2x.png in Resources */,
+				041847481AC06078008FA2D8 /* progressCyan77@2x.png in Resources */,
+				041847651AC06078008FA2D8 /* progressGreen12@2x.png in Resources */,
+				0418472A1AC06078008FA2D8 /* progressCyan4@2x.png in Resources */,
+				041847281AC06078008FA2D8 /* progressCyan48@2x.png in Resources */,
+				041848091AC06078008FA2D8 /* progressRed70@2x.png in Resources */,
+				041847A91AC06078008FA2D8 /* progressGreen74@2x.png in Resources */,
+				041848231AC06078008FA2D8 /* progressRed94@2x.png in Resources */,
+				041847C21AC06078008FA2D8 /* progressGreen97@2x.png in Resources */,
+				041847AC1AC06078008FA2D8 /* progressGreen77@2x.png in Resources */,
+				0418478B1AC06078008FA2D8 /* progressGreen47@2x.png in Resources */,
+				0418471F1AC06078008FA2D8 /* progressCyan3@2x.png in Resources */,
+				041847171AC06078008FA2D8 /* progressCyan32@2x.png in Resources */,
+				041847691AC06078008FA2D8 /* progressGreen16@2x.png in Resources */,
+				041848181AC06078008FA2D8 /* progressRed84@2x.png in Resources */,
+				041847451AC06078008FA2D8 /* progressCyan74@2x.png in Resources */,
+				041847C31AC06078008FA2D8 /* progressGreen98@2x.png in Resources */,
+				041847221AC06078008FA2D8 /* progressCyan42@2x.png in Resources */,
+				041847921AC06078008FA2D8 /* progressGreen53@2x.png in Resources */,
+				041847FF1AC06078008FA2D8 /* progressRed61@2x.png in Resources */,
+				0418472B1AC06078008FA2D8 /* progressCyan50@2x.png in Resources */,
+				0418471C1AC06078008FA2D8 /* progressCyan37@2x.png in Resources */,
+				0418481C1AC06078008FA2D8 /* progressRed88@2x.png in Resources */,
+				041847E81AC06078008FA2D8 /* progressRed40@2x.png in Resources */,
+				041847F51AC06078008FA2D8 /* progressRed52@2x.png in Resources */,
+				041847AA1AC06078008FA2D8 /* progressGreen75@2x.png in Resources */,
+				041847E31AC06078008FA2D8 /* progressRed36@2x.png in Resources */,
+				041848011AC06078008FA2D8 /* progressRed63@2x.png in Resources */,
+				041847C01AC06078008FA2D8 /* progressGreen95@2x.png in Resources */,
+				041847871AC06078008FA2D8 /* progressGreen43@2x.png in Resources */,
+				041847D61AC06078008FA2D8 /* progressRed24@2x.png in Resources */,
+				041847271AC06078008FA2D8 /* progressCyan47@2x.png in Resources */,
+				041847381AC06078008FA2D8 /* progressCyan62@2x.png in Resources */,
+				041847641AC06078008FA2D8 /* progressGreen11@2x.png in Resources */,
+				041847521AC06078008FA2D8 /* progressCyan86@2x.png in Resources */,
+				0418479D1AC06078008FA2D8 /* progressGreen63@2x.png in Resources */,
+				0418474F1AC06078008FA2D8 /* progressCyan83@2x.png in Resources */,
+				041847401AC06078008FA2D8 /* progressCyan6@2x.png in Resources */,
+				041847EC1AC06078008FA2D8 /* progressRed44@2x.png in Resources */,
+				0418471B1AC06078008FA2D8 /* progressCyan36@2x.png in Resources */,
+				041847DE1AC06078008FA2D8 /* progressRed31@2x.png in Resources */,
+				0418474B1AC06078008FA2D8 /* progressCyan7@2x.png in Resources */,
+				041847031AC06078008FA2D8 /* progressCyan14@2x.png in Resources */,
+				041847341AC06078008FA2D8 /* progressCyan59@2x.png in Resources */,
+				041848171AC06078008FA2D8 /* progressRed83@2x.png in Resources */,
+				041847081AC06078008FA2D8 /* progressCyan19@2x.png in Resources */,
+				041847F21AC06078008FA2D8 /* progressRed4@2x.png in Resources */,
+				041847141AC06078008FA2D8 /* progressCyan2@2x.png in Resources */,
+				041847ED1AC06078008FA2D8 /* progressRed45@2x.png in Resources */,
+				0418476C1AC06078008FA2D8 /* progressGreen19@2x.png in Resources */,
+				041847D51AC06078008FA2D8 /* progressRed23@2x.png in Resources */,
+				0418481D1AC06078008FA2D8 /* progressRed89@2x.png in Resources */,
+				0418478E1AC06078008FA2D8 /* progressGreen4@2x.png in Resources */,
+				041847BF1AC06078008FA2D8 /* progressGreen94@2x.png in Resources */,
+				041847B91AC06078008FA2D8 /* progressGreen89@2x.png in Resources */,
+				041847BD1AC06078008FA2D8 /* progressGreen92@2x.png in Resources */,
+				041847821AC06078008FA2D8 /* progressGreen39@2x.png in Resources */,
+				041847771AC06078008FA2D8 /* progressGreen29@2x.png in Resources */,
+				041847AF1AC06078008FA2D8 /* progressGreen7@2x.png in Resources */,
+				041847C41AC06078008FA2D8 /* progressGreen99@2x.png in Resources */,
+				041848031AC06078008FA2D8 /* progressRed65@2x.png in Resources */,
+				041847A21AC06078008FA2D8 /* progressGreen68@2x.png in Resources */,
+				0418473E1AC06078008FA2D8 /* progressCyan68@2x.png in Resources */,
+				0418479E1AC06078008FA2D8 /* progressGreen64@2x.png in Resources */,
+				0418478D1AC06078008FA2D8 /* progressGreen49@2x.png in Resources */,
+				041847E61AC06078008FA2D8 /* progressRed39@2x.png in Resources */,
+				041847A61AC06078008FA2D8 /* progressGreen71@2x.png in Resources */,
+				041847261AC06078008FA2D8 /* progressCyan46@2x.png in Resources */,
+				041847781AC06078008FA2D8 /* progressGreen2@2x.png in Resources */,
+				041848141AC06078008FA2D8 /* progressRed80@2x.png in Resources */,
+				041847C11AC06078008FA2D8 /* progressGreen96@2x.png in Resources */,
+				041847DF1AC06078008FA2D8 /* progressRed32@2x.png in Resources */,
+				041847071AC06078008FA2D8 /* progressCyan18@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
