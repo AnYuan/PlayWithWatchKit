@@ -18,3 +18,6 @@
 
 ###WatchKit-Advanced
 包括WatchKit的图片缓存和动画， 性能， iCloud
+* ArcGenerator是用来生成动画所需要的图片的。
+* FitnessArcs 是模仿Apple Keynote中的一个健康应用的project。
+* SousChef 是用来学习图片缓存相关的Demo。
