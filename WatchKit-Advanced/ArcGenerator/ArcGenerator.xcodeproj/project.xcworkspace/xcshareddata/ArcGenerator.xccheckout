@@ -10,31 +10,31 @@
 	<string>ArcGenerator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>914B582CD221DEF74494A6E0B44584B62DF00A2A</key>
-		<string>github.com:jackwu95/ArcGenerator.git</string>
+		<key>0590DC905A04B65BAD4C99AA856989DB64C3C110</key>
+		<string>github.com:AnYuan/PlayWithWatchKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ArcGenerator.xcodeproj</string>
+	<string>WatchKit-Advanced/ArcGenerator/ArcGenerator.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>914B582CD221DEF74494A6E0B44584B62DF00A2A</key>
-		<string>../..</string>
+		<key>0590DC905A04B65BAD4C99AA856989DB64C3C110</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:jackwu95/ArcGenerator.git</string>
+	<string>github.com:AnYuan/PlayWithWatchKit.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>914B582CD221DEF74494A6E0B44584B62DF00A2A</string>
+	<string>0590DC905A04B65BAD4C99AA856989DB64C3C110</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>914B582CD221DEF74494A6E0B44584B62DF00A2A</string>
+			<string>0590DC905A04B65BAD4C99AA856989DB64C3C110</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ArcGenerator</string>
+			<string>PlayWithWatchKit</string>
 		</dict>
 	</array>
 </dict>

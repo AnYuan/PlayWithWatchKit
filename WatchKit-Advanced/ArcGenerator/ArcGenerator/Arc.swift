@@ -23,6 +23,9 @@ public class Arc {
   
   public var color: UIColor
   
+  public var drawsEmptyArc: Bool
+  public var emptyArcColor: UIColor
+  
   // MARK: Computed
   public var size: CGSize {
     let width = 2 * (radius + padding)
@@ -44,7 +47,9 @@ public class Arc {
     startAngle: Double = 3.0*M_PI/2.0,
     endAngle: Double = M_PI,
     clockwise: Bool = true,
-    color: UIColor = UIColor.whiteColor()
+    color: UIColor = UIColor.whiteColor(),
+    drawsEmptyArc: Bool = true,
+    emptyArcColor: UIColor = UIColor.whiteColor().colorWithAlphaComponent(0.3)
     ) {
       self.radius = radius
       self.lineWidth = lineWidth
@@ -53,10 +58,16 @@ public class Arc {
       self.endAngle = endAngle
       self.clockwise = clockwise
       self.color = color
+      self.drawsEmptyArc = drawsEmptyArc
+      self.emptyArcColor = emptyArcColor
   }
   
   // MARK: Drawing
   public func stroke() {
+    emptyArcColor.setStroke()
+    let fullCircle = UIBezierPath(arcCenter: center, radius: CGFloat(compensatedRadius), startAngle: CGFloat(0), endAngle: CGFloat(2.0 * M_PI), clockwise: true)
+    fullCircle.lineWidth = CGFloat(lineWidth)
+    fullCircle.stroke()
     color.setStroke()
     bezierPath().stroke()
   }

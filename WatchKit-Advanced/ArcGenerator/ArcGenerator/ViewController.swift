@@ -15,13 +15,12 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
     
     let generator = ArcGenerator()
-    let animation = ArcAnimation.spinningArcAnimation()
-    animation.name = "spinning"
-    generator.generateArcAnimationFrames(animation)
     
-    let animation2 = ArcAnimation.progressArcAnimation()
-    animation2.name = "progress"
-    generator.generateArcAnimationFrames(animation2)
+    let animation = ArcAnimation.progressArcAnimation()
+    animation.name = "progress"
+    animation.initialArc.color = UIColor.magentaColor()
+    animation.initialArc.emptyArcColor = UIColor.magentaColor().colorWithAlphaComponent(0.3)
+    generator.generateArcAnimationFrames(animation)
   }
   
 }
