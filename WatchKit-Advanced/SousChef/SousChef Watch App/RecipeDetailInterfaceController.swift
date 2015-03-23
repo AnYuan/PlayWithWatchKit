@@ -28,12 +28,39 @@ class RecipeDetailInterfaceController: WKInterfaceController {
   var recipe: Recipe?
 
   @IBOutlet weak var nameLabel: WKInterfaceLabel!
+    @IBOutlet weak var nameGroup: WKInterfaceGroup!
 
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
 
     recipe = context as? Recipe
     nameLabel.setText(recipe?.name)
+    
+    if let imageName = recipe?.imageURL?.path?.lastPathComponent {
+      let cacheHelper = OnDeviceCacheHelper()
+      
+      if cacheHelper.cacheContainsImageNamed(imageName) == true {
+        nameGroup.setBackgroundImageNamed(imageName)
+      }
+      else if let imageURL = recipe?.imageURL {
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+          let imageData = NSData(contentsOfURL: imageURL)!
+          let recipeImage = UIImage(data: imageData)!
+          
+          //IT IS VERY IMPORTANT THAT YOU RESIZE IMAGES BEFORE YOU CACHE THEM
+          //OR YOU WILL BE SENDING A HUGE IMGE OVER TO THE USER'S WATCH.
+          //REMEMBER, YOU ONLY HAVE 20MB OF IMAGE CACHE.
+          let retinaRect = CGRect(x: 0, y: 0, width: self.contentFrame.size.width * 2, height: self.contentFrame.size.height * 2)
+          let resizedImage = recipeImage.resizedImageWithAspectRatioInsideRect(retinaRect)
+          let overlayedImage = resizedImage.imageWithOverlayedColor(UIColor.blackColor().colorWithAlphaComponent(0.3))
+          
+          dispatch_async(dispatch_get_main_queue()) {
+            cacheHelper.addImageToCache(overlayedImage, name: imageName)
+            self.nameGroup.setBackgroundImageNamed(imageName)
+          }
+        }
+      }
+    }
   }
 
   override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {

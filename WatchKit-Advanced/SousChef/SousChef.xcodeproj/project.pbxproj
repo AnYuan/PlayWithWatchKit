@@ -11,6 +11,8 @@
 		041845C51ABEA7D2008FA2D8 /* HandoffConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041845C41ABEA7D2008FA2D8 /* HandoffConstans.swift */; };
 		041845C81ABEC16E008FA2D8 /* KitchenTimerNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041845C71ABEC16E008FA2D8 /* KitchenTimerNotificationController.swift */; };
 		041845CA1ABEDBBF008FA2D8 /* TimerSchedulerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041845C91ABEDBBF008FA2D8 /* TimerSchedulerInterfaceController.swift */; };
+		041845CD1AC0536D008FA2D8 /* OnDeviceCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041845CB1AC0536D008FA2D8 /* OnDeviceCacheHelper.swift */; };
+		041845CE1AC0536D008FA2D8 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041845CC1AC0536D008FA2D8 /* UIImage+Helpers.swift */; };
 		04FF22131ABD122C006F2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FF22121ABD122C006F2D08 /* Images.xcassets */; };
 		294B75FE1A24173300BBCE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294B75FD1A24173300BBCE01 /* AppDelegate.swift */; };
 		294B76031A24173300BBCE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294B76011A24173300BBCE01 /* Main.storyboard */; };
@@ -124,6 +126,8 @@
 		041845C61ABEB891008FA2D8 /* KitchenTimerNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = KitchenTimerNotificationPayload.apns; sourceTree = "<group>"; };
 		041845C71ABEC16E008FA2D8 /* KitchenTimerNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KitchenTimerNotificationController.swift; sourceTree = "<group>"; };
 		041845C91ABEDBBF008FA2D8 /* TimerSchedulerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSchedulerInterfaceController.swift; sourceTree = "<group>"; };
+		041845CB1AC0536D008FA2D8 /* OnDeviceCacheHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnDeviceCacheHelper.swift; sourceTree = "<group>"; };
+		041845CC1AC0536D008FA2D8 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
 		04A14FF01ABC1F2D0022BB0E /* SousChef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SousChef.entitlements; path = SousChef/SousChef.entitlements; sourceTree = "<group>"; };
 		04DA6ABA1ABC39E800CCA5BE /* SousChef WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SousChef WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		04FF22121ABD122C006F2D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -387,6 +391,8 @@
 		299567691A268A2A006EE6EE /* SousChef WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				041845CB1AC0536D008FA2D8 /* OnDeviceCacheHelper.swift */,
+				041845CC1AC0536D008FA2D8 /* UIImage+Helpers.swift */,
 				04FF22121ABD122C006F2D08 /* Images.xcassets */,
 				04DA6ABA1ABC39E800CCA5BE /* SousChef WatchKit Extension.entitlements */,
 				294A21D81A268FF500C36CE5 /* Interface Controllers */,
@@ -742,6 +748,8 @@
 				7857AF691A93FFCE0045CAEE /* StepRowController.swift in Sources */,
 				041845CA1ABEDBBF008FA2D8 /* TimerSchedulerInterfaceController.swift in Sources */,
 				78F8A2E91A9407D30030AD4C /* GroceryInterfaceController.swift in Sources */,
+				041845CD1AC0536D008FA2D8 /* OnDeviceCacheHelper.swift in Sources */,
+				041845CE1AC0536D008FA2D8 /* UIImage+Helpers.swift in Sources */,
 				784DFFA01A93CF6C0025DE34 /* RecipeDetailInterfaceController.swift in Sources */,
 				041845C51ABEA7D2008FA2D8 /* HandoffConstans.swift in Sources */,
 				784DFF9C1A93CA7F0025DE34 /* RecipeRowController.swift in Sources */,

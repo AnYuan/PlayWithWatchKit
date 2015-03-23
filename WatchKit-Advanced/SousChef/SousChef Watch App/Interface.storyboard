@@ -92,7 +92,11 @@
             <objects>
                 <controller spacing="20" id="b0K-ud-FKx" customClass="RecipeDetailInterfaceController" customModule="SousChef_WatchKit_Extension">
                     <items>
-                        <label alignment="center" text="Label" textAlignment="center" numberOfLines="0" id="5sV-AM-S5v"/>
+                        <group width="1" height="60" alignment="left" contentMode="scaleAspectFill" layout="vertical" id="GQq-QR-pf8">
+                            <items>
+                                <label alignment="center" verticalAlignment="bottom" text="Recipe Name" textAlignment="center" numberOfLines="0" id="5sV-AM-S5v"/>
+                            </items>
+                        </group>
                         <group width="1" alignment="left" spacing="15" id="uwQ-EZ-EBQ">
                             <items>
                                 <button alignment="center" id="MQU-xD-hdo">
@@ -126,6 +130,7 @@
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="15" bottom="0.0"/>
                     <connections>
+                        <outlet property="nameGroup" destination="GQq-QR-pf8" id="dhf-U5-1ba"/>
                         <outlet property="nameLabel" destination="5sV-AM-S5v" id="PyZ-yS-KqL"/>
                     </connections>
                 </controller>
