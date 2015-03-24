@@ -22,3 +22,4 @@
 * ArcGenerator是用来生成动画所需要的图片的。
 * FitnessArcs 是模仿Apple Keynote中的一个健康应用的project。
 * SousChef 是用来学习图片缓存相关的Demo。
+* MeatCookerV2 是用来学习iOS 和 Watch 之间同步数据的Demo.
