@@ -58,6 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04574A9B1AC14BDA00226595 /* MeatCooker WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MeatCooker WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		04574A9C1AC14BF300226595 /* MeatCooker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MeatCooker.entitlements; sourceTree = "<group>"; };
 		2974FADB1A3E88E400AB4837 /* MeatCooker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeatCooker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2974FADF1A3E88E400AB4837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2974FAE01A3E88E400AB4837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,8 +81,6 @@
 		4D3808531A806410006C1CDB /* DarwinNotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarwinNotificationHelper.h; sourceTree = "<group>"; };
 		4D3808541A806410006C1CDB /* DarwinNotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarwinNotificationHelper.m; sourceTree = "<group>"; };
 		4DAE02381A6E11DE007588E4 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		4DAE02441A6E1A54007588E4 /* MeatCooker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MeatCooker.entitlements; sourceTree = "<group>"; };
-		4DAE02451A6E1A64007588E4 /* MeatCooker WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MeatCooker WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 		2974FADD1A3E88E400AB4837 /* MeatCooker */ = {
 			isa = PBXGroup;
 			children = (
-				4DAE02441A6E1A54007588E4 /* MeatCooker.entitlements */,
+				04574A9C1AC14BF300226595 /* MeatCooker.entitlements */,
 				2974FAE01A3E88E400AB4837 /* AppDelegate.swift */,
 				2974FAE21A3E88E400AB4837 /* ViewController.swift */,
 				2974FAE41A3E88E400AB4837 /* Main.storyboard */,
@@ -147,7 +147,7 @@
 		2974FB051A3E893700AB4837 /* MeatCooker WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4DAE02451A6E1A64007588E4 /* MeatCooker WatchKit Extension.entitlements */,
+				04574A9B1AC14BDA00226595 /* MeatCooker WatchKit Extension.entitlements */,
 				2974FB081A3E893700AB4837 /* InterfaceController.swift */,
 				4DAE02411A6E124A007588E4 /* Shared */,
 				2974FB0A1A3E893700AB4837 /* Images.xcassets */,
@@ -268,7 +268,7 @@
 				TargetAttributes = {
 					2974FADA1A3E88E400AB4837 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = S95JHWHY2R;
+						DevelopmentTeam = AQ6VN3RS8G;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -277,7 +277,7 @@
 					};
 					2974FB031A3E893700AB4837 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = S95JHWHY2R;
+						DevelopmentTeam = AQ6VN3RS8G;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -286,6 +286,7 @@
 					};
 					2974FB0D1A3E893700AB4837 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AQ6VN3RS8G;
 					};
 				};
 			};
@@ -516,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -534,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = MeatCooker_WatchKit_Extension;
 				INFOPLIST_FILE = "MeatCooker WatchKit App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";

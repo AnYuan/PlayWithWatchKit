@@ -22,7 +22,7 @@ public class Configuration: NSObject {
 // MARK: Constants
 extension Configuration {
     public struct Constants {
-        public static let AppGroup = "group.com.jackwu.souschef.documents"
+        public static let AppGroup = "group.com.baidu.lebo.documents"
         public static let Identifier = "timerConfiguration"
     }
     

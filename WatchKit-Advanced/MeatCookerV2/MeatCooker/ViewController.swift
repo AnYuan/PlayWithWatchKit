@@ -32,18 +32,27 @@ class ViewController: UIViewController {
 // MARK: - Notificaitons
 extension ViewController {
   func registerForNotifications() {
-    
+    DarwinNotificationHelper.sharedHelper().registerForNotificationName(Configuration.Constants.Identifier, callback: { ()-> Void in
+      self.loadConfiguration()
+    })
   }
 }
 
 // MARK: - Configuration
 extension ViewController {
   private func loadConfiguration() {
-    configuration = Configuration()
+    
+    if let dictionary = NSKeyedUnarchiver.unarchiveObjectWithFile(Configuration.savePath()) as? [NSObject : AnyObject] {
+      configuration = Configuration(dictionaryRep: dictionary)
+    } else {
+      configuration = Configuration()
+    }
     displayConfiguration()
   }
   
   private func configurationUpdated() {
+    NSKeyedArchiver.archiveRootObject(configuration.dictionaryRep(), toFile: Configuration.savePath())
+    DarwinNotificationHelper.sharedHelper().postNotificationWithName(Configuration.Constants.Identifier)
     displayConfiguration()
   }
 
