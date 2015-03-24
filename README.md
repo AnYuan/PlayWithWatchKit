@@ -4,7 +4,8 @@
 资源：
 * WatchKit tips (Apple) : [this](https://developer.apple.com/watchkit/tips/ "this")  
 * Building watchit apps in swift : [this](http://realm.io/news/building-watchkit-apps-swift/ "this") 
-* Apple WatchKit Demo Code:[this](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html "this")
+* Apple WatchKit Demo Code : [this](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html "this")
+* More WatchKit Demos : [this](https://github.com/kostiakoval/WatchKit-Apps "this")
 
 ###WatchKit-Basics 
 包括WatchKit开发的一些基础知识，包括常用组件，布局，Table, Menu, 页面基础跳转等。
