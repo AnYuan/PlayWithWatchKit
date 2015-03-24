@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="MeatCooker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tu4-GT-pEN">
+                                <rect key="frame" x="150" y="182" width="300" height="235"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight: 16 oz" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-Ag-qE6">
+                                        <rect key="frame" x="98" y="44" width="105" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdW-bx-muF">
+                                        <rect key="frame" x="155" y="82" width="40" height="40"/>
+                                        <state key="normal" image="plus">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onPlusButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tzl-c5-c3R"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NuD-7K-aWS">
+                                        <rect key="frame" x="105" y="82" width="40" height="40"/>
+                                        <state key="normal" image="minus">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onMinusButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cd1-HY-Cwc"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medium" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNp-iH-upL">
+                                        <rect key="frame" x="119" y="138" width="63" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" autorepeat="NO" maximumValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="ydh-af-mSK">
+                                        <rect key="frame" x="103" y="159" width="94" height="29"/>
+                                        <connections>
+                                            <action selector="onStepperChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="OHn-uk-WQl"/>
+                                        </connections>
+                                    </stepper>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metric" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmE-oz-56G">
+                                        <rect key="frame" x="101" y="209" width="49" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3hH-Ix-Ybq">
+                                        <rect key="frame" x="156" y="204" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="onSwitchChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="MEf-y6-v3V"/>
+                                        </connections>
+                                    </switch>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tw9-yi-Chw">
+                                        <rect key="frame" x="105" y="0.0" width="90" height="34"/>
+                                        <state key="normal" title="Start Timer">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onTimerButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vi6-UL-23t"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="qNp-iH-upL" firstAttribute="top" secondItem="cdW-bx-muF" secondAttribute="bottom" constant="16" id="1Qa-cZ-tfw"/>
+                                    <constraint firstAttribute="centerX" secondItem="3hH-Ix-Ybq" secondAttribute="centerX" constant="-30" id="1tI-82-vcc"/>
+                                    <constraint firstItem="3hH-Ix-Ybq" firstAttribute="top" secondItem="ydh-af-mSK" secondAttribute="bottom" constant="16" id="IGp-kH-YSn"/>
+                                    <constraint firstAttribute="centerX" secondItem="tbH-Ag-qE6" secondAttribute="centerX" id="O1x-0k-dVa"/>
+                                    <constraint firstAttribute="centerX" secondItem="NuD-7K-aWS" secondAttribute="centerX" constant="25" id="OVd-cF-Yk4"/>
+                                    <constraint firstAttribute="centerX" secondItem="Tw9-yi-Chw" secondAttribute="centerX" id="PTH-cN-rzN"/>
+                                    <constraint firstAttribute="centerX" secondItem="gmE-oz-56G" secondAttribute="centerX" constant="25" id="aOa-un-kMu"/>
+                                    <constraint firstItem="Tw9-yi-Chw" firstAttribute="top" secondItem="tu4-GT-pEN" secondAttribute="top" id="caJ-TD-BiZ"/>
+                                    <constraint firstItem="NuD-7K-aWS" firstAttribute="top" secondItem="tbH-Ag-qE6" secondAttribute="bottom" constant="17" id="dTf-JP-Z7j"/>
+                                    <constraint firstAttribute="centerX" secondItem="ydh-af-mSK" secondAttribute="centerX" id="gQy-hG-C9z"/>
+                                    <constraint firstAttribute="centerX" secondItem="cdW-bx-muF" secondAttribute="centerX" constant="-25" id="gbI-pW-Gks"/>
+                                    <constraint firstAttribute="width" constant="300" id="jdM-xf-Cwi"/>
+                                    <constraint firstAttribute="centerX" secondItem="qNp-iH-upL" secondAttribute="centerX" id="pLc-JG-ht1"/>
+                                    <constraint firstAttribute="bottom" secondItem="3hH-Ix-Ybq" secondAttribute="bottom" id="pyr-c3-wy6"/>
+                                    <constraint firstItem="ydh-af-mSK" firstAttribute="top" secondItem="qNp-iH-upL" secondAttribute="bottom" id="ra6-ur-CFc"/>
+                                    <constraint firstItem="tbH-Ag-qE6" firstAttribute="top" secondItem="Tw9-yi-Chw" secondAttribute="bottom" constant="10" id="roF-VW-XeT"/>
+                                    <constraint firstItem="3hH-Ix-Ybq" firstAttribute="centerY" secondItem="gmE-oz-56G" secondAttribute="centerY" id="tWc-M0-UYd"/>
+                                    <constraint firstItem="cdW-bx-muF" firstAttribute="top" secondItem="NuD-7K-aWS" secondAttribute="top" id="toh-00-evn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="tu4-GT-pEN" secondAttribute="centerX" id="6nd-Xe-DXg"/>
+                            <constraint firstAttribute="centerY" secondItem="tu4-GT-pEN" secondAttribute="centerY" id="Qps-kW-Q0q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cookLabel" destination="qNp-iH-upL" id="CAH-7h-FLD"/>
+                        <outlet property="cookStepper" destination="ydh-af-mSK" id="ykk-tH-LF7"/>
+                        <outlet property="metricSwitch" destination="3hH-Ix-Ybq" id="wyF-Dm-Mtr"/>
+                        <outlet property="timerButton" destination="Tw9-yi-Chw" id="zoI-xd-xXs"/>
+                        <outlet property="weightLabel" destination="tbH-Ag-qE6" id="aq5-60-ndW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="minus" width="40" height="40"/>
+        <image name="plus" width="40" height="40"/>
+    </resources>
+</document>
