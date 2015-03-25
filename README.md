@@ -7,6 +7,7 @@
 * Apple WatchKit Demo Code : [this](https://developer.apple.com/library/ios/samplecode/Lister/Introduction/Intro.html "this")
 * More WatchKit Demos : [this](https://github.com/kostiakoval/WatchKit-Apps "this")
 * NSHipster : [this](http://nshipster.com/watchkit/ "this")
+* WatchKit Hackthon : [this](http://www.hackathon.watch/ "this")
 
 ###WatchKit-Basics 
 包括WatchKit开发的一些基础知识，包括常用组件，布局，Table, Menu, 页面基础跳转等。
