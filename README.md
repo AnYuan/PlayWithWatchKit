@@ -16,7 +16,7 @@
 * SousChef 是用来学习WatchKit 相关内容的工程。目前添加了layout, navigation, table, menus
 
 ###WatchKit-Intermediate
-包括WatchKit开发的一些中级知识，包括数据共享， Glances, Handoff, Notifications。
+包括WatchKit开发的一些中级知识，包括数据共享（数据共享需要使用自己的开发证书，创建App Group即可调试运行）， Glances, Handoff, Notifications。
 * SousChef 是用来学习以上知识点的Demo源码。
 * more about Share data see  [this](https://github.com/NatashaTheRobot/watchkit "this")  .
 
