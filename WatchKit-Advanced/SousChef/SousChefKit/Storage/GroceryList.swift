@@ -10,8 +10,8 @@ import Foundation
 
 public struct GroceryListConfig {
   // replace IDs with the ones you set up in target Capabilities
-  public static let groupID = "group.com.razeware.SousChef"
-  public static let iCloudID = "iCloud.com.razeware.SousChef"
+  public static let groupID = "group.com.baidu.lebo.doucuments"
+  public static let iCloudID = "iCloud.com.baidu.Lebo.SousChef"
   public static let filename = "com.rw.souschef.groceries.json"
   public static var url = NSURL()
   public static var cloudURL = NSURL()
@@ -23,7 +23,7 @@ public struct GroceryListConfig {
 
 public typealias FlatGroceryItem = (item: AnyObject, id: String)
 
-public class GroceryList {
+public class GroceryList: UIDocument {
 
   // MARK: Table Convenience
 
@@ -144,25 +144,6 @@ public class GroceryList {
   public func removeAllItems() {
     list = GroceryItems()
     table = GroceryTable()
-  }
-
-  // MARK: Init
-
-  public init() {
-    reload()
-  }
-
-  public convenience init(useSample: Bool) {
-    self.init()
-
-    if useSample && sectionCount == 0 {
-      let store = RecipeStore()
-      let recipe = store.recipes[0]
-      for item in recipe.ingredients {
-        addItemToList(item)
-      }
-      sync()
-    }
   }
 
   // MARK: Private

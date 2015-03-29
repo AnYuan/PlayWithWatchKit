@@ -24,6 +24,15 @@ import WatchKit
 import SousChefKit
 
 class InitialInterfaceController: WKInterfaceController {
+  
+  //iCloud
+  let fileManager = NSFileManager.defaultManager()
+
+  override func willActivate() {
+    super.willActivate()
+    setupGroceryListGroupDoc()
+  }
+  
   //handoff
   override func handleUserActivity(userInfo: [NSObject : AnyObject]?) {
     println("Received a handoff payload: \(userInfo)")
@@ -59,4 +68,26 @@ class InitialInterfaceController: WKInterfaceController {
     }
   }
 
+  //MARK: iClound
+  func createNewGroceryListDoc() {
+    let newGroceryListDoc = GroceryList(fileURL: GroceryListConfig.url)
+    newGroceryListDoc.saveToURL(newGroceryListDoc.fileURL, forSaveOperation: UIDocumentSaveOperation.ForCreating, completionHandler: {
+      success in
+      if success {
+        println("create new grocery list doc: success")
+      } else {
+        println("create new grocery list doc: failed")
+      }
+    })
+  }
+  
+  func setupGroceryListGroupDoc() {
+    GroceryListConfig.url = GroceryListConfig.groupURL
+    //check for existing doc; create one if none exists
+    if !fileManager.fileExistsAtPath(GroceryListConfig.url.path!) {
+      println("setupGroceryListGroupDoc: create empty group doc")
+      createNewGroceryListDoc()
+    }
+  }
+  
 }
