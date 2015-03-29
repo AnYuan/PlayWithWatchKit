@@ -23,7 +23,6 @@ class GroceriesController: UITableViewController {
 
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
-    groceryList.reload()
     let purchasedItems = self.groceryList.purchasedItems()
     let uniqueIndexPaths = NSMutableSet()
     purchasedItems.map({ (var anItem) -> Void in

@@ -107,9 +107,24 @@ public class GroceryList: UIDocument {
     saveCurrentState()
   }
 
-  public func reload() {
-    list = syncedGroceryItems()
+  //reload(contents:) is a revised version of the existing reload() method, which will
+  //receive its contents to a revised syncedGroceryItems(contents:) method to create a 
+  //list, then updates table, as before
+  public func reload(contents: NSData) {
+    list = syncedGroceryItems(contents)
     table = updatedTable(list)
+  }
+  
+  //loadFromContents simply passes its contents argument to reload, which sets
+  //the list and table properties
+  public override func loadFromContents(contents: AnyObject, ofType typeName: String, error outError: NSErrorPointer) -> Bool {
+    reload(contents as NSData)
+    return true
+  }
+  
+  //returns the grocery list as an instance of NSData, which the saveToURL uses to save the document
+  public override func contentsForType(typeName: String, error outError: NSErrorPointer) -> AnyObject? {
+    return NSKeyedArchiver.archivedDataWithRootObject(list)
   }
 
   // MARK: List mutability
@@ -179,9 +194,9 @@ public class GroceryList: UIDocument {
     return table
   }
 
-  private func syncedGroceryItems() -> GroceryItems {
-    if let data = NSData(contentsOfFile: savedGroceriesPath) {
-      if let rawGroceries = NSKeyedUnarchiver.unarchiveObjectWithData(data) as? GroceryItems {
+  private func syncedGroceryItems(contents: NSData) -> GroceryItems {
+    if contents.length > 0 {
+      if let rawGroceries = NSKeyedUnarchiver.unarchiveObjectWithData(contents) as? GroceryItems {
         return rawGroceries
       }
     }
@@ -189,10 +204,12 @@ public class GroceryList: UIDocument {
   }
 
   private func saveCurrentState() {
-    let data = NSKeyedArchiver.archivedDataWithRootObject(list)
-    if !NSFileManager.defaultManager().createFileAtPath(savedGroceriesPath, contents: data, attributes: nil) {
-      println("error saving grocery list")
-    }
+    saveToURL(fileURL, forSaveOperation: UIDocumentSaveOperation.ForOverwriting, completionHandler: {
+      success in
+      if success {
+        println("saveCurrentState: \(self.fileURL) saved")
+      }
+    })
   }
 
 }
