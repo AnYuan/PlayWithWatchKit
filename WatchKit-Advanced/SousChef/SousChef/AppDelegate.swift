@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   let recipeStore = RecipeStore()
   let fileManager = NSFileManager.defaultManager()
+  var groceryListQuery = NSMetadataQuery()
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     configureAppearance()
@@ -36,7 +37,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     updateRecipesController()
     
-    setupGroceryListGroupDoc()
+    //checking for ubiquityIdentityToken is the quickest and easiest way
+    //to determine whether iCloud is available.
+    //If the user switches to another iCloud account, the token changes
+    if let currentToken = fileManager.ubiquityIdentityToken {
+      println("iCloud access with ID \(currentToken)")
+      queryGroceryListCloudContainer()
+    } else {
+      println("No iCloud access")
+      setupGroceryListGroupDoc()
+    }
     return true
   }
   
@@ -277,5 +287,90 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
   }
   
+  func setupGroceryListCloudDoc(query: NSMetadataQuery) {
+    if query.resultCount > 0 {
+      // construct cloudURL from metadata
+      let item: NSMetadataItem = query.resultAtIndex(0)
+        as NSMetadataItem
+      let groceryListCloudURL =
+      (item.valueForAttribute(NSMetadataItemURLKey) as NSURL)
+      GroceryListConfig.cloudURL = groceryListCloudURL
+      GroceryListConfig.url = GroceryListConfig.cloudURL
+      
+      if fileManager.fileExistsAtPath(
+        GroceryListConfig.groupURL.path!) {
+          // remove cloud doc and move group doc to cloud container
+          fileManager.removeItemAtURL(groceryListCloudURL, error: nil)
+          moveGroupDocToCloud()
+      }
+      
+    } else {
+      // construct cloudURL from URLForUbiquityContainerID
+      dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+        if let iCloudContainerURL =
+          self.fileManager.URLForUbiquityContainerIdentifier(
+            GroceryListConfig.iCloudID)
+        {
+          println("setupGroceryListCloudDoc: new cloud doc")
+          let groceryListCloudURL = iCloudContainerURL.URLByAppendingPathComponent("Documents").URLByAppendingPathComponent(GroceryListConfig.filename)
+          GroceryListConfig.cloudURL = groceryListCloudURL
+          GroceryListConfig.url = GroceryListConfig.cloudURL
+          
+          if self.fileManager.fileExistsAtPath(GroceryListConfig.groupURL.path!) {
+            println("setupGroceryListCloudDoc: moving group doc to cloud")
+            self.moveGroupDocToCloud()
+          } else {
+            println("setupGroceryListCloudDoc: creating empty cloud doc")
+            self.createNewGroceryListDoc()
+          }
+        }
+      }
+    }
+  }
+  
+  //In an app that manages a collection of documents, you would register for NSMetaDataQueryDidUpdateNotification
+  //and set the query predicate to a more general search, such as for certain file extensions.
+  //You would disable updates to "lock" the query result while you handle the found documents, then
+  //enable updates again once you've finished. You also would't stop the query.
+  func queryGroceryListCloudContainer() {
+    groceryListQuery.searchScopes = [NSMetadataQueryUbiquitousDocumentsScope]
+    groceryListQuery.predicate = NSPredicate(format: "(%K = %@)", argumentArray: [NSMetadataItemFSNameKey, GroceryListConfig.filename])
+    NSNotificationCenter.defaultCenter().addObserver(self, selector: "metadataQueryDidFinishGathering:", name: NSMetadataQueryDidFinishGatheringNotification, object: groceryListQuery)
+    groceryListQuery.startQuery()
+  }
+  
+  @objc private func metadataQueryDidFinishGathering(notification: NSNotification) {
+    groceryListQuery.disableUpdates()
+    groceryListQuery.stopQuery()
+    NSNotificationCenter.defaultCenter().removeObserver(self, name: NSMetadataQueryDidFinishGatheringNotification, object: groceryListQuery)
+    setupGroceryListCloudDoc(groceryListQuery)
+  }
+  
+  func moveGroupDocToCloud() {
+    let defaultQueue =
+    dispatch_get_global_queue(
+      DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+    dispatch_async(defaultQueue) {
+      let success = self.fileManager.setUbiquitous(true,
+        itemAtURL: GroceryListConfig.groupURL, destinationURL:
+        GroceryListConfig.cloudURL, error: nil)
+      if success {
+        println("moveGroupDocToCloud: moved doc to cloud")
+        // open and sync cloud doc to save group doc, in case user
+        // doesn't update cloud doc before losing cloud access
+        let groceryList = GroceryList(fileURL:
+          GroceryListConfig.cloudURL)
+        groceryList.openWithCompletionHandler { success in
+          if success {
+            println("moveGroupDocToCloud: opened groceryList")
+            groceryList.sync()
+          } else {
+            println("moveGroupDocToCloud: open groceryList failed")
+          }
+        }
+      }
+      return
+    }
+  }
 
 }

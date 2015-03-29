@@ -24,7 +24,29 @@ public struct GroceryListConfig {
 public typealias FlatGroceryItem = (item: AnyObject, id: String)
 
 public class GroceryList: UIDocument {
-
+  let fileManager = NSFileManager.defaultManager()
+  
+  private func copyCloudToGroup() {
+    let groupURL = GroceryListConfig.groupURL
+    if fileManager.fileExistsAtPath(groupURL.path!) {
+      fileManager.removeItemAtPath(groupURL.path!, error: nil)
+    }
+    dispatch_async(dispatch_get_global_queue(
+      DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+        let fileCoordinator = NSFileCoordinator(filePresenter: nil)
+        fileCoordinator.coordinateReadingItemAtURL(self.fileURL,
+          options: NSFileCoordinatorReadingOptions.WithoutChanges,
+          error: nil) { newURL in
+            let success = self.fileManager.copyItemAtURL(self.fileURL,
+              toURL: groupURL, error: nil)
+            if success {
+              println("copyCloudToGroup: success")
+            } else {
+              println("copyCloudToGroup: failed")
+            }
+        }
+    }
+  }
   // MARK: Table Convenience
 
   public func sectionForIndex(index: Int) -> IngredientType {
@@ -207,7 +229,11 @@ public class GroceryList: UIDocument {
     saveToURL(fileURL, forSaveOperation: UIDocumentSaveOperation.ForOverwriting, completionHandler: {
       success in
       if success {
-        println("saveCurrentState: \(self.fileURL) saved")
+        if self.fileManager.isUbiquitousItemAtURL(self.fileURL) {
+          self.copyCloudToGroup()
+        } else {
+          println("saveCurrentState: doc is in group container")
+        }
       }
     })
   }
