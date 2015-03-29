@@ -28,7 +28,7 @@ class GroceryInterfaceController: WKInterfaceController {
 
   @IBOutlet weak var table: WKInterfaceTable!
 
-  let groceryList = GroceryList()
+  let groceryList = GroceryList(fileURL: GroceryListConfig.url)
 
   lazy var flatList: [FlatGroceryItem] = {
     return self.groceryList.flattenedGroceries()
@@ -52,6 +52,7 @@ class GroceryInterfaceController: WKInterfaceController {
 
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
+    
     println("Received context: \(context)")
     if let context = context as? String {
       for (index, value) in enumerate(flatList) {
@@ -64,7 +65,24 @@ class GroceryInterfaceController: WKInterfaceController {
         }
       }
     }
-    updateTable()
+  }
+  
+  override func willActivate() {
+    super.willActivate()
+    groceryList.openWithCompletionHandler {
+      success in
+      if success {
+        println("GroceryIC: opened groceryList")
+        self.updateTable()
+      } else {
+        println("GroceryIC: open groceryList failed")
+      }
+    }
+  }
+  
+  override func didDeactivate() {
+    super.didDeactivate()
+    groceryList.closeWithCompletionHandler(nil)
   }
 
   func updateTable() {

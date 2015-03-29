@@ -10,7 +10,7 @@ import Foundation
 
 public struct GroceryListConfig {
   // replace IDs with the ones you set up in target Capabilities
-  public static let groupID = "group.com.baidu.lebo.doucuments"
+  public static let groupID = "group.com.baidu.lebo.documents"
   public static let iCloudID = "iCloud.com.baidu.Lebo.SousChef"
   public static let filename = "com.rw.souschef.groceries.json"
   public static var url = NSURL()

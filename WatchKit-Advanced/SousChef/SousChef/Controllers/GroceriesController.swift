@@ -11,7 +11,7 @@ import SousChefKit
 
 class GroceriesController: UITableViewController {
 
-  lazy var groceryList = GroceryList()
+  lazy var groceryList = GroceryList(fileURL: GroceryListConfig.url)
   var selectedIndexPaths = [NSIndexPath]()
 
   override func viewDidLoad() {
@@ -23,15 +23,33 @@ class GroceriesController: UITableViewController {
 
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
-    let purchasedItems = self.groceryList.purchasedItems()
-    let uniqueIndexPaths = NSMutableSet()
-    purchasedItems.map({ (var anItem) -> Void in
-      if let indexPath = self.groceryList.indexPathForItem(anItem) {
-        uniqueIndexPaths.addObject(indexPath)
+    
+    groceryList.openWithCompletionHandler {
+      success in
+      if success {
+        println("GroceriesController: opened groceryList")
+        
+        let purchasedItems = self.groceryList.purchasedItems()
+        let uniqueIndexPaths = NSMutableSet()
+        purchasedItems.map({ (var anItem) -> Void in
+          if let indexPath = self.groceryList.indexPathForItem(anItem) {
+            uniqueIndexPaths.addObject(indexPath)
+          }
+        })
+        
+        self.selectedIndexPaths = uniqueIndexPaths.allObjects as [NSIndexPath]
+        self.tableView.reloadData()
+      } else {
+        println("GroceriesController: opened groceryList failed")
       }
-    })
-    self.selectedIndexPaths = uniqueIndexPaths.allObjects as [NSIndexPath]
+    }
     tableView.reloadData()
+  }
+  
+  override func viewWillDisappear(animated: Bool) {
+    super.viewWillDisappear(animated)
+    
+    groceryList.closeWithCompletionHandler(nil)
   }
 
   @IBAction func onAction(sender: AnyObject) {
