@@ -8,6 +8,7 @@
 * More WatchKit Demos : [this](https://github.com/kostiakoval/WatchKit-Apps "this")
 * NSHipster : [this](http://nshipster.com/watchkit/ "this")
 * WatchKit Hackthon : [this](http://www.hackathon.watch/ "this")
+* Chat UI In WatchKit : [this](https://github.com/WeeTom/BasicChatUIOnAppleWatch "this")
 
 ###WatchKit-Basics 
 包括WatchKit开发的一些基础知识，包括常用组件，布局，Table, Menu, 页面基础跳转等。
