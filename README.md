@@ -9,6 +9,7 @@
 * NSHipster : [this](http://nshipster.com/watchkit/ "this")
 * WatchKit Hackthon : [this](http://www.hackathon.watch/ "this")
 * Chat UI In WatchKit : [this](https://github.com/WeeTom/BasicChatUIOnAppleWatch "this")
+* Flipbook: A Swift tool to render UIViews to image sequences for use with WatchKit, and accompanying sample WatchKit project. [this](https://github.com/frosty/Flipbook "this")
 
 ###WatchKit-Basics 
 包括WatchKit开发的一些基础知识，包括常用组件，布局，Table, Menu, 页面基础跳转等。
