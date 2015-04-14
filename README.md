@@ -12,6 +12,7 @@
 * Flipbook: A Swift tool to render UIViews to image sequences for use with WatchKit, and accompanying sample WatchKit project. [this](https://github.com/frosty/Flipbook "this")
 * WatchKit Tutorial with Swift: Tables and Network Requests : [this](http://www.raywenderlich.com/96589/watchkit-tutorial-swift-tables-network-requests "this")
 * MMWormhole : Message passing between iOS apps and extensions [this](https://github.com/mutualmobile/MMWormhole "this").
+* FIVE MINUTE WATCHKIT: [this](http://www.fiveminutewatchkit.com/ "this")
 
 ###WatchKit-Basics 
 包括WatchKit开发的一些基础知识，包括常用组件，布局，Table, Menu, 页面基础跳转等。
