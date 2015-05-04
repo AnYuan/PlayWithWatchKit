@@ -13,6 +13,9 @@
 * WatchKit Tutorial with Swift: Tables and Network Requests : [this](http://www.raywenderlich.com/96589/watchkit-tutorial-swift-tables-network-requests "this")
 * MMWormhole : Message passing between iOS apps and extensions [this](https://github.com/mutualmobile/MMWormhole "this").
 * FIVE MINUTE WATCHKIT: [this](http://www.fiveminutewatchkit.com/ "this")
+* WatchKit Development Tips: [this](http://blog.mikeswanson.com/post/117807821714/watchkit-development-tips?utm_campaign=iOS_Dev_Weekly_Issue_196&utm_medium=email&utm_source=iOS%2BDev%2BWeekly "this")
+* Thinking about Load Time: [this](http://david-smith.org/blog/2015/04/30/ailw-thinking-about-load-time/?utm_campaign=iOS_Dev_Weekly_Issue_196&utm_medium=email&utm_source=iOS%2BDev%2BWeekly "this")
+
 
 ###WatchKit-Basics 
 包括WatchKit开发的一些基础知识，包括常用组件，布局，Table, Menu, 页面基础跳转等。
