@@ -1,5 +1,7 @@
 # PlayWithWatchKit
 
+##TODO: watchOS 2新特性
+
 ##WatchKit learn path
 资源：
 * WatchKit tips (Apple) : [this](https://developer.apple.com/watchkit/tips/ "this")  
